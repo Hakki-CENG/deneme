@@ -1,0 +1,22 @@
+{
+  "id": "tool-001",
+  "category": "tool_use",
+  "name": "Git workflow: branch, commit, merge",
+  "instruction": "Perform a complete git workflow: 1) Create a new branch called 'feature/add-config', 2) Create a file src/config.ts with a simple config object, 3) Commit the changes, 4) Switch back to main branch, 5) Merge the feature branch.",
+  "acceptance": [
+    {
+      "type": "command",
+      "command": "git log --oneline | head -5",
+      "outputContains": ["feature/add-config"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/config.ts"
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 10, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["git", "version-control", "workflow"],
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.015
+}

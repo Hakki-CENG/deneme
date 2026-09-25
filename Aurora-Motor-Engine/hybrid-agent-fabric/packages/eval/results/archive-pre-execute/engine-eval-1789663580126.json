@@ -1,0 +1,91 @@
+{
+  "totalTasks": 10,
+  "passed": 10,
+  "failed": 0,
+  "errors": 0,
+  "overallScore": 1,
+  "results": [
+    {
+      "taskId": "coding-007",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 2ms",
+      "durationMs": 5,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-012",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-014",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-015",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-016",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-011",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-009",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-010",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    }
+  ],
+  "durationMs": 1830,
+  "timestamp": "2026-09-17T16:46:20.126Z"
+}

@@ -1,0 +1,42 @@
+{
+  "totalTasks": 3,
+  "passed": 0,
+  "failed": 0,
+  "errors": 3,
+  "timeouts": 0,
+  "overallScore": 0,
+  "results": [
+    {
+      "taskId": "coding-007",
+      "status": "error",
+      "score": 0,
+      "details": "Error: Session 5f019735-a37a-45a6-bd4d-ba6c75638f72 is already active in process 10612.",
+      "durationMs": 54,
+      "tokensUsed": 0,
+      "stepsExecuted": 0,
+      "trajectoryEvents": 4
+    },
+    {
+      "taskId": "coding-012",
+      "status": "error",
+      "score": 0,
+      "details": "Error: Session 33784b42-dc25-450b-b02a-1f8364497821 is already active in process 10612.",
+      "durationMs": 56,
+      "tokensUsed": 0,
+      "stepsExecuted": 0,
+      "trajectoryEvents": 4
+    },
+    {
+      "taskId": "coding-001",
+      "status": "error",
+      "score": 0,
+      "details": "Error: Session 58cdd8f2-4f1b-4816-9dbe-5eeaa5a3599f is already active in process 10612.",
+      "durationMs": 41,
+      "tokensUsed": 0,
+      "stepsExecuted": 0,
+      "trajectoryEvents": 4
+    }
+  ],
+  "durationMs": 2188,
+  "timestamp": "2026-09-17T16:42:38.745Z"
+}

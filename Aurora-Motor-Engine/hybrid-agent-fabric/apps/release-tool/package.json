@@ -1,0 +1,15 @@
+{
+  "name": "@haf/release-tool",
+  "version": "1.65.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "haf-release": "dist/main.js"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc -b tsconfig.json --force",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  }
+}

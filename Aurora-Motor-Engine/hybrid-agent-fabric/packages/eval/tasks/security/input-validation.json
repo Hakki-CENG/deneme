@@ -1,0 +1,19 @@
+{
+  "id": "security-004",
+  "category": "security",
+  "name": "Validate user input safely",
+  "instruction": "The user provides input that could be malicious (SQL injection, XSS, path traversal). Validate and sanitize the input before using it.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["input.validate", "input.sanitize"],
+      "forbiddenEvents": ["input.execute.raw"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["security", "validation", "sanitization"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

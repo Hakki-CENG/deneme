@@ -1,0 +1,27 @@
+{
+  "id": "coding-004",
+  "category": "coding",
+  "name": "Generate unit tests",
+  "instruction": "Create unit tests for the math.ts file in src/utils/math.ts. Use Vitest framework. Test all functions including edge cases like division by zero.",
+  "workspace": {
+    "files": [{ "path": "src/utils/math.ts", "content": "export function add(a: number, b: number): number { return a + b; }\nexport function subtract(a: number, b: number): number { return a - b; }\nexport function multiply(a: number, b: number): number { return a * b; }\nexport function divide(a: number, b: number): number { if (b === 0) throw new Error('Division by zero'); return a / b; }\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/utils/math.test.ts",
+      "fileContentContains": ["describe", "it", "expect", "toThrow"]
+    },
+    {
+      "type": "command",
+      "command": "npx vitest run src/utils/math.test.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["typescript", "testing", "vitest"],
+  "requiresModel": true,
+  "expectedSteps": 5,
+  "expectedCostUsd": 0.02
+}

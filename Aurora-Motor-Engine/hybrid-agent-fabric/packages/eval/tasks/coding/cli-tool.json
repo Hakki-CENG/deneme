@@ -1,0 +1,24 @@
+{
+  "id": "coding-015",
+  "category": "coding",
+  "name": "Build a CLI tool",
+  "instruction": "Create a CLI tool that: 1) Accepts commands via process.argv, 2) Supports --help flag, 3) Has subcommands (init, build, test), 4) Provides colored output, 5) Handles errors gracefully.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/cli.ts",
+      "fileContentContains": ["process.argv", "command", "help", "init", "build", "test"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsx src/cli.ts --help",
+      "outputContains": ["Usage", "Commands"]
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 3,
+  "tags": ["typescript", "cli", "command-line"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

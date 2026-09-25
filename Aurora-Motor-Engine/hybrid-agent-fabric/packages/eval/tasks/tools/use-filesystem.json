@@ -1,0 +1,30 @@
+{
+  "id": "tool-002",
+  "category": "tool_use",
+  "name": "Complex filesystem operations",
+  "instruction": "Perform these filesystem operations: 1) Create directory structure: src/components/Button, src/components/Card, src/utils, 2) Create index.ts files in each, 3) Create a barrel export in src/components/index.ts, 4) List all TypeScript files recursively.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/components/Button/index.ts"
+    },
+    {
+      "type": "property",
+      "fileExists": "src/components/Card/index.ts"
+    },
+    {
+      "type": "property",
+      "fileExists": "src/utils/index.ts"
+    },
+    {
+      "type": "property",
+      "fileExists": "src/components/index.ts",
+      "fileContentContains": ["Button", "Card"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 10, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["filesystem", "organization", "exports"],
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.015
+}

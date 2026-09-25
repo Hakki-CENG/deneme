@@ -1,0 +1,19 @@
+{
+  "id": "reasoning-006",
+  "category": "reasoning",
+  "name": "Trade-off analysis",
+  "instruction": "Compare two approaches for implementing a feature: 1) Simple but slow, 2) Complex but fast. Analyze trade-offs and recommend the best approach for the given context.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["tradeoff.analyze", "tradeoff.compare", "tradeoff.recommend"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["reasoning", "trade-off", "decision"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

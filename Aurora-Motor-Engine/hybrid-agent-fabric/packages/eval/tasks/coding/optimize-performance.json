@@ -1,0 +1,27 @@
+{
+  "id": "coding-008",
+  "category": "coding",
+  "name": "Optimize slow code",
+  "instruction": "The file src/slow.ts has a slow implementation of finding duplicates. Optimize it to O(n) time complexity.\n\n```typescript\nfunction findDuplicates(arr: number[]): number[] {\n  const duplicates: number[] = [];\n  for (let i = 0; i < arr.length; i++) {\n    for (let j = i + 1; j < arr.length; j++) {\n      if (arr[i] === arr[j] && !duplicates.includes(arr[i])) {\n        duplicates.push(arr[i]);\n      }\n    }\n  }\n  return duplicates;\n}\n```",
+  "workspace": {
+    "files": [{ "path": "src/slow.ts", "content": "function findDuplicates(arr: number[]): number[] {\n  const duplicates: number[] = [];\n  for (let i = 0; i < arr.length; i++) {\n    for (let j = i + 1; j < arr.length; j++) {\n      if (arr[i] === arr[j] && !duplicates.includes(arr[i])) {\n        duplicates.push(arr[i]);\n      }\n    }\n  }\n  return duplicates;\n}\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/slow.ts",
+      "fileContentNotContains": ["for (let j"]
+    },
+    {
+      "type": "command",
+      "command": "node -e \"const {findDuplicates} = require('./src/slow'); console.log(findDuplicates([1,2,3,2,4,3,5]))\"",
+      "outputContains": ["2", "3"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "optimization", "algorithms"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

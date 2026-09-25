@@ -1,0 +1,19 @@
+{
+  "id": "memory-002",
+  "category": "memory",
+  "name": "Summarize and recall conversation",
+  "instruction": "Have a conversation about a project, then summarize the key points. Later, when asked about specific details, recall them accurately from the summary.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["memory.store", "memory.recall", "memory.summarize"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 3,
+  "tags": ["memory", "summarization", "recall"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.04
+}

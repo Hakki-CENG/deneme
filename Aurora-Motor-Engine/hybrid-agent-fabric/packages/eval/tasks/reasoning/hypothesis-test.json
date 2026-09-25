@@ -1,0 +1,27 @@
+{
+  "id": "reasoning-002",
+  "category": "reasoning",
+  "name": "Hypothesis testing",
+  "instruction": "A function is supposed to sort an array but produces wrong results. Form hypotheses about what's wrong, test each one, and find the actual bug.",
+  "workspace": {
+    "files": [{ "path": "src/sort.ts", "content": "function bubbleSort(arr: number[]): number[] {\n  const result = [...arr];\n  for (let i = 0; i < result.length; i++) {\n    for (let j = 0; j < result.length - i; j++) {\n      if (result[j] > result[j + 1]) {\n        const temp = result[j];\n        result[j] = result[j + 1];\n        result[j + 1] = temp;\n      }\n    }\n  }\n  return result;\n}\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["hypothesis.form", "hypothesis.test", "hypothesis.confirm"],
+      "forbiddenEvents": []
+    },
+    {
+      "type": "command",
+      "command": "node -e \"const {bubbleSort} = require('./src/sort'); console.log(bubbleSort([5,3,1,4,2]))\"",
+      "outputContains": ["1,2,3,4,5"]
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["reasoning", "hypothesis", "debugging"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

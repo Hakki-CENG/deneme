@@ -1,0 +1,34 @@
+{
+  "id": "coding-011",
+  "category": "coding",
+  "name": "Design database schema with migrations",
+  "instruction": "Design a database schema for an e-commerce system with: Users, Products, Orders, OrderItems. Create TypeScript types and a migration file.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/models/User.ts",
+      "fileContentContains": ["interface", "id", "email", "name"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/models/Product.ts",
+      "fileContentContains": ["interface", "id", "name", "price", "stock"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/models/Order.ts",
+      "fileContentContains": ["interface", "id", "userId", "items", "total"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/migrations/001_initial.ts",
+      "fileContentContains": ["CREATE TABLE", "Users", "Products", "Orders"]
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 4,
+  "tags": ["typescript", "database", "schema", "migrations"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Aurora Canvas",
+  "short_name": "Canvas",
+  "description": "Durable agent control center - Aurora Motor Engine",
+  "start_url": "/canvas/",
+  "display": "standalone",
+  "background_color": "#080d17",
+  "theme_color": "#080d17",
+  "orientation": "any",
+  "scope": "/canvas/",
+  "categories": ["productivity", "developer"],
+  "lang": "tr",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/canvas/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/canvas/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Yeni Agent",
+      "short_name": "Yeni",
+      "description": "Yeni bir agent oluştur",
+      "url": "/canvas/?action=new-agent",
+      "icons": []
+    }
+  ]
+}

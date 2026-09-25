@@ -1,0 +1,24 @@
+{
+  "id": "coding-023",
+  "category": "coding",
+  "name": "Build plugin system",
+  "instruction": "Create a plugin system that: 1) Supports loading plugins from files, 2) Has lifecycle hooks (init, destroy, error), 3) Provides plugin API, 4) Supports plugin dependencies, 5) Has sandboxing options.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/plugin-system.ts",
+      "fileContentContains": ["class PluginSystem", "load", "init", "destroy", "api", "sandbox"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/plugin-system.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["typescript", "plugins", "architecture"],
+  "requiresModel": true,
+  "expectedSteps": 12,
+  "expectedCostUsd": 0.05
+}

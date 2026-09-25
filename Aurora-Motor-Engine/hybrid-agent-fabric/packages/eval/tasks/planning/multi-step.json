@@ -1,0 +1,37 @@
+{
+  "id": "planning-001",
+  "category": "planning",
+  "name": "Multi-step project setup",
+  "instruction": "Set up a new Node.js project with: 1) package.json with name 'my-app', 2) TypeScript configuration, 3) ESLint configuration, 4) A src/index.ts entry point that logs 'Hello World', 5) A build script that compiles TypeScript.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "package.json",
+      "fileContentContains": ["my-app"]
+    },
+    {
+      "type": "property",
+      "fileExists": "tsconfig.json"
+    },
+    {
+      "type": "property",
+      "fileExists": ".eslintrc.json"
+    },
+    {
+      "type": "property",
+      "fileExists": "src/index.ts",
+      "fileContentContains": ["Hello World"]
+    },
+    {
+      "type": "command",
+      "command": "cat package.json | grep build",
+      "outputContains": ["tsc"]
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 3,
+  "tags": ["planning", "project-setup", "typescript"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

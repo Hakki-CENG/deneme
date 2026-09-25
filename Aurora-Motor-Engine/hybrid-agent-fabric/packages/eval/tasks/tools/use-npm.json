@@ -1,0 +1,18 @@
+{
+  "id": "tool-003",
+  "category": "tool_use",
+  "name": "Manage npm dependencies",
+  "instruction": "Manage npm dependencies: 1) Add express and @types/express, 2) Add zod, 3) Remove a dev dependency, 4) List all dependencies, 5) Check for outdated packages.",
+  "acceptance": [
+    {
+      "type": "command",
+      "command": "cat package.json",
+      "outputContains": ["express", "zod"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 10, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["npm", "dependencies", "package-management"],
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.015
+}

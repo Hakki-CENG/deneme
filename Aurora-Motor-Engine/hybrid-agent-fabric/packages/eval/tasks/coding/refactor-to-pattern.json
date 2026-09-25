@@ -1,0 +1,26 @@
+{
+  "id": "coding-003",
+  "category": "coding",
+  "name": "Refactor switch to strategy pattern",
+  "instruction": "Refactor the file src/dispatch.ts to use a strategy pattern instead of a switch statement.\n\n```typescript\ntype ActionType = 'create' | 'update' | 'delete';\n\nfunction handleAction(action: ActionType, data: any): string {\n  switch (action) {\n    case 'create': return `Created: ${JSON.stringify(data)}`;\n    case 'update': return `Updated: ${JSON.stringify(data)}`;\n    case 'delete': return `Deleted: ${data.id}`;\n    default: throw new Error(`Unknown action: ${action}`);\n  }\n}\n```",
+  "workspace": {
+    "files": [{ "path": "src/dispatch.ts", "content": "type ActionType = 'create' | 'update' | 'delete';\n\nfunction handleAction(action: ActionType, data: any): string {\n  switch (action) {\n    case 'create': return `Created: ${JSON.stringify(data)}`;\n    case 'update': return `Updated: ${JSON.stringify(data)}`;\n    case 'delete': return `Deleted: ${data.id}`;\n    default: throw new Error(`Unknown action: ${action}`);\n  }\n}\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/dispatch.ts",
+      "fileContentNotContains": ["switch"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/dispatch.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["typescript", "refactoring", "design-patterns"],
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

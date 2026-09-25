@@ -1,0 +1,19 @@
+{
+  "id": "reasoning-004",
+  "category": "reasoning",
+  "name": "Counterfactual reasoning",
+  "instruction": "Given a codebase with a specific architecture, reason about what would happen if a key dependency was removed or changed. What would break? What alternatives exist?",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["counterfactual.analyze", "counterfactual.impact", "counterfactual.alternative"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 4,
+  "tags": ["reasoning", "counterfactual", "architecture"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

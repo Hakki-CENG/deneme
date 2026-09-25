@@ -1,0 +1,39 @@
+node_modules/
+dist/
+coverage/
+.env
+var/data/*
+!var/data/.gitkeep
+var/workspaces/*
+!var/workspaces/.gitkeep
+var/logs/*
+!var/logs/.gitkeep
+
+*.tsbuildinfo
+
+# Eval scratch workspaces (transient task fixtures, not results)
+packages/eval/.workspaces/
+
+# Eval artifacts the runners write on every invocation. Tracking these made
+# `npm run eval:gates` (and therefore CI) leave a dirty working tree: the gates
+# rewrote three tracked files and dropped a fresh runs/*.json each run. Nothing
+# reads them back — each gate recomputes its result from scratch — so they are
+# outputs, not baselines. The hand-written analysis notes in results/*.md and
+# results/archive-*/ stay tracked on purpose.
+packages/eval/results/runs/
+packages/eval/results/trajectories/
+packages/eval/results/benchmarks/
+packages/eval/results/costs/
+packages/eval/results/monitor/
+packages/eval/results/quality-gates/
+packages/eval/results/recovery/
+packages/eval/results/experiments/
+packages/eval/results/core-suite-baseline-mock.json
+packages/eval/results/criteria-validation.json
+packages/eval/results/criteria-validation.md
+packages/eval/results/benchmark-report.md
+packages/eval/results/self-improvement-report.md
+packages/eval/results/difficulty-analysis.md
+
+# Runtime state from smoke runs; regenerated, never an input.
+var-inbound-smoke/

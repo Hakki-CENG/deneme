@@ -1,0 +1,24 @@
+{
+  "id": "coding-021",
+  "category": "coding",
+  "name": "Build validation library",
+  "instruction": "Create a validation library similar to Zod that: 1) Defines schemas with type inference, 2) Supports string, number, boolean, array, object, 3) Provides custom validators, 4) Returns detailed error messages.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/validator.ts",
+      "fileContentContains": ["schema", "string", "number", "boolean", "array", "object", "validate"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/validator.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["typescript", "validation", "schema", "generics"],
+  "requiresModel": true,
+  "expectedSteps": 12,
+  "expectedCostUsd": 0.05
+}

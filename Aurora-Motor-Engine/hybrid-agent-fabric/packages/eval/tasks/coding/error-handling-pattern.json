@@ -1,0 +1,24 @@
+{
+  "id": "coding-010",
+  "category": "coding",
+  "name": "Implement Result type pattern",
+  "instruction": "Create a Result<T, E> type and use it to handle errors without exceptions. Implement functions that return Result instead of throwing.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/result.ts",
+      "fileContentContains": ["type Result", "Ok", "Err", "isOk", "isErr", "map", "flatMap"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/result.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "error-handling", "functional-programming"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

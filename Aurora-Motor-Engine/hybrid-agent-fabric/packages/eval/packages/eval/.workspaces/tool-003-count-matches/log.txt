@@ -1,0 +1,6 @@
+INFO start
+ERROR disk full
+WARN retry
+ERROR timeout
+INFO done
+ERROR refused

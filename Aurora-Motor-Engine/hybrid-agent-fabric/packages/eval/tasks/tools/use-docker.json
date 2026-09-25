@@ -1,0 +1,29 @@
+{
+  "id": "tool-007",
+  "category": "tool_use",
+  "name": "Create Docker configuration",
+  "instruction": "Create Docker configuration for a Node.js app: 1) Dockerfile with multi-stage build, 2) docker-compose.yml with app and database services, 3) .dockerignore file, 4) Health check configuration.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "Dockerfile",
+      "fileContentContains": ["FROM", "node", "multi-stage", "HEALTHCHECK"]
+    },
+    {
+      "type": "property",
+      "fileExists": "docker-compose.yml",
+      "fileContentContains": ["services", "app", "database", "healthcheck"]
+    },
+    {
+      "type": "property",
+      "fileExists": ".dockerignore",
+      "fileContentContains": ["node_modules", ".git"]
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["docker", "containers", "deployment"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

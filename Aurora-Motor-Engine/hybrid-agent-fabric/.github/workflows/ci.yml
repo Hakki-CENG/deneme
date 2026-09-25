@@ -1,0 +1,137 @@
+name: CI
+on:
+  push:
+  pull_request:
+  schedule:
+    # Nightly, for the recall gate that needs a real embedding endpoint.
+    - cron: '0 3 * * *'
+permissions:
+  contents: read
+jobs:
+  build-test:
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: npm ci
+      - run: npm audit --omit=dev
+      - run: npm run check
+      - name: Adversarial security suite
+        run: npm run test:adversarial
+      - name: Worker and persistence chaos suite
+        run: npm run test:chaos
+      # Acceptance gates. Unit tests prove the code runs; these prove the
+      # measured criteria still hold. Without them a gate can regress to zero
+      # and CI stays green — which is what happened before they were added.
+      #
+      # eval:recall is deliberately absent: its criterion needs a real
+      # embedding model, so eval:gates runs the hash-encoder regression lock
+      # instead. See recall-nightly below for the real criterion.
+      - name: Acceptance gates (eval)
+        run: npm run eval:gates
+      - run: npm run build
+      # Repository invariants: workspace versions, spec ↔ router drift, release
+      # attestation freshness, Node pin agreement, per-workspace test coverage.
+      # These are the properties that rotted silently before — the old
+      # verify-integration.ts was string-grep checks wired to nothing.
+      # Runs after `npm run build` because it reads the built engine and
+      # release-tool. `release-metadata-fresh` will fail on any commit that
+      # changes the tree without regenerating the attestation.
+      - name: Repository invariants
+        run: npm run verify:integration
+      - name: Kernel protocol smoke
+        if: runner.os == 'Linux'
+        run: |
+          # protocolVersion 2 fences every execute frame with executionId,
+          # kernelGeneration and hostToken. A frame without them is rejected
+          # before any code runs, so a smoke test that omits them proves nothing
+          # about the kernel — it only proves the rejection path works.
+          python3 python/kernel_server.py <<'EOF2' | tee /tmp/kernel.jsonl
+          {"type":"execute","id":"1","executionId":"smoke-exec-1","kernelGeneration":"smoke-gen-1","hostToken":"smoke-token-1","code":"x=40\nx+2"}
+          {"type":"execute","id":"2","executionId":"smoke-exec-2","kernelGeneration":"smoke-gen-1","hostToken":"smoke-token-1","code":"raise ValueError('boom')"}
+          {"type":"shutdown","id":"3"}
+          EOF2
+          # Parse rather than grep: the point is the frame semantics, not the
+          # byte layout of json.dumps. Also pins the protocol version so a bump
+          # fails here loudly instead of silently changing what this proves.
+          python3 - <<'PY'
+          import json
+          frames = [json.loads(line) for line in open("/tmp/kernel.jsonl") if line.strip()]
+          ready = frames[0]
+          assert ready["type"] == "ready" and ready["protocolVersion"] == 2, ready
+          by_id = {f["id"]: f for f in frames if f["type"] == "result"}
+          ok = by_id["1"]
+          assert ok["ok"] is True and ok["result"] == "42" and ok["resultType"] == "int", ok
+          # A failing execution must surface as a failure, never as a result.
+          bad = by_id["2"]
+          assert bad["ok"] is False and "boom" in bad["error"], bad
+          assert by_id["3"]["result"] == "bye", by_id["3"]
+          print("kernel protocol smoke: ok (protocolVersion 2, success and failure paths)")
+          PY
+
+  # The FAZ 11 acceptance criterion in full: Recall@8 must beat the lexical
+  # baseline by >= 0.05 using a real semantic encoder. The per-push job cannot
+  # run this (no embedding model), so it runs the regression lock and this job
+  # carries the criterion itself.
+  #
+  # Skipped rather than failed when EMBEDDINGS_URL is not configured: a red X
+  # for a missing secret trains people to ignore red X's. The step below states
+  # plainly when the criterion was not measured.
+  recall-nightly:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build -w @haf/engine
+      - name: Recall gate (real encoder)
+        env:
+          EMBEDDINGS_URL: ${{ secrets.EMBEDDINGS_URL }}
+        run: |
+          if [ -z "${EMBEDDINGS_URL}" ]; then
+            echo "::warning title=Recall gate not measured::EMBEDDINGS_URL secret is not set."
+            echo "The FAZ 11 acceptance criterion was NOT verified in this run."
+            exit 0
+          fi
+          npm run eval:recall -w @haf/eval
+
+  canvas-e2e:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build -w @haf/engine
+      - run: npm run build -w @haf/canvas-web
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+        working-directory: apps/canvas-web
+      - name: Run Canvas E2E tests
+        run: npx playwright test
+        working-directory: apps/canvas-web
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: apps/canvas-web/playwright-report/
+          retention-days: 7

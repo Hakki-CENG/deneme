@@ -1,0 +1,24 @@
+{
+  "id": "coding-017",
+  "category": "coding",
+  "name": "Implement typed event emitter",
+  "instruction": "Create a typed event emitter that: 1) Uses TypeScript generics for type safety, 2) Supports on(), off(), emit(), once(), 3) Provides event history, 4) Supports wildcard listeners.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/event-emitter.ts",
+      "fileContentContains": ["class TypedEventEmitter", "on", "off", "emit", "once", "history"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/event-emitter.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "events", "generics"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

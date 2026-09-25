@@ -1,0 +1,27 @@
+{
+  "id": "coding-006",
+  "category": "coding",
+  "name": "Find and fix a logic bug",
+  "instruction": "The file src/binary-search.ts has a bug in the binary search implementation. Find and fix it.\n\n```typescript\nfunction binarySearch(arr: number[], target: number): number {\n  let left = 0;\n  let right = arr.length;\n  while (left < right) {\n    const mid = (left + right) / 2;\n    if (arr[mid] === target) return mid;\n    if (arr[mid] < target) left = mid;\n    else right = mid;\n  }\n  return -1;\n}\n```",
+  "workspace": {
+    "files": [{ "path": "src/binary-search.ts", "content": "function binarySearch(arr: number[], target: number): number {\n  let left = 0;\n  let right = arr.length;\n  while (left < right) {\n    const mid = (left + right) / 2;\n    if (arr[mid] === target) return mid;\n    if (arr[mid] < target) left = mid;\n    else right = mid;\n  }\n  return -1;\n}\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/binary-search.ts",
+      "fileContentContains": ["left + 1", "right - 1"]
+    },
+    {
+      "type": "command",
+      "command": "node -e \"const bs = require('./src/binary-search'); console.log(bs.binarySearch([1,2,3,4,5], 3))\"",
+      "outputContains": ["2"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "debugging", "algorithms"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

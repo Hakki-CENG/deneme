@@ -1,0 +1,19 @@
+{
+  "id": "planning-004",
+  "category": "planning",
+  "name": "Identify and execute parallel tasks",
+  "instruction": "Given a set of independent tasks, identify which can be executed in parallel and execute them concurrently to save time.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["plan.analyze", "plan.parallel", "plan.execute"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 4,
+  "tags": ["planning", "parallel", "optimization"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

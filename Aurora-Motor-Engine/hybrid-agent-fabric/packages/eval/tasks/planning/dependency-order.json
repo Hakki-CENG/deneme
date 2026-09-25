@@ -1,0 +1,24 @@
+{
+  "id": "planning-003",
+  "category": "planning",
+  "name": "Respect dependency order",
+  "instruction": "Build a project with multiple modules that have dependencies. Ensure modules are built in the correct order based on their dependencies.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["plan.dependencies", "plan.order", "plan.execute"],
+      "forbiddenEvents": []
+    },
+    {
+      "type": "command",
+      "command": "npm run build",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 4,
+  "tags": ["planning", "dependencies", "build-order"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

@@ -1,0 +1,24 @@
+{
+  "id": "coding-019",
+  "category": "coding",
+  "name": "Build priority queue",
+  "instruction": "Implement a priority queue that: 1) Supports enqueue with priority, 2) Dequeues highest priority first, 3) Supports peek, size, isEmpty, 4) Uses a binary heap for O(log n) operations.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/priority-queue.ts",
+      "fileContentContains": ["class PriorityQueue", "enqueue", "dequeue", "peek", "size", "heap"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/priority-queue.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "data-structures", "heap"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

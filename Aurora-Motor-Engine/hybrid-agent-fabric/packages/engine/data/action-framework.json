@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "goals": [
+    {
+      "id": "d4a019d5-290c-4efb-b67f-36f4ff08907f",
+      "title": "G1",
+      "description": "D1",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T09:59:55.569Z",
+      "updatedAt": "2026-09-16T09:59:55.569Z"
+    },
+    {
+      "id": "b085c44c-1e86-4322-b450-bdeb90b1968d",
+      "title": "G2",
+      "description": "D2",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T09:59:55.569Z",
+      "updatedAt": "2026-09-16T09:59:55.569Z"
+    },
+    {
+      "id": "fe259a60-4ecc-4c83-a5f9-d2333731c127",
+      "title": "G1",
+      "description": "D1",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:00:14.700Z",
+      "updatedAt": "2026-09-16T10:00:14.700Z"
+    },
+    {
+      "id": "f51511d2-bb8b-4c21-ae87-ff5cc0028144",
+      "title": "G2",
+      "description": "D2",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:00:14.700Z",
+      "updatedAt": "2026-09-16T10:00:14.700Z"
+    },
+    {
+      "id": "f4bddda2-de63-4fce-80cf-0c3921dc6182",
+      "tenantId": "test",
+      "title": "Test Goal",
+      "description": "A test",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.609Z",
+      "updatedAt": "2026-09-16T10:02:56.609Z"
+    },
+    {
+      "id": "819e2dbf-f2e4-4e37-8731-316719995bfb",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "accepted",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.611Z",
+      "updatedAt": "2026-09-16T10:02:56.612Z"
+    },
+    {
+      "id": "03d24dfe-cb25-4207-93bd-b8d903673bbc",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "in_progress",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.613Z",
+      "updatedAt": "2026-09-16T10:02:56.615Z"
+    },
+    {
+      "id": "e190a4fe-2565-46e1-bd13-b8aa60ed4705",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "completed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.617Z",
+      "updatedAt": "2026-09-16T10:02:56.619Z"
+    },
+    {
+      "id": "0e8b013f-eee0-4bbf-bc04-a3dc2c3a1218",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.628Z",
+      "updatedAt": "2026-09-16T10:02:56.628Z"
+    },
+    {
+      "id": "4f0afa26-6a08-4d04-8526-816567b08864",
+      "tenantId": "test",
+      "title": "G2",
+      "description": "D2",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.628Z",
+      "updatedAt": "2026-09-16T10:02:56.628Z"
+    },
+    {
+      "id": "c2eeff55-a7cc-47d5-ab97-752771426bac",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:02:56.631Z",
+      "updatedAt": "2026-09-16T10:02:56.631Z"
+    },
+    {
+      "id": "b23f15b3-1e5e-4108-8c11-9a8dab3a0e37",
+      "tenantId": "test",
+      "title": "Test Goal",
+      "description": "A test",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.553Z",
+      "updatedAt": "2026-09-16T10:03:43.553Z"
+    },
+    {
+      "id": "e8cdc608-3610-46d0-aa8a-25515d9022f4",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "accepted",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.554Z",
+      "updatedAt": "2026-09-16T10:03:43.555Z"
+    },
+    {
+      "id": "9e71b0b4-7fad-4abb-a342-35bc78ec7bcb",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "in_progress",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.556Z",
+      "updatedAt": "2026-09-16T10:03:43.558Z"
+    },
+    {
+      "id": "996222cf-7199-4da4-a2bd-c33f36c7d5d5",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "completed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.559Z",
+      "updatedAt": "2026-09-16T10:03:43.561Z"
+    },
+    {
+      "id": "824cf33d-09c5-4435-97ed-cad6702d5d70",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.569Z",
+      "updatedAt": "2026-09-16T10:03:43.569Z"
+    },
+    {
+      "id": "015c8c25-c942-48e1-af21-1a588c372b4d",
+      "tenantId": "test",
+      "title": "G2",
+      "description": "D2",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.570Z",
+      "updatedAt": "2026-09-16T10:03:43.570Z"
+    },
+    {
+      "id": "19e85a95-1d48-435c-9dcb-e0b1c0fadc78",
+      "tenantId": "test",
+      "title": "G1",
+      "description": "D1",
+      "status": "proposed",
+      "priority": "P2",
+      "successCriteria": [],
+      "constraints": [],
+      "createdAt": "2026-09-16T10:03:43.573Z",
+      "updatedAt": "2026-09-16T10:03:43.573Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "9f13dee3-2d8d-4ce6-a23a-2a69f8576062",
+      "tenantId": "test",
+      "goalId": "03d24dfe-cb25-4207-93bd-b8d903673bbc",
+      "title": "Plan 1",
+      "description": "Execute steps",
+      "status": "approved",
+      "steps": [
+        {
+          "id": "9f13dee3-2d8d-4ce6-a23a-2a69f8576062-step-0",
+          "order": 0,
+          "title": "Step 1",
+          "description": "First",
+          "actionType": "test",
+          "input": {},
+          "expectedOutput": "",
+          "dependsOn": [],
+          "status": "pending",
+          "attempt": 0,
+          "startedAt": "",
+          "finishedAt": "",
+          "owner": "system"
+        },
+        {
+          "id": "9f13dee3-2d8d-4ce6-a23a-2a69f8576062-step-1",
+          "order": 1,
+          "title": "Step 2",
+          "description": "Second",
+          "actionType": "test",
+          "input": {},
+          "expectedOutput": "",
+          "dependsOn": [
+            "9f13dee3-2d8d-4ce6-a23a-2a69f8576062-step-0"
+          ],
+          "status": "pending",
+          "attempt": 0,
+          "startedAt": "",
+          "finishedAt": "",
+          "owner": "system"
+        }
+      ],
+      "estimatedDurationMs": 10000,
+      "estimatedTokens": 1000,
+      "riskLevel": "low",
+      "createdAt": "2026-09-16T10:02:56.614Z",
+      "updatedAt": "2026-09-16T10:02:56.615Z"
+    },
+    {
+      "id": "06244251-4ceb-4d10-8160-a6a1254fa975",
+      "tenantId": "test",
+      "goalId": "e190a4fe-2565-46e1-bd13-b8aa60ed4705",
+      "title": "Plan 1",
+      "description": "Execute",
+      "status": "completed",
+      "steps": [
+        {
+          "id": "06244251-4ceb-4d10-8160-a6a1254fa975-step-0",
+          "order": 0,
+          "title": "Step 1",
+          "description": "First",
+          "actionType": "test",
+          "input": {},
+          "expectedOutput": "",
+          "dependsOn": [],
+          "status": "completed",
+          "attempt": 0,
+          "startedAt": "",
+          "finishedAt": "2026-09-16T10:02:56.619Z",
+          "owner": "system",
+          "result": {
+            "success": true,
+            "output": "done",
+            "durationMs": 100,
+            "tokensUsed": 50,
+            "sideEffects": [],
+            "verificationNeeded": false,
+            "evidence": []
+          }
+        }
+      ],
+      "estimatedDurationMs": 5000,
+      "estimatedTokens": 500,
+      "riskLevel": "low",
+      "createdAt": "2026-09-16T10:02:56.618Z",
+      "updatedAt": "2026-09-16T10:02:56.619Z"
+    },
+    {
+      "id": "3530bef0-901b-40fd-952c-a81a5e6b5310",
+      "tenantId": "test",
+      "goalId": "9e71b0b4-7fad-4abb-a342-35bc78ec7bcb",
+      "title": "Plan 1",
+      "description": "Execute steps",
+      "status": "approved",
+      "steps": [
+        {
+          "id": "3530bef0-901b-40fd-952c-a81a5e6b5310-step-0",
+          "order": 0,
+          "title": "Step 1",
+          "description": "First",
+          "actionType": "test",
+          "input": {},
+          "expectedOutput": "",
+          "dependsOn": [],
+          "status": "pending",
+          "attempt": 0,
+          "startedAt": "",
+          "finishedAt": "",
+          "owner": "system"
+        },
+        {
+          "id": "3530bef0-901b-40fd-952c-a81a5e6b5310-step-1",
+          "order": 1,
+          "title": "Step 2",
+          "description": "Second",
+          "actionType": "test",
+          "input": {},
+          "expectedOutput": "",
+          "dependsOn": [
+            "3530bef0-901b-40fd-952c-a81a5e6b5310-step-0"
+          ],
+          "status": "pending",
+          "attempt": 0,
+          "startedAt": "",
+          "finishedAt": "",
+          "owner": "system"
+        }
+      ],
+      "estimatedDurationMs": 10000,
+      "estimatedTokens": 1000,
+      "riskLevel": "low",
+      "createdAt": "2026-09-16T10:03:43.557Z",
+      "updatedAt": "2026-09-16T10:03:43.558Z"
+    },
+    {
+      "id": "85199995-8444-4f98-b27b-f7a5c48dab20",
+      "tenantId": "test",
+      "goalId": "996222cf-7199-4da4-a2bd-c33f36c7d5d5",
+      "title": "Plan 1",
+      "description": "Execute",
+      "status": "completed",
+      "steps": [
+        {
+          "id": "85199995-8444-4f98-b27b-f7a5c48dab20-step-0",
+          "order": 0,
+          "title": "Step 1",
+          "description": "First",
+          "actionType": "test",
+          "input": {},
+          "expectedOutput": "",
+          "dependsOn": [],
+          "status": "completed",
+          "attempt": 0,
+          "startedAt": "",
+          "finishedAt": "2026-09-16T10:03:43.561Z",
+          "owner": "system",
+          "result": {
+            "success": true,
+            "output": "done",
+            "durationMs": 100,
+            "tokensUsed": 50,
+            "sideEffects": [],
+            "verificationNeeded": false,
+            "evidence": []
+          }
+        }
+      ],
+      "estimatedDurationMs": 5000,
+      "estimatedTokens": 500,
+      "riskLevel": "low",
+      "createdAt": "2026-09-16T10:03:43.560Z",
+      "updatedAt": "2026-09-16T10:03:43.561Z"
+    }
+  ],
+  "verifications": []
+}

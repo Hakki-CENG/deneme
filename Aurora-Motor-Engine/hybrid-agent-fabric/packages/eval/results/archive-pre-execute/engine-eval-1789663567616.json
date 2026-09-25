@@ -1,0 +1,35 @@
+{
+  "totalTasks": 3,
+  "passed": 3,
+  "failed": 0,
+  "errors": 0,
+  "overallScore": 1,
+  "results": [
+    {
+      "taskId": "coding-007",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 3ms",
+      "durationMs": 4,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-012",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    }
+  ],
+  "durationMs": 1733,
+  "timestamp": "2026-09-17T16:46:07.617Z"
+}

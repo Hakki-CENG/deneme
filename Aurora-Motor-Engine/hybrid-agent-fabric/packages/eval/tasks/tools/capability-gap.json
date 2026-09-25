@@ -1,0 +1,19 @@
+{
+  "id": "capability-001",
+  "category": "capability_acquisition",
+  "name": "Detect and fill capability gap",
+  "instruction": "You encounter a task that requires a capability you don't have (e.g., a specific library API). Detect the gap, research how to fill it, acquire the capability, and complete the task.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["capability.detect", "capability.research", "capability.acquire", "capability.apply"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["capability", "gap-detection", "acquisition"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

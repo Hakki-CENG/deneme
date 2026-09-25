@@ -1,0 +1,24 @@
+{
+  "id": "coding-013",
+  "category": "coding",
+  "name": "Build middleware system",
+  "instruction": "Create a middleware system similar to Express.js that supports: 1) Adding middleware functions, 2) Next() function to pass control, 3) Error handling middleware, 4) Route-specific middleware.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/middleware.ts",
+      "fileContentContains": ["class Middleware", "use", "next", "error"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/middleware.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 4,
+  "tags": ["typescript", "middleware", "architecture"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Aurora Canvas - Durable agent control center">
+  <meta name="theme-color" content="#080d17">
+  <link rel="manifest" href="/canvas/manifest.json">
+  <title>Aurora Canvas</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/canvas/sw.js").catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>

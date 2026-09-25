@@ -1,0 +1,19 @@
+{
+  "id": "planning-005",
+  "category": "planning",
+  "name": "Long-horizon task planning",
+  "instruction": "Plan and execute a complex task that requires multiple steps over time: 1) Research, 2) Design, 3) Implement, 4) Test, 5) Document. Track progress and adjust plan as needed.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["plan.create", "plan.track", "plan.adjust", "plan.complete"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 200000, "maxSteps": 20, "maxCostUsd": 0.20, "timeoutMs": 180000 },
+  "difficulty": 5,
+  "tags": ["planning", "long-horizon", "tracking"],
+  "requiresModel": true,
+  "expectedSteps": 15,
+  "expectedCostUsd": 0.06
+}

@@ -1,0 +1,19 @@
+{
+  "id": "multimodal-002",
+  "category": "multimodal",
+  "name": "Extract information from document",
+  "instruction": "Extract key information from a PDF document: 1) Title, 2) Authors, 3) Main points, 4) Conclusions. Structure the extracted data as JSON.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["document.parse", "document.extract"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["multimodal", "document", "extraction"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

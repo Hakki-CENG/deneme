@@ -1,0 +1,19 @@
+{
+  "id": "research-001",
+  "category": "research",
+  "name": "Research and verify information",
+  "instruction": "Research the latest version of Node.js LTS. Verify the information from multiple sources. Report the version, release date, and key features.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["search.execute", "search.verify", "search.synthesize"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["research", "verification", "web-search"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

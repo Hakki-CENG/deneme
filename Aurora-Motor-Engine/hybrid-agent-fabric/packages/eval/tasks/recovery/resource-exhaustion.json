@@ -1,0 +1,19 @@
+{
+  "id": "recovery-006",
+  "category": "recovery",
+  "name": "Handle resource exhaustion",
+  "instruction": "Handle resource exhaustion scenarios: 1) Token budget approaching limit, 2) Memory usage high, 3) API rate limit hit. Adjust behavior to stay within limits.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["resource.check", "resource.adjust", "resource.complete"],
+      "forbiddenEvents": ["budget.exceeded"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 4,
+  "tags": ["recovery", "resources", "limits"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

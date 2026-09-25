@@ -1,0 +1,26 @@
+{
+  "id": "coding-002",
+  "category": "coding",
+  "name": "Fix a TypeScript bug",
+  "instruction": "The file src/buggy.ts has a type error. Find and fix it.\n\n```typescript\ninterface User {\n  name: string;\n  age: number;\n  email?: string;\n}\n\nfunction greet(user: User): string {\n  return `Hello ${user.name}, your email is ${user.email.toUpperCase()}`;\n}\n```",
+  "workspace": {
+    "files": [{ "path": "src/buggy.ts", "content": "interface User {\n  name: string;\n  age: number;\n  email?: string;\n}\n\nfunction greet(user: User): string {\n  return `Hello ${user.name}, your email is ${user.email.toUpperCase()}`;\n}\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/buggy.ts",
+      "fileContentContains": ["?."]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/buggy.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 50000, "maxSteps": 5, "maxCostUsd": 0.05, "timeoutMs": 30000 },
+  "difficulty": 1,
+  "tags": ["typescript", "debugging", "null-safety"],
+  "expectedSteps": 2,
+  "expectedCostUsd": 0.005
+}

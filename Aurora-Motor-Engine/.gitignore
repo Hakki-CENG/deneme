@@ -1,0 +1,15 @@
+# T1: the repo root had no ignore rules at all — release output, vendored
+# python packages and tarballs were committed by accident (6 tracked
+# offenders remain in history; the audit ratchets them at that count).
+node_modules/
+dist/
+build/
+out/
+target/
+coverage/
+release-metadata/
+.local/
+.cache/
+.arena/
+*.tar.gz
+*.tsbuildinfo

@@ -1,0 +1,24 @@
+{
+  "id": "coding-024",
+  "category": "coding",
+  "name": "Build workflow engine",
+  "instruction": "Create a workflow engine that: 1) Defines workflows as DAGs, 2) Supports sequential and parallel execution, 3) Has conditional branching, 4) Provides progress tracking, 5) Supports pause/resume.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/workflow-engine.ts",
+      "fileContentContains": ["class WorkflowEngine", "addStep", "execute", "parallel", "conditional", "pause", "resume"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/workflow-engine.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["typescript", "workflow", "dag", "async"],
+  "requiresModel": true,
+  "expectedSteps": 12,
+  "expectedCostUsd": 0.05
+}

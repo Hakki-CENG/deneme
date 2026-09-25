@@ -1,0 +1,19 @@
+{
+  "id": "memory-003",
+  "category": "memory",
+  "name": "Associate related concepts",
+  "instruction": "Remember these associations: TypeScript is related to JavaScript, React is related to UI, PostgreSQL is related to databases. When asked about 'TypeScript', also mention related concepts.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["memory.store", "memory.associate", "memory.recall"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["memory", "associations", "knowledge-graph"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

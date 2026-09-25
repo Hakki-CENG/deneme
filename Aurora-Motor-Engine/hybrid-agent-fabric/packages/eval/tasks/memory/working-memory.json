@@ -1,0 +1,19 @@
+{
+  "id": "memory-005",
+  "category": "memory",
+  "name": "Working memory management",
+  "instruction": "Manage working memory: 1) Store current task context, 2) Track multiple threads of work, 3) Switch between contexts, 4) Maintain consistency across switches.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["memory.working.set", "memory.working.get", "memory.working.switch"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 4,
+  "tags": ["memory", "working-memory", "context-switching"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

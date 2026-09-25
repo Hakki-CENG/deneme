@@ -1,0 +1,19 @@
+{
+  "id": "research-002",
+  "category": "research",
+  "name": "Compare technologies",
+  "instruction": "Research and compare three database options (PostgreSQL, MongoDB, Redis) for a specific use case. Provide pros/cons, performance characteristics, and a recommendation.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["search.execute", "compare.analyze", "compare.recommend"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 3,
+  "tags": ["research", "comparison", "databases"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

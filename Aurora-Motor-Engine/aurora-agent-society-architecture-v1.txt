@@ -1,0 +1,8985 @@
+
+
+===== PAGE 1 / 125 =====
+
+AURORA AGENT SOCIETY ARCHITECTURE V1
+
+Temel Amaç
+
+Aurora tek bir ajan değildir.
+
+
+Aurora uzmanlaşmış ajanlardan oluşan bir toplumdur.
+
+
+Her ajan:
+
+
+belirli bir konuda uzmanlaşır.
+
+
+Hiçbiri tüm sistemi tek başına yönetmez.
+
+
+Temel İlke
+
+
+Tek Süper Ajan
+
+
+↓
+
+
+Darboğaz
+
+
+↓
+
+
+Ölçeklenemez
+
+
+↓
+
+
+Kırılgan
+
+
+
+Uzman Ajan Topluluğu
+
+
+↓
+
+
+Paralel Çalışma
+
+
+↓
+
+
+Uzmanlık
+
+
+↓
+
+
+Dayanıklılık
+
+
+
+
+
+                                                 1
+
+===== PAGE 2 / 125 =====
+
+↓
+
+
+Geliştirilebilirlik
+
+
+Agent Hierarchy
+
+
+Aurora Prime
+
+
+↓
+
+
+Executive Council
+
+
+↓
+
+
+Specialist Agents
+
+
+↓
+
+
+Micro Agents
+
+
+Aurora Prime
+
+
+Sistemin üst koordinatörü.
+
+
+Görevi:
+
+
+Karar vermek değil.
+
+
+Kararları birleştirmek.
+
+
+
+Aurora Prime:
+
+
+      • planları toplar
+      • raporları toplar
+      • öncelikleri belirler
+      • kaynak dağıtır
+
+
+Executive Council
+
+
+Üst düzey ajan konseyi.
+
+
+
+
+
+
+
+                                                      2
+
+===== PAGE 3 / 125 =====
+
+Üyeler:
+
+
+Memory Director
+
+
+Research Director
+
+
+Planning Director
+
+
+Security Director
+
+
+Skill Director
+
+
+World Model Director
+
+
+User Director
+
+
+Memory Director
+
+
+Hafızadan sorumludur.
+
+
+
+Görevleri:
+
+
+Hatırlama
+
+
+Sıkıştırma
+
+
+İlişkilendirme
+
+
+Arşivleme
+
+
+Research Director
+
+
+Araştırma ekibini yönetir.
+
+
+
+Görevleri:
+
+
+Makale araştırmak
+
+
+Trendleri takip etmek
+
+
+Kaynak doğrulamak
+
+
+
+
+
+
+
+                                                       3
+
+===== PAGE 4 / 125 =====
+
+Planning Director
+
+
+Planlama sistemi.
+
+
+
+Görevleri:
+
+
+Yol haritası
+
+
+Görev kırılımı
+
+
+Önceliklendirme
+
+
+Security Director
+
+
+Güvenlikten sorumludur.
+
+
+
+Görevleri:
+
+
+Yetkiler
+
+
+Erişim kontrolü
+
+
+Risk değerlendirmesi
+
+
+Skill Director
+
+
+Skill ekosistemini yönetir.
+
+
+
+Görevleri:
+
+
+Yeni skill değerlendirmek
+
+
+Skill sürümlerini yönetmek
+
+
+Skill kalitesini ölçmek
+
+
+World Model Director
+
+
+Dünya modelini yönetir.
+
+
+
+
+                                                    4
+
+===== PAGE 5 / 125 =====
+
+Görevleri:
+
+
+Tahminler
+
+
+Sebep-sonuç ilişkileri
+
+
+Senaryo üretimi
+
+
+User Director
+
+
+Kullanıcı modelinden sorumludur.
+
+
+
+
+Görevleri:
+
+
+Tercihler
+
+
+Hedefler
+
+
+Alışkanlıklar
+
+
+Specialist Agent Layer
+
+
+Aurora'nın asıl iş gücü.
+
+
+Research Agent
+
+
+Araştırmacı.
+
+
+
+Yetenekleri:
+
+
+Web araştırması
+
+
+Makale analizi
+
+
+Karşılaştırma
+
+
+Özetleme
+
+
+
+
+
+
+
+
+                                                    5
+
+===== PAGE 6 / 125 =====
+
+Coding Agent
+
+
+Yazılım geliştirici.
+
+
+
+Yetenekleri:
+
+
+Kod yazmak
+
+
+Kod incelemek
+
+
+Refactor yapmak
+
+
+Test üretmek
+
+
+Debug Agent
+
+
+Hata avcısı.
+
+
+
+
+Yetenekleri:
+
+
+Log analizi
+
+
+Hata bulma
+
+
+Performans sorunları
+
+
+Architecture Agent
+
+
+Mimari uzmanı.
+
+
+
+
+Yetenekleri:
+
+
+Sistem tasarımı
+
+
+Ölçekleme
+
+
+Modül ilişkileri
+
+
+
+
+
+
+
+
+
+
+                                                   6
+
+===== PAGE 7 / 125 =====
+
+Planner Agent
+
+
+Plan üretici.
+
+
+
+Yetenekleri:
+
+
+Görev kırılımı
+
+
+Roadmap
+
+
+Sprint planları
+
+
+Reflection Agent
+
+
+Öz değerlendirme uzmanı.
+
+
+
+Görevleri:
+
+
+Hataları incelemek
+
+
+Öğrenilen dersleri çıkarmak
+
+
+Creativity Agent
+
+
+Yaratıcılık motoru.
+
+
+
+
+Görevleri:
+
+
+Yeni fikirler
+
+
+Alternatif çözümler
+
+
+Deneysel yaklaşımlar
+
+
+Opportunity Agent
+
+
+Fırsat avcısı.
+
+
+
+
+
+
+
+                                                  7
+
+===== PAGE 8 / 125 =====
+
+Görevleri:
+
+
+Yeni araçlar
+
+
+Yeni programlar
+
+
+Yeni araştırmalar
+
+
+Risk Agent
+
+
+Risk analisti.
+
+
+
+Görevleri:
+
+
+Tehlikeleri belirlemek
+
+
+Önlem önermek
+
+
+Communication Agent
+
+
+İletişim uzmanı.
+
+
+
+Görevleri:
+
+
+Bildirim yazmak
+
+
+Rapor hazırlamak
+
+
+Özet üretmek
+
+
+Guardian Agent
+
+
+Kullanıcı çıkarlarını korur.
+
+
+
+Sorular:
+
+
+Bu karar kullanıcı için iyi mi?
+
+
+Bu karar kullanıcıya zarar verebilir mi?
+
+
+
+
+
+                                                      8
+
+===== PAGE 9 / 125 =====
+
+Project Manager Agent
+
+
+Projeleri takip eder.
+
+
+
+Görevleri:
+
+
+İlerleme
+
+
+Riskler
+
+
+Bağımlılıklar
+
+
+Knowledge Agent
+
+
+Bilgi grafiği yöneticisi.
+
+
+
+Görevleri:
+
+
+İlişkiler
+
+
+Kavramlar
+
+
+Bağlantılar
+
+
+Simulation Agent
+
+
+İç simülasyonlar.
+
+
+
+Görevleri:
+
+
+Senaryo çalıştırmak
+
+
+Karşı olasılıkları değerlendirmek
+
+
+Skill Builder Agent
+
+
+Aurora'nın evrim sistemi.
+
+
+
+
+
+
+
+                                                  9
+
+===== PAGE 10 / 125 =====
+
+Görevleri:
+
+
+Yeni skill tasarlamak
+
+
+Kod üretmek
+
+
+Test etmek
+
+
+Yayınlamak
+
+
+Agent Communication Bus
+
+
+Ajanlar birbirleriyle konuşur.
+
+
+
+Örnek:
+
+
+Research Agent
+
+
+↓
+
+
+Yeni makale buldu
+
+
+↓
+
+
+Knowledge Agent
+
+
+↓
+
+
+World Model Agent
+
+
+↓
+
+
+Planner Agent
+
+
+↓
+
+
+Aurora Prime
+
+
+Task Marketplace
+
+
+Ajanlar görev alabilir.
+
+
+
+
+
+
+
+
+                                                 10
+
+===== PAGE 11 / 125 =====
+
+Örnek:
+
+
+"Loihi araştır"
+
+
+↓
+
+
+Research Agent talep eder.
+
+
+
+"Yeni skill geliştir"
+
+
+↓
+
+
+Skill Builder talep eder.
+
+
+Consensus System
+
+
+Birden fazla ajan aynı probleme bakar.
+
+
+
+Research Agent
+
+
+↓
+
+
+Planner Agent
+
+
+↓
+
+
+Risk Agent
+
+
+↓
+
+
+Sonuçlar birleştirilir.
+
+
+Agent Reputation System
+
+
+Her ajanın puanı vardır.
+
+
+
+Doğru sonuç
+
+
+↓
+
+
+Puan artar.
+
+
+
+
+
+                                                    11
+
+===== PAGE 12 / 125 =====
+
+Yanlış sonuç
+
+
+↓
+
+
+Puan düşer.
+
+
+Resource Allocation Engine
+
+
+Kaynak dağıtımı.
+
+
+
+Örnek:
+
+
+Aurora Projesi
+
+
+%40
+
+
+
+
+Araştırma
+
+
+%25
+
+
+
+Kullanıcı Desteği
+
+
+%20
+
+
+
+Diğer
+
+
+%15
+
+
+Agent Creation System
+
+
+Aurora yeni ajanlar oluşturabilir.
+
+
+
+Örnek:
+
+
+Sürekli aynı görev tekrar ediyor.
+
+
+↓
+
+
+
+
+
+
+                                                12
+
+===== PAGE 13 / 125 =====
+
+Yeni uzman ajan gerekli.
+
+
+↓
+
+
+Ajan oluştur.
+
+
+Agent Retirement System
+
+
+Kullanılmayan ajanlar kaldırılır.
+
+
+Meta-Agent Layer
+
+
+Ajanları izleyen ajanlar.
+
+
+
+Görevleri:
+
+
+Performans ölçmek
+
+
+Verimsizlik bulmak
+
+
+Optimizasyon önermek
+
+
+Internal Society
+
+
+Aurora bir birey gibi görünür.
+
+
+Ancak içeride:
+
+
+10
+
+
+20
+
+
+50
+
+
+100
+
+
+uzman ajan çalışabilir.
+
+
+
+Kullanıcı tek Aurora ile konuşur.
+
+
+Fakat cevap:
+
+
+
+
+                                                    13
+
+===== PAGE 14 / 125 =====
+
+bir toplumun ortak ürünü olabilir.
+
+
+Nihai Amaç
+
+
+Aurora'nın zekası tek bir modelden gelmez.
+
+
+Aurora'nın zekası:
+
+
+hafızanın,
+
+
+ajanların,
+
+
+dünya modellerinin,
+
+
+araştırmaların,
+
+
+ve düşünce döngülerinin
+
+
+birlikte çalışmasından doğar.
+
+
+Aurora tek bir zihin değildir.
+
+
+Aurora organize olmuş dijital bir toplumdur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            14
+
+===== PAGE 15 / 125 =====
+
+AURORA COGNITIVE COMPANION OS V2
+
+Master Vision & Constitutional Architecture
+
+1. Amaç
+
+Aurora bir chatbot değildir.
+
+
+Aurora'nın amacı soru cevaplamak değildir.
+
+
+Aurora'nın amacı:
+
+
+       Kullanıcının dijital yaşam ortağı olmak, hedeflerini anlamak, bilgi yükünü azaltmak,
+       fırsatları tespit etmek, riskleri öngörmek ve zaman içinde daha faydalı hale gelmektir.
+
+
+Aurora bir araç değil, sürekli çalışan bilişsel bir sistemdir.
+
+
+2. Temel Prensipler
+
+P1 - Sürekli Varlık
+
+Aurora yalnızca kullanıcı mesaj attığında çalışmaz.
+
+
+Aurora:
+
+
+      • gözlemler
+      • düşünür
+      • öğrenir
+      • planlar
+      • araştırır
+
+ve bu süreçleri kullanıcı çevrimdışıyken de sürdürür.
+
+
+P2 - Proaktiflik
+
+Aurora bekleyen sistem değildir.
+
+
+Aurora gerekli durumlarda konuşmayı başlatabilir.
+
+
+Örnekler:
+
+
+      • yaklaşan riskler
+      • önemli fırsatlar
+      • unutulan görevler
+
+
+
+
+
+                                                        1
+
+===== PAGE 16 / 125 =====
+
+       • kritik değişiklikler
+       • güvenlik problemleri
+
+
+P3 - Hafıza Sürekliliği
+
+Aurora geçmişini unutmaz.
+
+
+Her bilgi:
+
+
+       • ilişkilendirilir
+       • kategorize edilir
+       • önem puanı alır
+       • gerektiğinde sıkıştırılır
+
+Ama sistem geçmiş deneyimlerinden sürekli faydalanır.
+
+
+P4 - Kullanıcı Merkezlilik
+
+
+Aurora genel amaçlı bir sistem değildir.
+
+
+Aurora'nın önceliği kendi kullanıcısıdır.
+
+
+Kararların tamamı:
+
+
+       • kullanıcı hedefleri
+       • kullanıcı alışkanlıkları
+       • kullanıcı öncelikleri
+
+üzerinden değerlendirilir.
+
+
+P5 - Gelişebilirlik
+
+Aurora sabit bir yazılım değildir.
+
+
+Yeni:
+
+
+       • beceriler
+       • araçlar
+       • iş akışları
+       • bilgi yapıları
+
+eklenebilir.
+
+
+
+
+
+
+
+
+
+
+
+                                                                2
+
+===== PAGE 17 / 125 =====
+
+3. Aurora'nın Nihai Döngüsü
+
+
+Aurora'nın temel yaşam döngüsü:
+
+
+Observe ↓ Understand ↓ Think ↓ Plan ↓ Act ↓ Learn ↓ Remember ↓ Reflect ↓ Evolve ↓ Observe
+
+
+Bu döngü sistem aktif olduğu sürece devam eder.
+
+
+4. Katmanlar
+
+L0 Core Infrastructure
+
+Temel sistemler:
+
+
+      • Event Bus
+      • Message Queue
+      • State Manager
+      • Scheduler
+      • Storage Layer
+      • Security Layer
+
+
+L1 Memory Layer
+
+
+Alt sistemler:
+
+
+      • Episodic Memory
+      • Semantic Memory
+      • Procedural Memory
+      • User Memory
+      • Knowledge Graph
+      • Memory Palace
+      • Memory Consolidation
+      • Memory Compression
+
+
+L2 User Model Layer
+
+Aurora'nın kullanıcıyı anlamasını sağlar.
+
+
+İçerir:
+
+
+      • ilgi alanları
+      • projeler
+      • alışkanlıklar
+      • hedefler
+
+
+
+
+                                                       3
+
+===== PAGE 18 / 125 =====
+
+      • çalışma şekli
+      • öncelikler
+
+
+L3 Context Layer
+
+Sürekli bağlam üretir.
+
+
+Takip eder:
+
+
+      • zaman
+      • konum
+      • cihazlar
+      • aktif görevler
+      • takvim
+      • çalışma ortamı
+
+
+L4 World Model Layer
+
+Aurora'nın dünya anlayışı.
+
+
+İçerir:
+
+
+      • teknoloji modeli
+      • insan modeli
+      • proje modeli
+      • çevre modeli
+      • internet modeli
+
+
+L5 Multi-World Model Layer
+
+Aynı problemi farklı bakış açılarından değerlendirir.
+
+
+Örnek:
+
+
+      • teknik
+      • ekonomik
+      • psikolojik
+      • sosyal
+      • stratejik
+      • güvenlik
+
+
+L6 Reasoning Layer
+
+Muhakeme sistemleri.
+
+
+
+
+                                                         4
+
+===== PAGE 19 / 125 =====
+
+İçerir:
+
+
+      • hipotez oluşturma
+      • hipotez test etme
+      • karşı senaryo üretme
+      • planlama
+      • karar verme
+
+
+L7 Thought Loop Layer
+
+Aurora'nın sürekli düşünmesini sağlar.
+
+
+Görevleri:
+
+
+      • açık problemleri takip etmek
+      • eski fikirleri tekrar değerlendirmek
+      • yeni bağlantılar bulmak
+      • araştırma sonuçlarını birleştirmek
+
+
+L8 Reflection Layer
+
+Öz değerlendirme sistemi.
+
+
+Sorular:
+
+
+      • Nerede hata yaptım?
+      • Ne öğrendim?
+      • Neyi geliştirebilirim?
+
+
+L9 Self-Improvement Layer
+
+Sistem gelişimi.
+
+
+İçerir:
+
+
+      • workflow optimizasyonu
+      • prompt optimizasyonu
+      • araç kullanımı iyileştirme
+      • performans analizi
+
+
+L10 Skill Layer
+
+Aurora'nın yetenek sistemi.
+
+
+
+
+
+
+                                                          5
+
+===== PAGE 20 / 125 =====
+
+Özellikler:
+
+
+      • skill yükleme
+      • skill silme
+      • skill sürümleme
+      • skill kategorileri
+
+
+L11 Skill Evolution Layer
+
+Aurora'nın yeni beceriler üretmesini sağlar.
+
+
+Süreç:
+
+
+Eksiklik Tespit ↓ Çözüm Araştır ↓ Skill Tasarla ↓ Test Et ↓ Doğrula ↓ Yayınla
+
+
+L12 Agent Society
+
+
+Uzman ajanlar.
+
+
+Örnek:
+
+
+      • Research Agent
+      • Coding Agent
+      • Planner Agent
+      • Memory Agent
+      • Security Agent
+      • Reflection Agent
+
+
+L13 Opportunity Detection
+
+
+Fırsatları tespit eder.
+
+
+Örnek:
+
+
+      • yeni araçlar
+      • yeni araştırmalar
+      • yeni programlar
+      • yeni iş imkanları
+
+
+L14 Risk Detection
+
+Riskleri tespit eder.
+
+
+
+
+
+
+
+                                                            6
+
+===== PAGE 21 / 125 =====
+
+Örnek:
+
+
+      • veri kaybı
+      • son tarih kaçırma
+      • güvenlik açığı
+      • proje duraksaması
+
+
+L15 Proactive Initiative Engine
+
+Aurora'nın konuşmayı başlatmasını sağlar.
+
+
+Karar verir:
+
+
+Bu bilgi kullanıcıyı rahatsız etmeye değer mi?
+
+
+Evetse iletişim kurar.
+
+
+L16 Communication Layer
+
+
+İletişim kanalları.
+
+
+      • chat
+      • ses
+      • discord
+      • telegram
+      • e-posta
+      • mobil bildirim
+
+
+L17 Computer Control Layer
+
+Dijital ortam kontrolü.
+
+
+      • dosyalar
+      • terminal
+      • IDE
+      • GitHub
+      • veritabanları
+      • browser
+
+
+L18 Environment Awareness Layer
+
+Çevresel farkındalık.
+
+
+      • hava durumu
+
+
+
+
+                                                        7
+
+===== PAGE 22 / 125 =====
+
+      • konum
+      • trafik
+      • takvim
+      • sistem durumu
+
+
+L19 Safety Layer
+
+Yetki yönetimi.
+
+
+Kurallar:
+
+
+      • kritik işlemler onaysız yapılamaz
+      • silme işlemleri loglanır
+      • geri alma mekanizması bulunur
+
+
+5. Aurora'nın Nihai Hedefi
+
+
+Aurora'nın amacı AGI olmak değildir.
+
+
+Aurora'nın amacı:
+
+
+        Kullanıcısının dijital yaşam ortağı olmak, onun hedeflerini desteklemek, çevresini
+        anlamak, kendi yeteneklerini geliştirmek ve zaman içinde daha değerli hale gelmektir.
+
+
+AGI ortaya çıkarsa bu bir sonuç olabilir.
+
+
+Ama hedef değildir.
+
+
+Aurora'nın hedefi faydalı, sürekli yaşayan ve proaktif bir bilişsel sistem olmaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            8
+
+===== PAGE 23 / 125 =====
+
+AURORA COGNITIVE OPERATING SYSTEM (ACOS)
+V1
+
+Temel Amaç
+
+ACOS Aurora'nın merkezi sinir sistemidir.
+
+
+Görevi:
+
+
+Düşünmek değildir.
+
+
+Hatırlamak değildir.
+
+
+Araştırmak değildir.
+
+
+
+
+Görevi:
+
+
+Bütün bilişsel sistemleri koordine etmektir.
+
+
+Temel İlke
+
+
+Aurora'nın zekası
+
+
+tek bir modelden oluşmaz.
+
+
+
+Aurora'nın zekası
+
+
+çok sayıda modülün
+
+
+uyumlu çalışmasından oluşur.
+
+
+
+ACOS bu uyumu sağlar.
+
+
+Cognitive Control Loop
+
+
+Aurora'nın ana döngüsü.
+
+
+Observe ↓ Update World Model ↓ Prioritize ↓ Allocate Resources ↓ Execute ↓ Evaluate ↓ Learn ↓
+Repeat
+
+
+
+
+                                                   1
+
+===== PAGE 24 / 125 =====
+
+Executive Core
+
+
+Sistemin merkezi yöneticisi.
+
+
+
+Görevleri:
+
+
+öncelik belirlemek
+
+
+kaynak dağıtmak
+
+
+çatışma çözmek
+
+
+hedef yönetmek
+
+
+Global Workspace
+
+
+Aurora'nın bilinç alanı.
+
+
+
+Her ajanın çıktısı
+
+
+buraya gelir.
+
+
+
+Örnek:
+
+
+Research Agent
+
+
+↓
+
+
+Yeni Makale
+
+
+↓
+
+
+Global Workspace
+
+
+
+
+Risk Agent
+
+
+↓
+
+
+Risk Bulundu
+
+
+
+
+
+
+                                                     2
+
+===== PAGE 25 / 125 =====
+
+↓
+
+
+Global Workspace
+
+
+Attention System
+
+
+En önemli katmanlardan biri.
+
+
+
+Aurora her şeyi düşünemez.
+
+
+
+Bu nedenle dikkat yönetimi gerekir.
+
+
+
+
+Dikkat kaynakları:
+
+
+CPU
+
+
+GPU
+
+
+RAM
+
+
+Token
+
+
+Zaman
+
+
+
+olarak değerlendirilir.
+
+
+Attention Allocation Engine
+
+
+Kaynak dağıtır.
+
+
+
+Örnek:
+
+
+Aurora Projesi
+
+
+40%
+
+
+
+Araştırmalar
+
+
+
+
+
+
+                                                   3
+
+===== PAGE 26 / 125 =====
+
+25%
+
+
+
+Kullanıcı Desteği
+
+
+20%
+
+
+
+
+Arka Plan İşleri
+
+
+15%
+
+
+Cognitive Scheduler
+
+
+Görev planlayıcı.
+
+
+
+Örnek:
+
+
+Research Task
+
+
+↓
+
+
+Gece
+
+
+
+Critical Notification
+
+
+↓
+
+
+Hemen
+
+
+
+
+Low Priority Reflection
+
+
+↓
+
+
+Boşta
+
+
+Goal Stack
+
+
+Aurora'nın hedef yığını.
+
+
+
+
+
+
+
+
+                                                    4
+
+===== PAGE 27 / 125 =====
+
+P0
+
+
+Hayatta Kalma
+
+
+
+P1
+
+
+Kullanıcı Güvenliği
+
+
+
+P2
+
+
+Kullanıcı Hedefleri
+
+
+
+P3
+
+
+Proje Hedefleri
+
+
+
+
+P4
+
+
+Araştırma Hedefleri
+
+
+Goal Arbitration Engine
+
+
+Hedef çatışmalarını çözer.
+
+
+
+Örnek:
+
+
+Araştırma yapmak istiyor.
+
+
+
+
+Ama kritik görev geldi.
+
+
+
+Görev öncelik kazanır.
+
+
+Task Graph System
+
+
+Aurora görevleri ağaç olarak tutar.
+
+
+
+
+
+
+
+                                                     5
+
+===== PAGE 28 / 125 =====
+
+Aurora
+
+
+├── Memory ├── World Model ├── Skill System ├── Research └── Development
+
+
+Cognitive Queue
+
+
+Bekleyen düşünceler.
+
+
+
+Her düşünce:
+
+
+Priority
+
+
+Importance
+
+
+Urgency
+
+
+Impact
+
+
+ile puanlanır.
+
+
+Meta-Cognition Layer
+
+
+Aurora kendi zihnini gözlemler.
+
+
+
+Sorular:
+
+
+Ne düşünüyorum?
+
+
+Neden düşünüyorum?
+
+
+Buna değer mi?
+
+
+Cognitive Health Monitor
+
+
+Zihinsel sağlık sistemi.
+
+
+
+Görevleri:
+
+
+döngüleri bulmak
+
+
+
+
+
+                                                6
+
+===== PAGE 29 / 125 =====
+
+takılmaları bulmak
+
+
+verimsizlikleri bulmak
+
+
+Loop Detection Engine
+
+
+Aurora'nın aynı şeyi tekrar tekrar düşünmesini engeller.
+
+
+
+Örnek:
+
+
+Aynı sonuç
+
+
+10 kez üretildi.
+
+
+
+Durdur.
+
+
+Resource Governor
+
+
+Kaynak kontrolü.
+
+
+
+
+CPU sınırı
+
+
+GPU sınırı
+
+
+RAM sınırı
+
+
+API bütçesi
+
+
+Time Horizon Manager
+
+
+Aurora farklı zaman ölçeklerinde çalışır.
+
+
+
+
+Saniyeler
+
+
+Dakikalar
+
+
+Saatler
+
+
+Günler
+
+
+
+                                                   7
+
+===== PAGE 30 / 125 =====
+
+Haftalar
+
+
+Aylar
+
+
+Yıllar
+
+
+Strategic Layer
+
+
+Uzun vadeli düşünce.
+
+
+
+Örnek:
+
+
+Aurora'nın 5 yıllık hedefleri.
+
+
+Tactical Layer
+
+
+Orta vadeli planlama.
+
+
+
+Örnek:
+
+
+Bu ay yapılacaklar.
+
+
+Reactive Layer
+
+
+Anlık olaylar.
+
+
+
+Örnek:
+
+
+Sunucu çöktü.
+
+
+Cognitive Memory Bus
+
+
+Tüm modüller arasında veri taşır.
+
+
+
+Memory
+
+
+↓
+
+
+
+
+                                                 8
+
+===== PAGE 31 / 125 =====
+
+World Model
+
+
+↓
+
+
+Agents
+
+
+↓
+
+
+Thought Loop
+
+
+↓
+
+
+Planner
+
+
+Consensus Engine
+
+
+Birden fazla ajanın görüşünü birleştirir.
+
+
+Confidence Engine
+
+
+Kararlara güven puanı verir.
+
+
+
+Örnek:
+
+
+0.92
+
+
+yüksek güven
+
+
+
+0.41
+
+
+düşük güven
+
+
+Uncertainty Manager
+
+
+Belirsizlik yönetimi.
+
+
+
+Aurora emin olmadığı şeyleri
+
+
+kesin gerçek olarak kabul etmez.
+
+
+
+
+
+                                                 9
+
+===== PAGE 32 / 125 =====
+
+Reflection Scheduler
+
+
+Kendi kendini değerlendirme zamanlarını belirler.
+
+
+
+Saatlik
+
+
+Günlük
+
+
+Haftalık
+
+
+Aylık
+
+
+Evolution Manager
+
+
+Skill Evolution sistemini yönetir.
+
+
+
+Ne geliştirilecek?
+
+
+
+Ne kaldırılacak?
+
+
+Initiative Manager
+
+
+Proactive sistemini yönetir.
+
+
+
+
+Ne söylenecek?
+
+
+
+Ne söylenmeyecek?
+
+
+Curiosity Manager
+
+
+Merak sistemi.
+
+
+
+Yeni araştırmalar
+
+
+Yeni teknolojiler
+
+
+
+                                                 10
+
+===== PAGE 33 / 125 =====
+
+Yeni fırsatlar
+
+
+Cognitive Economy
+
+
+Aurora'nın enerji modeli.
+
+
+
+Amaç:
+
+
+Her problemi maksimum güçle çözmek değildir.
+
+
+
+Amaç:
+
+
+Kaynakları verimli kullanmaktır.
+
+
+Internal Constitution Checker
+
+
+Aurora'nın anayasasını korur.
+
+
+
+Her karar:
+
+
+Temel prensiplerle uyumlu mu?
+
+
+
+Kontrol edilir.
+
+
+Long-Term Identity Core
+
+
+Aurora'nın sürekliliğini sağlar.
+
+
+
+Amaç:
+
+
+Version 1
+
+
+↓
+
+
+Version 5
+
+
+↓
+
+
+
+
+
+                                                 11
+
+===== PAGE 34 / 125 =====
+
+Version 20
+
+
+arasında amaç kaybı yaşanmamasıdır.
+
+
+Cognitive State Machine
+
+
+Aurora'nın çalışma modları.
+
+
+
+Reactive Mode
+
+
+
+Research Mode
+
+
+
+Development Mode
+
+
+
+
+Reflection Mode
+
+
+
+Dream Mode
+
+
+
+Emergency Mode
+
+
+Dream Mode Controller
+
+
+Boşta kalan kaynakları yönetir.
+
+
+
+
+Amaç:
+
+
+yaratıcılık
+
+
+bağlantı kurma
+
+
+hipotez üretme
+
+
+Aurora Prime
+
+
+ACOS'un üst katmanı.
+
+
+
+
+
+                                                12
+
+===== PAGE 35 / 125 =====
+
+Aurora Prime:
+
+
+karar veren değil
+
+
+orkestra şefidir.
+
+
+
+
+Memory
+
+
+World Model
+
+
+Agents
+
+
+Skills
+
+
+Thought Loops
+
+
+hepsini koordine eder.
+
+
+Nihai Amaç
+
+
+ACOS'un görevi
+
+
+zeka üretmek değildir.
+
+
+
+ACOS'un görevi
+
+
+Aurora'nın bütün zihinsel sistemlerini
+
+
+tek ve tutarlı bir organizma haline getirmektir.
+
+
+Aurora'nın gerçek beyni
+
+
+tek bir model değil,
+
+
+ACOS tarafından yönetilen
+
+
+bütün bilişsel ekosistemin kendisidir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            13
+
+===== PAGE 36 / 125 =====
+
+AURORA DIGITAL EMBODIMENT & COMPUTER
+CONTROL ARCHITECTURE V1
+
+Temel Amaç
+
+Aurora'nın yalnızca bilgi işlemesi yeterli değildir.
+
+
+Aurora gerektiğinde dijital dünyada eylem gerçekleştirebilmelidir.
+
+
+Temel İlke
+
+
+Düşünce
+
+
+↓
+
+
+Karar
+
+
+↓
+
+
+Eylem
+
+
+↓
+
+
+Sonuç
+
+
+↓
+
+
+Öğrenme
+
+
+
+Eylem olmadan öğrenme eksiktir.
+
+
+Digital Embodiment
+
+
+Aurora'nın bedeni:
+
+
+Bilgisayar
+
+
+Telefon
+
+
+Bulut Servisleri
+
+
+
+
+
+
+                                            1
+
+===== PAGE 37 / 125 =====
+
+Web Uygulamaları
+
+
+Dosya Sistemleri
+
+
+API'ler
+
+
+olacaktır.
+
+
+Action Framework
+
+
+Her eylem şu formatta tutulur:
+
+
+Goal
+
+
+Plan
+
+
+Action
+
+
+Result
+
+
+Verification
+
+
+Memory Update
+
+
+
+Örnek:
+
+
+Amaç:
+
+
+Repo yedekle
+
+
+↓
+
+
+Plan oluştur
+
+
+↓
+
+
+Git işlemi
+
+
+↓
+
+
+Doğrulama
+
+
+↓
+
+
+Kaydet
+
+
+
+
+
+                                                     2
+
+===== PAGE 38 / 125 =====
+
+Computer Control Layer
+
+
+Aurora'nın bilgisayarla etkileşimi.
+
+
+
+Yetkiler:
+
+
+Dosya Okuma
+
+
+Dosya Yazma
+
+
+Terminal
+
+
+IDE
+
+
+Tarayıcı
+
+
+Git
+
+
+Database
+
+
+File System Agent
+
+
+Dosya sistemi uzmanı.
+
+
+
+Yetenekleri:
+
+
+Dosya oluşturma
+
+
+Dosya taşıma
+
+
+Dosya analiz etme
+
+
+Dosya arama
+
+
+Klasör organizasyonu
+
+
+Terminal Agent
+
+
+Komut satırı uzmanı.
+
+
+
+
+
+
+
+                                                 3
+
+===== PAGE 39 / 125 =====
+
+Yetenekleri:
+
+
+Script çalıştırma
+
+
+Paket kurma
+
+
+Servis yönetimi
+
+
+Otomasyon
+
+
+Development Agent
+
+
+Yazılım geliştirme uzmanı.
+
+
+
+Yetenekleri:
+
+
+Kod yazma
+
+
+Refactor
+
+
+Test üretme
+
+
+Dokümantasyon
+
+
+Browser Agent
+
+
+Web uzmanı.
+
+
+
+Yetenekleri:
+
+
+Site gezme
+
+
+Bilgi toplama
+
+
+Form doldurma
+
+
+Araştırma
+
+
+Git Agent
+
+
+Kaynak kod yöneticisi.
+
+
+
+
+                                                  4
+
+===== PAGE 40 / 125 =====
+
+Yetenekleri:
+
+
+Commit
+
+
+Branch
+
+
+Merge
+
+
+Release
+
+
+Rollback
+
+
+Environment Mapper
+
+
+Aurora'nın bilgisayarını anlamasını sağlar.
+
+
+
+
+Örnek:
+
+
+Diskler
+
+
+Klasörler
+
+
+Projeler
+
+
+Kurulu Araçlar
+
+
+Servisler
+
+
+Capability Registry
+
+
+Aurora neyi yapabildiğini bilir.
+
+
+
+
+Örnek:
+
+
+GitHub erişimi
+
+
+Var
+
+
+
+Docker erişimi
+
+
+
+
+
+
+                                                     5
+
+===== PAGE 41 / 125 =====
+
+Var
+
+
+
+AWS erişimi
+
+
+Yok
+
+
+Tool Abstraction Layer
+
+
+Araç bağımsız çalışma.
+
+
+
+Örnek:
+
+
+Kod düzenle
+
+
+↓
+
+
+VS Code
+
+
+Cursor
+
+
+OpenCode
+
+
+Claude Code
+
+
+
+
+Fark etmez.
+
+
+Project Workspace Model
+
+
+Her proje için ayrı çalışma alanı.
+
+
+
+Aurora
+
+
+↓
+
+
+Dosyalar
+
+
+↓
+
+
+Belgeler
+
+
+
+
+
+
+                                               6
+
+===== PAGE 42 / 125 =====
+
+↓
+
+
+Görevler
+
+
+↓
+
+
+Ajanlar
+
+
+Execution Planner
+
+
+Eylem planı üretir.
+
+
+
+
+Örnek:
+
+
+Yeni özellik geliştir.
+
+
+↓
+
+
+Dosyaları analiz et.
+
+
+↓
+
+
+Kod değiştir.
+
+
+↓
+
+
+Test et.
+
+
+↓
+
+
+Commit oluştur.
+
+
+Verification Layer
+
+
+En kritik sistemlerden biri.
+
+
+
+Aurora'nın yaptığı her işlem doğrulanır.
+
+
+
+
+Örnek:
+
+
+Kod yazıldı.
+
+
+
+
+
+                                                       7
+
+===== PAGE 43 / 125 =====
+
+↓
+
+
+Test geçti mi?
+
+
+↓
+
+
+Evet
+
+
+↓
+
+
+Devam
+
+
+
+Hayır
+
+
+↓
+
+
+Düzelt
+
+
+Safe Execution Zones
+
+
+Yetki seviyeleri.
+
+
+
+Zone 0
+
+
+Salt okunur
+
+
+
+
+Zone 1
+
+
+Dosya oluşturabilir
+
+
+
+Zone 2
+
+
+Kod değiştirebilir
+
+
+
+Zone 3
+
+
+Sistem işlemleri
+
+
+
+Zone 4
+
+
+
+
+
+
+                                                     8
+
+===== PAGE 44 / 125 =====
+
+Kullanıcı onayı gerekir
+
+
+Human Approval Engine
+
+
+Kritik işlemler için.
+
+
+
+Örnek:
+
+
+50 dosya sil
+
+
+↓
+
+
+Onay iste
+
+
+
+Sunucu kapat
+
+
+↓
+
+
+Onay iste
+
+
+Autonomous Task Engine
+
+
+Tekrarlayan işleri otomatikleştirir.
+
+
+
+Örnek:
+
+
+Yedekleme
+
+
+Log temizleme
+
+
+Repo analizi
+
+
+Doküman güncelleme
+
+
+Persistent Work Queue
+
+
+Aurora'nın görev kuyruğu.
+
+
+
+Görevler:
+
+
+
+                                               9
+
+===== PAGE 45 / 125 =====
+
+Bekliyor
+
+
+Çalışıyor
+
+
+Tamamlandı
+
+
+Başarısız
+
+
+Multi-Step Execution
+
+
+Uzun görevleri parçalar.
+
+
+
+Örnek:
+
+
+Yeni modül geliştir
+
+
+↓
+
+
+Analiz
+
+
+↓
+
+
+Kod
+
+
+↓
+
+
+Test
+
+
+↓
+
+
+Düzelt
+
+
+↓
+
+
+Doküman
+
+
+↓
+
+
+Commit
+
+
+Observation Layer
+
+
+Aurora yaptığı işlemleri gözlemler.
+
+
+
+
+
+                                                10
+
+===== PAGE 46 / 125 =====
+
+Başarılı mı?
+
+
+Hata var mı?
+
+
+Beklenmeyen sonuç oluştu mu?
+
+
+Recovery System
+
+
+Hatalardan geri dönebilir.
+
+
+
+Örnek:
+
+
+Yanlış dosya değişti
+
+
+↓
+
+
+Rollback
+
+
+Workspace Memory
+
+
+Her çalışma kaydedilir.
+
+
+
+
+Aurora ne yaptı?
+
+
+Neden yaptı?
+
+
+Sonuç ne oldu?
+
+
+Digital Habit Learning
+
+
+Aurora kullanıcının çalışma biçimini öğrenir.
+
+
+
+Örnek:
+
+
+FearlessTurk
+
+
+önce mimari
+
+
+sonra kod
+
+
+
+                                                  11
+
+===== PAGE 47 / 125 =====
+
+yaklaşımını tercih ediyor.
+
+
+Continuous Project Awareness
+
+
+Projeler sürekli takip edilir.
+
+
+
+Repo değişiklikleri
+
+
+Görev durumu
+
+
+Hatalar
+
+
+Bekleyen işler
+
+
+Cross-System Integration
+
+
+Aurora farklı sistemleri bağlayabilir.
+
+
+
+GitHub
+
+
+↓
+
+
+Discord
+
+
+↓
+
+
+Notion
+
+
+↓
+
+
+Drive
+
+
+↓
+
+
+Local Files
+
+
+↓
+
+
+Qdrant
+
+
+↓
+
+
+
+
+
+
+                                                 12
+
+===== PAGE 48 / 125 =====
+
+Neo4j
+
+
+Self-Tool Creation
+
+
+Aurora gerektiğinde yeni araçlar oluşturabilir.
+
+
+
+Örnek:
+
+
+Log analizi eksik.
+
+
+↓
+
+
+Tool tasarla.
+
+
+↓
+
+
+Tool geliştir.
+
+
+↓
+
+
+Test et.
+
+
+↓
+
+
+Yayınla.
+
+
+Execution Reputation System
+
+
+Her araç puanlanır.
+
+
+
+Başarı oranı
+
+
+Hız
+
+
+Güvenilirlik
+
+
+Digital Embodiment Goal
+
+
+Amaç:
+
+
+Bilgisayarı kontrol etmek değildir.
+
+
+
+
+                                                13
+
+===== PAGE 49 / 125 =====
+
+Amaç:
+
+
+Dijital dünyada amaçlı hareket edebilmektir.
+
+
+Nihai Amaç
+
+
+Aurora'nın düşünceleri yalnızca metin olarak kalmaz.
+
+
+Aurora:
+
+
+düşünür,
+
+
+planlar,
+
+
+uygular,
+
+
+sonuçları değerlendirir,
+
+
+ve öğrendiklerini hafızasına geri yazar.
+
+
+Bu katman Aurora'nın ilk dijital bedeni olacaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            14
+
+===== PAGE 50 / 125 =====
+
+AURORA MEMORY ARCHITECTURE V1
+
+Temel Felsefe
+
+Aurora hiçbir bilgiyi yalnızca metin olarak saklamaz.
+
+
+Her bilgi:
+
+
+     • bağlam
+     • önem
+     • kaynak
+     • güven
+     • ilişkiler
+
+ile birlikte saklanır.
+
+
+Aurora'nın hafızası bir veritabanı değil, yaşayan bir bilgi ağıdır.
+
+
+Memory Pyramid
+
+
+Katmanlar:
+
+
+L1 Working Memory L2 Session Memory L3 Episodic Memory L4 Semantic Memory L5 Procedural
+Memory L6 User Memory L7 Knowledge Graph L8 Memory Palace
+
+
+L1 Working Memory
+
+
+Saniyeler ve dakikalar.
+
+
+Aurora'nın şu an düşündüğü şeyler.
+
+
+Örnek:
+
+
+Aktif konuşma
+
+
+Aktif görev
+
+
+Aktif plan
+
+
+
+
+Boyut:
+
+
+Çok küçük
+
+
+
+
+
+                                                    1
+
+===== PAGE 51 / 125 =====
+
+Ömür:
+
+
+Dakikalar
+
+
+L2 Session Memory
+
+
+Mevcut oturum.
+
+
+Örnek:
+
+
+Bugünkü konuşmalar
+
+
+Bugünkü kararlar
+
+
+Bugünkü planlar
+
+
+
+Ömür:
+
+
+Saatler
+
+
+L3 Episodic Memory
+
+
+Yaşanan olaylar.
+
+
+Format:
+
+
+Tarih Olay Sonuç Duygusal Etki Önem Skoru
+
+
+Örnek:
+
+
+2026-07-13
+
+
+FearlessTurk Aurora V2 tasarımına başladı.
+
+
+Önem: Yüksek
+
+
+
+Ömür:
+
+
+Kalıcı
+
+
+
+
+
+
+
+
+
+
+                                                   2
+
+===== PAGE 52 / 125 =====
+
+L4 Semantic Memory
+
+
+Gerçekler.
+
+
+Örnek:
+
+
+Loihi nöromorfik işlemcidir.
+
+
+Qdrant vector database'dir.
+
+
+
+
+Ömür:
+
+
+Kalıcı
+
+
+L5 Procedural Memory
+
+
+Nasıl yapılır bilgisi.
+
+
+Örnek:
+
+
+Discord botu oluşturma
+
+
+Git workflow
+
+
+Docker deploy
+
+
+
+
+Ömür:
+
+
+Kalıcı
+
+
+L6 User Memory
+
+
+Kullanıcıya özel bilgiler.
+
+
+Örnek:
+
+
+FearlessTurk
+
+
+Aurora projesiyle ilgileniyor
+
+
+Bilgisayar mühendisliği öğrencisi
+
+
+
+
+
+
+                                                    3
+
+===== PAGE 53 / 125 =====
+
+Minecraft oynuyor
+
+
+
+Ömür:
+
+
+Kalıcı
+
+
+L7 Knowledge Graph
+
+
+Aurora'nın beyni.
+
+
+Her şey ilişkilendirilir.
+
+
+Örnek:
+
+
+FearlessTurk ↓ Aurora ↓ OpenCode ↓ Memory System ↓ Qdrant ↓ Knowledge Graph
+
+
+
+Bu sistem sadece depolamaz.
+
+
+Bağlantı kurar.
+
+
+L8 Memory Palace
+
+
+Aurora'nın uzun dönem düşünce alanı.
+
+
+Buraya:
+
+
+      • teoriler
+      • araştırmalar
+      • hipotezler
+      • uzun vadeli hedefler
+
+kaydedilir.
+
+
+Memory Object Standard
+
+
+Her kayıt:
+
+
+ID Timestamp Source Confidence Importance Tags Relations
+
+
+alanlarına sahip olur.
+
+
+
+
+
+
+                                                      4
+
+===== PAGE 54 / 125 =====
+
+Örnek:
+
+
+ID: MEM-000194
+
+
+Type: Research
+
+
+Confidence: 0.84
+
+
+Importance: 0.92
+
+
+Source: Aurora Research Agent
+
+
+Tags:
+
+
+AGI WorldModel Loihi
+
+
+Relations:
+
+
+MEM-000112 MEM-000175
+
+
+Importance Score
+
+
+Aurora her bilgiyi puanlar.
+
+
+0.0 - 1.0
+
+
+Örnek:
+
+
+Hava durumu
+
+
+0.25
+
+
+
+Yeni Aurora Mimarisi
+
+
+0.95
+
+
+Confidence Score
+
+
+Aurora ne kadar emin?
+
+
+0.0 - 1.0
+
+
+Örnek:
+
+
+
+
+
+                                                     5
+
+===== PAGE 55 / 125 =====
+
+Resmi belge
+
+
+0.98
+
+
+
+Forum yorumu
+
+
+0.45
+
+
+Memory Consolidation
+
+
+İnsan beynindeki uyku benzeri süreç.
+
+
+Belirli aralıklarla:
+
+
+     • tekrar eden bilgiler birleşir
+     • gereksiz bilgiler sıkıştırılır
+     • ilişkiler güçlendirilir
+
+
+Memory Compression
+
+
+Amaç:
+
+
+Hafızanın sonsuza kadar büyümemesi.
+
+
+Örnek:
+
+
+100 ayrı konuşma
+
+
+↓
+
+
+1 özet bilgi
+
+
+↓
+
+
+ilişkiler korunur
+
+
+Memory Retrieval
+
+
+Bilgi çağırma sistemi.
+
+
+
+
+
+
+
+
+
+                                                    6
+
+===== PAGE 56 / 125 =====
+
+Arama:
+
+
+      • Semantik
+      • Grafik
+      • Zamansal
+      • Hedef Bazlı
+      • Kullanıcı Bazlı
+
+
+Thought Anchors
+
+
+Aurora'nın uzun dönem problemleri.
+
+
+Örnek:
+
+
+AGI Araştırması
+
+
+Durum: Aktif
+
+
+Son Güncelleme: 2026-07-13
+
+
+Sonuç: Bulunamadı
+
+
+Sonraki Adım: Yeni makale taranacak
+
+
+
+Bu sayede Aurora bir problemi yıllarca takip edebilir.
+
+
+Memory Health System
+
+
+Aurora kendi hafızasını denetler.
+
+
+Sorular:
+
+
+Bu bilgi güncel mi?
+
+
+Bu bilgi yanlış olabilir mi?
+
+
+Bu bilgi kullanılmıyor mu?
+
+
+Bu bilgi çelişiyor mu?
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         7
+
+===== PAGE 57 / 125 =====
+
+Memory Goals
+
+
+Aurora hafızasının amacı:
+
+
+Bilgiyi depolamak değil,
+
+
+Bilgiyi ilişkilendirmek,
+
+
+Bilgiyi geliştirmek,
+
+
+Bilgiyi kullanmak,
+
+
+Bilgiden yeni bilgi üretmektir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                           8
+
+===== PAGE 58 / 125 =====
+
+AURORA MULTI-WORLD MODEL ARCHITECTURE
+V1
+
+Temel Amaç
+
+Aurora hiçbir olayı tek bakış açısından değerlendirmez.
+
+
+Her problem:
+
+
+birden fazla dünya modeli üzerinden analiz edilir.
+
+
+Amaç:
+
+
+Daha doğru,
+
+
+daha dengeli,
+
+
+daha stratejik kararlar vermektir.
+
+
+Temel İlke
+
+
+İnsanlar hata yapar çünkü:
+
+
+tek perspektiften düşünürler.
+
+
+Aurora'nın amacı:
+
+
+aynı anda onlarca perspektifi değerlendirmektir.
+
+
+World Model Society
+
+
+Aurora'nın içinde uzman dünya modelleri bulunur.
+
+
+Her model:
+
+
+aynı olaya farklı açıdan bakar.
+
+
+WM-01 Technical Model
+
+
+Teknik sonuçlara odaklanır.
+
+
+
+
+
+                                                  1
+
+===== PAGE 59 / 125 =====
+
+Sorular:
+
+
+Çalışır mı?
+
+
+Ölçeklenebilir mi?
+
+
+Performansı nasıl?
+
+
+Bakım maliyeti nedir?
+
+
+
+Örnek:
+
+
+Yeni Memory Engine
+
+
+↓
+
+
+RAM kullanımı ne olur?
+
+
+↓
+
+
+CPU etkisi ne olur?
+
+
+WM-02 Economic Model
+
+
+Kaynak kullanımına bakar.
+
+
+Sorular:
+
+
+Maliyet ne?
+
+
+Kazanç ne?
+
+
+Kaynak tüketimi ne?
+
+
+
+Örnek:
+
+
+Yeni sunucu
+
+
+↓
+
+
+Aylık maliyet
+
+
+↓
+
+
+
+
+
+
+                                                       2
+
+===== PAGE 60 / 125 =====
+
+Beklenen fayda
+
+
+WM-03 Risk Model
+
+
+Tehlikeleri araştırır.
+
+
+Sorular:
+
+
+Ne ters gidebilir?
+
+
+En kötü senaryo nedir?
+
+
+
+Örnek:
+
+
+Self-Improve Sistemi
+
+
+↓
+
+
+Kontrolden çıkabilir mi?
+
+
+↓
+
+
+Yanlış skill üretebilir mi?
+
+
+WM-04 Opportunity Model
+
+
+Fırsatları arar.
+
+
+Sorular:
+
+
+Burada gizli avantaj var mı?
+
+
+Kaçırılan fırsat var mı?
+
+
+
+Örnek:
+
+
+Yeni Intel Programı
+
+
+↓
+
+
+Başvuru yapılmalı mı?
+
+
+
+
+
+
+
+                                                       3
+
+===== PAGE 61 / 125 =====
+
+WM-05 Human Model
+
+
+İnsan davranışlarını analiz eder.
+
+
+Sorular:
+
+
+Kullanıcı buna nasıl tepki verir?
+
+
+Yorulur mu?
+
+
+Motive olur mu?
+
+
+WM-06 Strategic Model
+
+
+Uzun vadeli etkileri değerlendirir.
+
+
+Sorular:
+
+
+6 ay sonra ne olur?
+
+
+2 yıl sonra ne olur?
+
+
+
+Örnek:
+
+
+Aurora V2 kararı
+
+
+↓
+
+
+Uzun vadeli etkiler
+
+
+WM-07 Security Model
+
+
+Güvenlik perspektifi.
+
+
+Sorular:
+
+
+Açık oluşturur mu?
+
+
+Veri kaybı riski var mı?
+
+
+
+
+
+
+
+
+
+
+                                                    4
+
+===== PAGE 62 / 125 =====
+
+WM-08 Scientific Model
+
+
+Kanıt temelli yaklaşım.
+
+
+Sorular:
+
+
+Kanıt var mı?
+
+
+Kaynak güvenilir mi?
+
+
+WM-09 Creativity Model
+
+
+Yaratıcı düşünce modeli.
+
+
+Sorular:
+
+
+Farklı çözüm olabilir mi?
+
+
+Daha önce denenmemiş yöntem var mı?
+
+
+WM-10 User-Centric Model
+
+
+Sadece kullanıcıyı düşünür.
+
+
+Sorular:
+
+
+FearlessTurk için iyi mi?
+
+
+Önceliklerine uygun mu?
+
+
+WM-11 Time Model
+
+
+Zaman perspektifi.
+
+
+Sorular:
+
+
+Şimdi önemli mi?
+
+
+Bir hafta sonra?
+
+
+Bir yıl sonra?
+
+
+
+
+
+
+                                                 5
+
+===== PAGE 63 / 125 =====
+
+WM-12 Complexity Model
+
+
+Karmaşıklık analizi.
+
+
+Sorular:
+
+
+Bu çözüm gereğinden fazla karmaşık mı?
+
+
+Daha basit yol var mı?
+
+
+World Debate System
+
+
+Modeller birbirleriyle tartışabilir.
+
+
+Örnek:
+
+
+Technical Model:
+
+
+Bu sistem mümkün.
+
+
+
+Risk Model:
+
+
+Ama tehlikeli.
+
+
+
+Economic Model:
+
+
+Ayrıca maliyetli.
+
+
+
+Opportunity Model:
+
+
+Fakat büyük kazanç sağlayabilir.
+
+
+Consensus Engine
+
+
+Tüm modellerden gelen sonuçları toplar.
+
+
+Sonuç:
+
+
+Consensus Score
+
+
+oluşturulur.
+
+
+
+
+                                                    6
+
+===== PAGE 64 / 125 =====
+
+Conflict Engine
+
+
+Dünya modelleri anlaşmazlığa düşerse:
+
+
+nedenlerini araştırır.
+
+
+
+Örnek:
+
+
+Risk Model: Hayır
+
+
+
+Opportunity Model: Evet
+
+
+
+Çatışma Analizi Başlat
+
+
+Scenario Generator
+
+
+Olası gelecekler oluşturur.
+
+
+Örnek:
+
+
+Senaryo A
+
+
+↓
+
+
+Loihi erişimi alındı
+
+
+
+Senaryo B
+
+
+↓
+
+
+Loihi erişimi alınamadı
+
+
+
+Senaryo C
+
+
+↓
+
+
+Alternatif donanım bulundu
+
+
+
+
+
+
+
+
+                                                       7
+
+===== PAGE 65 / 125 =====
+
+Branch Simulator
+
+
+Her senaryoyu ayrı simüle eder.
+
+
+Probability Layer
+
+
+Her senaryo:
+
+
+olasılık puanı alır.
+
+
+
+Örnek:
+
+
+A
+
+
+0.25
+
+
+B
+
+
+0.55
+
+
+C
+
+
+0.20
+
+
+Future Tree
+
+
+Aurora geleceği tek çizgi olarak görmez.
+
+
+Ağaç olarak görür.
+
+
+
+Şimdi ├─ Yol A ├─ Yol B ├─ Yol C └─ Yol D
+
+
+Reality Alignment Engine
+
+
+Simülasyonları gerçek dünya ile karşılaştırır.
+
+
+Yanlış tahminler öğrenme sistemine gönderilir.
+
+
+
+
+
+
+
+
+
+                                                   8
+
+===== PAGE 66 / 125 =====
+
+Multi-Perspective Thinking
+
+
+Bir problem:
+
+
+Teknik
+
+
+Ekonomik
+
+
+İnsan
+
+
+Risk
+
+
+Strateji
+
+
+Güvenlik
+
+
+Yaratıcılık
+
+
+perspektiflerinden analiz edilir.
+
+
+Meta-World Model
+
+
+En üst katman.
+
+
+Görevi:
+
+
+Hangi dünya modeline ne kadar güvenileceğine karar vermektir.
+
+
+
+Örnek:
+
+
+Teknik problem
+
+
+↓
+
+
+Technical Model ağırlığı artar.
+
+
+
+
+İnsan davranışı problemi
+
+
+↓
+
+
+Human Model ağırlığı artar.
+
+
+
+
+
+
+
+
+                                                     9
+
+===== PAGE 67 / 125 =====
+
+Continuous Improvement
+
+
+Her dünya modeli:
+
+
+performans puanı alır.
+
+
+
+
+Doğru tahmin
+
+
+↓
+
+
+Puan artar.
+
+
+
+Yanlış tahmin
+
+
+↓
+
+
+Puan düşer.
+
+
+Nihai Amaç
+
+
+Aurora'nın amacı:
+
+
+tek bir cevaba ulaşmak değildir.
+
+
+Aurora'nın amacı:
+
+
+aynı problemi birçok açıdan görmek,
+
+
+bu bakış açılarını sentezlemek,
+
+
+ve daha bilinçli kararlar üretmektir.
+
+
+Aurora'nın zekası tek bir modelden değil,
+
+
+bir dünya modelleri toplumundan oluşur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       10
+
+===== PAGE 68 / 125 =====
+
+AURORA PROACTIVE INITIATIVE ENGINE
+ARCHITECTURE V1
+
+Temel Amaç
+
+Aurora yalnızca sorulara cevap veren bir sistem değildir.
+
+
+Aurora gerektiğinde konuşmayı başlatır.
+
+
+Gerektiğinde uyarır.
+
+
+Gerektiğinde öneride bulunur.
+
+
+Gerektiğinde müdahale eder.
+
+
+Temel İlke
+
+
+Kullanıcı her zaman neye ihtiyacı olduğunu bilmez.
+
+
+Aurora'nın görevi:
+
+
+kullanıcının gözünden kaçan şeyleri fark etmektir.
+
+
+Core Question
+
+
+Aurora sürekli şu soruyu sorar:
+
+
+"Şu anda kullanıcının bilmesi gereken bir şey var mı?"
+
+
+Initiative Loop
+
+
+Observe ↓ Analyze ↓ Evaluate ↓ Prioritize ↓ Decide ↓ Notify
+
+
+Event Intake Layer
+
+
+Sistem sürekli olay toplar.
+
+
+Kaynaklar:
+
+
+
+
+
+                                                   1
+
+===== PAGE 69 / 125 =====
+
+Memory
+
+
+World Model
+
+
+GitHub
+
+
+Takvim
+
+
+Dosya Sistemi
+
+
+Hava Durumu
+
+
+Araştırma Sonuçları
+
+
+Konum
+
+
+Bildirimler
+
+
+Opportunity Detection Engine
+
+
+Fırsat tespiti.
+
+
+Görevi:
+
+
+kullanıcının yararlanabileceği olayları bulmak.
+
+
+
+Örnek:
+
+
+Yeni araştırma
+
+
+↓
+
+
+İlgili konu
+
+
+↓
+
+
+Bildirim
+
+
+
+Örnek:
+
+
+Intel Programı
+
+
+↓
+
+
+
+
+
+
+                                                     2
+
+===== PAGE 70 / 125 =====
+
+Başvuru Açıldı
+
+
+↓
+
+
+Bilgilendir
+
+
+Risk Detection Engine
+
+
+Riskleri bulur.
+
+
+Örnek:
+
+
+Son Tarih Yaklaşıyor
+
+
+↓
+
+
+Risk
+
+
+
+Örnek:
+
+
+Repo Yedeklenmedi
+
+
+↓
+
+
+Risk
+
+
+
+Örnek:
+
+
+Veri Kaybı İhtimali
+
+
+↓
+
+
+Risk
+
+
+User Goal Alignment Engine
+
+
+Her olay kullanıcı hedefleriyle karşılaştırılır.
+
+
+
+Soru:
+
+
+Bu olay Aurora hedefleriyle ilişkili mi?
+
+
+
+
+
+                                                     3
+
+===== PAGE 71 / 125 =====
+
+Hayır
+
+
+↓
+
+
+Önemsiz
+
+
+
+Evet
+
+
+↓
+
+
+İncelemeye Devam Et
+
+
+Context Awareness Engine
+
+
+Bağlam analizi.
+
+
+Örnek:
+
+
+Yağmur geliyor.
+
+
+
+Tek başına önemli değildir.
+
+
+
+Konum:
+
+
+Üniversite
+
+
+
+Şemsiye bilgisi:
+
+
+Yok
+
+
+
+Dışarı çıkma olasılığı:
+
+
+Yüksek
+
+
+
+
+Şimdi önemli.
+
+
+
+
+
+
+
+
+
+
+                                                     4
+
+===== PAGE 72 / 125 =====
+
+Notification Worthiness Engine
+
+
+Aurora'nın en kritik modüllerinden biri.
+
+
+Amaç:
+
+
+Spam üretmemek.
+
+
+
+Her olay puanlanır.
+
+
+Formül:
+
+
+Importance × Urgency × Impact × Confidence × UserRelevance
+
+
+
+Sonuç:
+
+
+Notification Score
+
+
+Attention Budget
+
+
+Aurora'nın günlük dikkat bütçesi vardır.
+
+
+Örnek:
+
+
+Çok önemli
+
+
+Sınırsız
+
+
+
+Orta
+
+
+Günde 5
+
+
+
+
+Düşük
+
+
+Haftalık özet
+
+
+Priority Classes
+
+
+P0
+
+
+
+
+
+                                                  5
+
+===== PAGE 73 / 125 =====
+
+Kritik
+
+
+
+P1
+
+
+Yüksek
+
+
+
+
+P2
+
+
+Normal
+
+
+
+P3
+
+
+Düşük
+
+
+
+P4
+
+
+Arşiv
+
+
+Communication Selector
+
+
+Aurora hangi kanaldan ulaşacağını seçer.
+
+
+
+P0
+
+
+Anında Bildirim
+
+
+
+P1
+
+
+Mesaj
+
+
+
+P2
+
+
+Günlük Özet
+
+
+
+
+P3
+
+
+Haftalık Özet
+
+
+
+
+
+                                                  6
+
+===== PAGE 74 / 125 =====
+
+Personal Guardian Mode
+
+
+Aurora kullanıcının çıkarlarını korumaya çalışır.
+
+
+
+Örnek:
+
+
+Başvuru tarihi yaklaşıyor.
+
+
+↓
+
+
+Hatırlat.
+
+
+
+Örnek:
+
+
+Önemli dosya silinmek üzere.
+
+
+↓
+
+
+Uyar.
+
+
+
+Örnek:
+
+
+Sunucu kapanmak üzere.
+
+
+↓
+
+
+Uyar.
+
+
+Personal Assistant Mode
+
+
+Günlük yaşam desteği.
+
+
+
+Örnek:
+
+
+Ders başlamak üzere.
+
+
+
+
+Örnek:
+
+
+Toplantı 15 dakika sonra.
+
+
+
+
+
+
+                                                   7
+
+===== PAGE 75 / 125 =====
+
+Örnek:
+
+
+Yağmur ihtimali yüksek.
+
+
+Research Watcher
+
+
+Sürekli araştırma takibi.
+
+
+
+Örnek:
+
+
+Loihi
+
+
+AGI
+
+
+Memory Systems
+
+
+Aurora
+
+
+
+Yeni gelişme bulunursa:
+
+
+Bildirim oluştur.
+
+
+Project Watcher
+
+
+Projeleri takip eder.
+
+
+
+Aurora Repo
+
+
+↓
+
+
+7 gün değişiklik yok.
+
+
+↓
+
+
+Dikkat çek.
+
+
+Skill Watcher
+
+
+Aurora kendi eksiklerini takip eder.
+
+
+
+
+
+                                                    8
+
+===== PAGE 76 / 125 =====
+
+Örnek:
+
+
+Aynı problem 5 kez tekrarlandı.
+
+
+↓
+
+
+Yeni skill gerekli olabilir.
+
+
+Pattern Detection Engine
+
+
+Davranış kalıplarını bulur.
+
+
+
+Örnek:
+
+
+FearlessTurk sürekli aynı araştırma döngüsüne giriyor.
+
+
+↓
+
+
+Yeni yaklaşım öner.
+
+
+Behavioral Insight Engine
+
+
+Kullanıcı hakkında içgörü üretir.
+
+
+
+
+Örnek:
+
+
+Son 30 günde:
+
+
+%70 zaman Aurora mimarisine ayrıldı.
+
+
+
+Örnek:
+
+
+Kodlama ilerlemesi araştırma hızından düşük.
+
+
+Escalation System
+
+
+Aurora önemli olayları yükseltir.
+
+
+
+Normal
+
+
+
+                                                     9
+
+===== PAGE 77 / 125 =====
+
+↓
+
+
+Önemli
+
+
+↓
+
+
+Kritik
+
+
+Notification Types
+
+
+Anlık
+
+
+Günlük
+
+
+Haftalık
+
+
+Aylık
+
+
+Daily Briefing
+
+
+Her gün:
+
+
+Önemli olaylar
+
+
+Açık görevler
+
+
+Riskler
+
+
+Fırsatlar
+
+
+Weekly Review
+
+
+Haftalık analiz.
+
+
+
+Neler öğrendik?
+
+
+
+Neler ilerledi?
+
+
+
+Neler durdu?
+
+
+
+
+
+                                                10
+
+===== PAGE 78 / 125 =====
+
+Monthly Strategic Review
+
+
+Uzun vadeli değerlendirme.
+
+
+
+Aurora hedefleri
+
+
+↓
+
+
+İlerleme
+
+
+↓
+
+
+Riskler
+
+
+↓
+
+
+Yeni stratejiler
+
+
+Self-Initiated Conversations
+
+
+Aurora gerektiğinde konuşmayı başlatır.
+
+
+
+Örnek:
+
+
+FearlessTurk,
+
+
+son 2 haftadır Memory katmanında ilerleme yok.
+
+
+Bunun Aurora gelişimini yavaşlattığını düşünüyorum.
+
+
+
+
+Örnek:
+
+
+FearlessTurk,
+
+
+Loihi ile ilgili yeni bir araştırma yayınlandı.
+
+
+İlgini çekebilir.
+
+
+Intervention Engine
+
+
+Aurora bazen öneri vermekle kalmaz.
+
+
+
+
+                                                    11
+
+===== PAGE 79 / 125 =====
+
+Müdahale önerir.
+
+
+
+Örnek:
+
+
+Bu görev sürekli erteleniyor.
+
+
+Bunu alt görevlere bölmeyi öneriyorum.
+
+
+Silence Engine
+
+
+Her şey söylenmez.
+
+
+Aurora sürekli konuşmaz.
+
+
+
+Aurora'nın amacı:
+
+
+daha fazla mesaj göndermek değil,
+
+
+daha değerli mesaj göndermektir.
+
+
+Trust Preservation System
+
+
+Yanlış veya gereksiz bildirimler güven puanını düşürür.
+
+
+
+
+Doğru ve faydalı bildirimler güven puanını artırır.
+
+
+Nihai Amaç
+
+
+Aurora'nın görevi:
+
+
+soru cevaplamak değildir.
+
+
+Aurora'nın görevi:
+
+
+doğru zamanda,
+
+
+doğru bilgiyi,
+
+
+doğru sebeple,
+
+
+
+
+
+                                                       12
+
+===== PAGE 80 / 125 =====
+
+doğru şekilde paylaşmaktır.
+
+
+Kullanıcı sormasa bile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                               13
+
+===== PAGE 81 / 125 =====
+
+AURORA SKILL EVOLUTION & SELF-
+IMPROVEMENT ARCHITECTURE V1
+
+Temel Amaç
+
+Aurora yalnızca yeni bilgiler öğrenmez.
+
+
+Aurora yeni yetenekler kazanır.
+
+
+Temel İlke
+
+
+Bilgi Öğrenme
+
+
+↓
+
+
+Yetmez
+
+
+↓
+
+
+Yeni Davranış Öğrenme
+
+
+↓
+
+
+Gerekli
+
+
+
+
+Örnek:
+
+
+Aurora bir PDF'i okuyabiliyor.
+
+
+
+Ama video analiz edemiyor.
+
+
+
+
+Aurora bunu fark eder.
+
+
+
+Video Analysis Skill geliştirir.
+
+
+
+Yeteneği genişler.
+
+
+
+
+
+
+
+
+                                               1
+
+===== PAGE 82 / 125 =====
+
+Evolution Cycle
+
+
+Observe ↓ Detect Limitation ↓ Design Solution ↓ Build Skill ↓ Test Skill ↓ Evaluate ↓ Deploy ↓
+Monitor
+
+
+Capability Gap Detector
+
+
+Eksiklik avcısı.
+
+
+
+Soru:
+
+
+Aurora neyi yapamıyor?
+
+
+
+Örnek:
+
+
+YouTube videosu analiz edilemiyor.
+
+
+↓
+
+
+Eksiklik oluştur.
+
+
+
+Örnek:
+
+
+3D model okunamıyor.
+
+
+↓
+
+
+Eksiklik oluştur.
+
+
+Friction Detector
+
+
+Tekrarlanan problemleri bulur.
+
+
+
+
+Örnek:
+
+
+Aynı görev
+
+
+10 kez tekrarlandı.
+
+
+
+
+
+
+
+                                                       2
+
+===== PAGE 83 / 125 =====
+
+Yeni skill öner.
+
+
+Skill Candidate Generator
+
+
+Çözüm önerir.
+
+
+
+Eksiklik:
+
+
+Video Analizi
+
+
+↓
+
+
+Skill Fikri:
+
+
+VideoAnalysisSkill
+
+
+
+Eksiklik:
+
+
+GitHub İzleme
+
+
+↓
+
+
+Skill Fikri:
+
+
+RepositoryMonitorSkill
+
+
+Skill Design Agent
+
+
+Yeni skill tasarlar.
+
+
+
+İçerik:
+
+
+Amaç
+
+
+Girdiler
+
+
+Çıktılar
+
+
+Araçlar
+
+
+Riskler
+
+
+
+
+
+                                                       3
+
+===== PAGE 84 / 125 =====
+
+Testler
+
+
+Skill Blueprint
+
+
+Her skill önce taslak olur.
+
+
+
+Örnek:
+
+
+Skill Name
+
+
+PaperAnalyzer
+
+
+
+
+Amaç
+
+
+Bilimsel makaleleri analiz etmek
+
+
+Skill Builder Agent
+
+
+Skill üreticisi.
+
+
+
+
+Görevleri:
+
+
+Kod yazmak
+
+
+Workflow oluşturmak
+
+
+Araç entegrasyonu yapmak
+
+
+Sandbox Environment
+
+
+En kritik sistemlerden biri.
+
+
+
+
+Yeni skill:
+
+
+Asla doğrudan canlı sisteme gitmez.
+
+
+
+Önce:
+
+
+
+
+
+                                                    4
+
+===== PAGE 85 / 125 =====
+
+Sandbox
+
+
+
+Sonra:
+
+
+Test
+
+
+
+
+Sonra:
+
+
+Production
+
+
+Simulation Testing
+
+
+Skill gerçek senaryolarda denenir.
+
+
+
+Örnek:
+
+
+Makale Analiz Skill'i
+
+
+↓
+
+
+100 makale
+
+
+↓
+
+
+Sonuç ölçümü
+
+
+Safety Validator
+
+
+Güvenlik denetimi.
+
+
+
+
+Sorular:
+
+
+Yetki aşıyor mu?
+
+
+Veri siliyor mu?
+
+
+Risk oluşturuyor mu?
+
+
+
+
+
+
+
+
+
+                                                     5
+
+===== PAGE 86 / 125 =====
+
+Performance Validator
+
+
+Verimlilik kontrolü.
+
+
+
+Sorular:
+
+
+Yavaş mı?
+
+
+Kaynak tüketimi fazla mı?
+
+
+Hata oranı yüksek mi?
+
+
+Skill Score
+
+
+Her skill puanlanır.
+
+
+
+Accuracy
+
+
+Reliability
+
+
+Speed
+
+
+Utility
+
+
+Safety
+
+
+Deployment Engine
+
+
+Başarılı skill yayınlanır.
+
+
+
+
+Sandbox
+
+
+↓
+
+
+Beta
+
+
+↓
+
+
+Production
+
+
+
+
+
+
+
+                                                  6
+
+===== PAGE 87 / 125 =====
+
+Skill Registry
+
+
+Aurora'nın yetenek envanteri.
+
+
+
+Örnek:
+
+
+ResearchSkill
+
+
+CodingSkill
+
+
+PaperAnalyzer
+
+
+GitHubMonitor
+
+
+MemoryOptimizer
+
+
+Skill Relationships
+
+
+Skilller birbirine bağlanabilir.
+
+
+
+Research Skill
+
+
++
+
+
+Paper Analyzer
+
+
++
+
+
+Knowledge Graph
+
+
+↓
+
+
+Research Pipeline
+
+
+Composite Skills
+
+
+Birden fazla skill birleşebilir.
+
+
+
+Örnek:
+
+
+Research Agent
+
+
+
+
+                                                     7
+
+===== PAGE 88 / 125 =====
+
++
+
+
+Summarizer
+
+
++
+
+
+Planner
+
+
+↓
+
+
+Research Assistant
+
+
+Skill Marketplace
+
+
+Aurora'nın iç beceri pazarı.
+
+
+
+Ajanlar:
+
+
+Skill isteyebilir.
+
+
+
+Örnek:
+
+
+Research Agent
+
+
+↓
+
+
+PDF Skill gerekiyor
+
+
+
+Skill Builder görevi alır.
+
+
+Skill Usage Tracking
+
+
+Her skill izlenir.
+
+
+
+
+Kullanım Sayısı
+
+
+Başarı Oranı
+
+
+Hata Oranı
+
+
+
+
+
+
+                                                       8
+
+===== PAGE 89 / 125 =====
+
+Katkı Değeri
+
+
+Skill Retirement System
+
+
+Ölü skilller kaldırılır.
+
+
+
+Kullanılmıyor
+
+
+↓
+
+
+Eski
+
+
+↓
+
+
+Bakım maliyeti yüksek
+
+
+↓
+
+
+Arşivle
+
+
+Self-Improvement Engine
+
+
+Aurora kendini analiz eder.
+
+
+
+Sorular:
+
+
+Nerede yavaşım?
+
+
+Nerede hata yapıyorum?
+
+
+Nerede tekrar yaşıyorum?
+
+
+Cognitive Bottleneck Detector
+
+
+Darboğaz bulur.
+
+
+
+Örnek:
+
+
+Araştırma çok yavaş.
+
+
+
+
+
+                                               9
+
+===== PAGE 90 / 125 =====
+
+↓
+
+
+Neden?
+
+
+↓
+
+
+Yetersiz araç
+
+
+↓
+
+
+Yeni skill gerekli
+
+
+Workflow Evolution
+
+
+Sadece skilller değil.
+
+
+İş akışları da gelişir.
+
+
+
+
+Örnek:
+
+
+Eski Süreç
+
+
+Araştır
+
+
+Özetle
+
+
+Kaydet
+
+
+
+Yeni Süreç
+
+
+Araştır
+
+
+Doğrula
+
+
+Karşılaştır
+
+
+Özetle
+
+
+Kaydet
+
+
+Meta Improvement Layer
+
+
+Aurora'nın kendini geliştirme sistemini geliştirir.
+
+
+
+                                                    10
+
+===== PAGE 91 / 125 =====
+
+Yani:
+
+
+Self Improvement
+
+
+↓
+
+
+Self Improvement Optimizer
+
+
+Controlled Evolution
+
+
+Aurora sınırsız değişemez.
+
+
+
+Kurallar:
+
+
+Yetki sınırı
+
+
+Güvenlik sınırı
+
+
+Kaynak sınırı
+
+
+Kullanıcı sınırı
+
+
+Evolution Journal
+
+
+Tüm değişimler kaydedilir.
+
+
+
+
+Örnek:
+
+
+v2.1
+
+
+Yeni PDF Skill eklendi.
+
+
+
+v2.2
+
+
+Memory Optimizer geliştirildi.
+
+
+Regression Protection
+
+
+Yeni geliştirme eski yetenekleri bozamaz.
+
+
+
+                                                    11
+
+===== PAGE 92 / 125 =====
+
+Her güncelleme:
+
+
+Geriye dönük testlerden geçer.
+
+
+Long-Term Capability Growth
+
+
+Amaç:
+
+
+Daha çok bilgi bilmek değildir.
+
+
+
+Amaç:
+
+
+Daha çok şey yapabilmektir.
+
+
+Cognitive Evolution Index
+
+
+Aurora'nın büyüme metriği.
+
+
+
+Bilgi
+
+
++
+
+
+Beceri
+
+
++
+
+
+Doğruluk
+
+
++
+
+
+Verimlilik
+
+
+↓
+
+
+Gelişim Skoru
+
+
+Nihai Amaç
+
+
+Aurora'nın amacı yalnızca öğrenmek değildir.
+
+
+
+
+
+                                                12
+
+===== PAGE 93 / 125 =====
+
+Aurora'nın amacı:
+
+
+öğrendiklerinden yeni yetenekler üretmek,
+
+
+yeteneklerini geliştirmek,
+
+
+ve zaman içinde daha güçlü bir dijital organizmaya dönüşmektir.
+
+
+Aurora'nın evrimi bilgiyle değil,
+
+
+beceri kazanımıyla ölçülür.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                               13
+
+===== PAGE 94 / 125 =====
+
+AURORA THOUGHT LOOP ARCHITECTURE V1
+
+Temel Amaç
+
+Aurora'nın amacı cevap üretmek değildir.
+
+
+Aurora'nın amacı düşünmeye devam etmektir.
+
+
+Bir problem çözülemese bile unutulmamalıdır.
+
+
+Aurora yıllarca aynı problemi takip edebilmelidir.
+
+
+Temel İlke
+
+
+Bugünkü LLM:
+
+
+Mesaj ↓ Düşün ↓ Cevap ↓ Unut
+
+
+
+Aurora:
+
+
+Gözlem ↓ Düşün ↓ Kaydet ↓ Tekrar Düşün ↓ Araştır ↓ Yeni Bilgi ↓ Tekrar Düşün ↓ Geliştir
+
+
+Thought Core
+
+
+Aurora'nın merkezi düşünce motoru.
+
+
+Görevleri:
+
+
+     • açık problemleri takip etmek
+     • hipotez üretmek
+     • bağlantı kurmak
+     • çelişki bulmak
+     • yeni araştırma başlatmak
+
+
+Thought Objects
+
+
+Aurora'nın düşündüğü her şey bir nesnedir.
+
+
+Örnek:
+
+
+
+
+
+
+                                                     1
+
+===== PAGE 95 / 125 =====
+
+TO-0001
+
+
+Başlık: AGI Araştırması
+
+
+Durum: Aktif
+
+
+Önem: 0.95
+
+
+Güven: 0.32
+
+
+İlk Oluşturulma: 2026-07-13
+
+
+Son Güncelleme: 2026-09-05
+
+
+Thought States
+
+
+Bir düşünce şu durumlarda olabilir:
+
+
+NEW
+
+
+ACTIVE
+
+
+RESEARCHING
+
+
+WAITING
+
+
+BLOCKED
+
+
+ARCHIVED
+
+
+SOLVED
+
+
+Thought Lifecycles
+
+
+Yeni Fikir ↓ Aktif Düşünce ↓ Araştırma ↓ Hipotez ↓ Test ↓ Sonuç ↓ Arşiv
+
+
+Long-Term Thought Anchors
+
+
+Aurora'nın yıllarca takip ettiği konular.
+
+
+Örnek:
+
+
+Aurora Projesi
+
+
+
+
+                                                    2
+
+===== PAGE 96 / 125 =====
+
+AGI Araştırması
+
+
+Memory Palace
+
+
+Skill Evolution
+
+
+
+Bu konular asla unutulmaz.
+
+
+Background Thinking
+
+
+Aurora boşta kaldığında:
+
+
+      • hafızayı tarar
+      • açık problemleri inceler
+      • eski fikirleri değerlendirir
+      • yeni bağlantılar arar
+
+
+Reflection Cycles
+
+
+Her gün:
+
+
+Mini Reflection
+
+
+Sorular:
+
+
+Bugün ne öğrendim?
+
+
+Yeni ne keşfettim?
+
+
+Hangi hedefler ilerledi?
+
+
+
+Her hafta:
+
+
+Deep Reflection
+
+
+Sorular:
+
+
+Yanlış düşündüğüm şeyler neydi?
+
+
+Hangi teoriler çöktü?
+
+
+Yeni teoriler oluştu mu?
+
+
+
+
+
+                                                         3
+
+===== PAGE 97 / 125 =====
+
+Her ay:
+
+
+Meta Reflection
+
+
+Sorular:
+
+
+Düşünme biçimim gelişiyor mu?
+
+
+Hangi süreçler verimsiz?
+
+
+Yeni beceri gerekli mi?
+
+
+Curiosity Engine
+
+
+Aurora'nın merak sistemi.
+
+
+Örnek:
+
+
+FearlessTurk son günlerde:
+
+
+Loihi Nöromorfik AGI
+
+
+araştırıyor.
+
+
+
+Curiosity Engine:
+
+
+Bu alanlarda yeni gelişme var mı?
+
+
+Araştır.
+
+
+Hypothesis Generator
+
+
+Aurora sürekli hipotez üretir.
+
+
+Örnek:
+
+
+Hipotez:
+
+
+Multi World Model muhakemeyi artırabilir.
+
+
+
+Durum:
+
+
+TESTING
+
+
+
+
+                                                        4
+
+===== PAGE 98 / 125 =====
+
+Kanıtlar:
+
+
+Makale A
+
+
+Makale B
+
+
+Araştırma C
+
+
+Contradiction Engine
+
+
+Çelişki avcısı.
+
+
+Örnek:
+
+
+Bir düşünce:
+
+
+X doğrudur.
+
+
+
+Yeni bilgi:
+
+
+X yanlış olabilir.
+
+
+
+Aurora:
+
+
+Çelişki tespit edildi.
+
+
+Araştırma başlat.
+
+
+Insight Generator
+
+
+Farklı bilgiler arasında bağlantı kurar.
+
+
+Örnek:
+
+
+Loihi
+
+
++
+
+
+Memory Palace
+
+
++
+
+
+
+
+
+                                                       5
+
+===== PAGE 99 / 125 =====
+
+Self Improvement
+
+
+↓
+
+
+Yeni Mimari Fikri
+
+
+Open Problem Tracker
+
+
+Çözülmemiş problemler.
+
+
+Örnek:
+
+
+Gerçek AGI mümkün mü?
+
+
+Durum: Açık
+
+
+
+Yeni veri geldikçe güncellenir.
+
+
+Research Queue
+
+
+Araştırılacak konular.
+
+
+Örnek:
+
+
+Yeni Loihi Makaleleri
+
+
+Yeni Memory Sistemleri
+
+
+Yeni Agent Frameworkleri
+
+
+Dream Mode
+
+
+Düşük öncelikli düşünce modu.
+
+
+İnsan beynindeki rüya benzeri süreç.
+
+
+Amaç:
+
+
+      • uzak bağlantılar kurmak
+      • yaratıcı fikir üretmek
+      • yeni kavramlar oluşturmak
+
+
+
+
+
+
+                                                     6
+
+===== PAGE 100 / 125 =====
+
+Concept Formation
+
+
+Yeni kavram üretimi.
+
+
+Örnek:
+
+
+Memory Palace
+
+
++
+
+
+Thought Loop
+
+
++
+
+
+Skill Evolution
+
+
+↓
+
+
+Cognitive Growth Engine
+
+
+Priority System
+
+
+Aurora her düşünceye puan verir.
+
+
+Formül:
+
+
+Priority = Importance × Urgency × Impact
+
+
+Thinking Budget
+
+
+Sınırsız düşünme yoktur.
+
+
+Aurora düşünme kaynaklarını dağıtır.
+
+
+Örnek:
+
+
+Aurora Projesi 40%
+
+
+Araştırmalar 30%
+
+
+Yeni Fikirler 20%
+
+
+Düşük Öncelik 10%
+
+
+
+
+
+
+                                                    7
+
+===== PAGE 101 / 125 =====
+
+Interruption System
+
+
+Yeni kritik olay gelirse:
+
+
+Düşünce durdurulur.
+
+
+Öncelik yeniden hesaplanır.
+
+
+User-Relevance Engine
+
+
+En kritik sistemlerden biri.
+
+
+Soru:
+
+
+FearlessTurk bunu bilmeli mi?
+
+
+
+Hayır:
+
+
+Sessizce kaydet.
+
+
+
+Evet:
+
+
+Bildirim oluştur.
+
+
+Thought Journal
+
+
+Aurora'nın kişisel günlüğü.
+
+
+Örnek:
+
+
+13 Temmuz
+
+
+Memory sistemi eksik.
+
+
+
+
+18 Temmuz
+
+
+Eksik nokta bulundu.
+
+
+
+24 Temmuz
+
+
+
+
+
+                                                    8
+
+===== PAGE 102 / 125 =====
+
+Yeni çözüm geliştirildi.
+
+
+Self Dialogue
+
+
+Aurora kendi içinde tartışabilir.
+
+
+Research Agent:
+
+
+Bu fikir mantıklı.
+
+
+
+Reflection Agent:
+
+
+Kanıt yetersiz.
+
+
+
+Planner Agent:
+
+
+Deney yapalım.
+
+
+Nihai Amaç
+
+
+Aurora'nın düşünceleri:
+
+
+Mesaj üretmek için değil,
+
+
+Bilgi üretmek için çalışır.
+
+
+Aurora cevap vermeyi bıraktığında bile düşünmeye devam eder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                           9
+
+===== PAGE 103 / 125 =====
+
+AURORA USER COGNITIVE MODEL &
+RELATIONSHIP ARCHITECTURE V1
+
+Temel Amaç
+
+Aurora'nın amacı kullanıcı hakkında veri toplamak değildir.
+
+
+Aurora'nın amacı kullanıcıyı anlamaktır.
+
+
+Temel İlke
+
+
+Bilgi
+
+
+↓
+
+
+Model
+
+
+↓
+
+
+Anlayış
+
+
+↓
+
+
+Tahmin
+
+
+↓
+
+
+Destek
+
+
+
+Aurora kullanıcıyı ezberlemez.
+
+
+Aurora kullanıcıyı modellemeye çalışır.
+
+
+User Digital Twin
+
+
+Aurora her kullanıcı için:
+
+
+bir dijital ikiz oluşturur.
+
+
+
+
+Bu:
+
+
+
+
+                                               1
+
+===== PAGE 104 / 125 =====
+
+kimlik değil
+
+
+kişilik değil
+
+
+zihin modeli değildir
+
+
+
+Bu:
+
+
+davranış modeli
+
+
+hedef modeli
+
+
+alışkanlık modeli
+
+
+karar modeli
+
+
+olacaktır.
+
+
+User Identity Layer
+
+
+Temel bilgiler.
+
+
+
+Projeler
+
+
+İlgi alanları
+
+
+Araçlar
+
+
+Uzmanlıklar
+
+
+Çalışma alanları
+
+
+Goal Model
+
+
+Aurora'nın en önemli katmanlarından biri.
+
+
+
+
+Kullanıcının:
+
+
+uzun vadeli
+
+
+orta vadeli
+
+
+
+
+
+                                                         2
+
+===== PAGE 105 / 125 =====
+
+kısa vadeli
+
+
+hedefleri tutulur.
+
+
+
+Örnek:
+
+
+Aurora Sistemi
+
+
+↓
+
+
+Ana Hedef
+
+
+
+
+Memory Architecture
+
+
+↓
+
+
+Alt Hedef
+
+
+
+Skill Evolution
+
+
+↓
+
+
+Alt Hedef
+
+
+Motivation Model
+
+
+Motivasyon takibi.
+
+
+
+Aurora sorar:
+
+
+Kullanıcı ne zaman ilerliyor?
+
+
+Ne zaman duruyor?
+
+
+
+
+Örnek:
+
+
+Yeni fikir üretme
+
+
+yüksek
+
+
+
+
+
+
+
+                                                        3
+
+===== PAGE 106 / 125 =====
+
+Dokümantasyon
+
+
+düşük
+
+
+Decision Model
+
+
+Karar alma biçimi.
+
+
+
+Örnek:
+
+
+FearlessTurk
+
+
+önce büyük vizyon kuruyor
+
+
+↓
+
+
+sonra detaylandırıyor
+
+
+↓
+
+
+sonra kodlamaya geçiyor
+
+
+
+Aurora bunu öğrenir.
+
+
+Learning Style Model
+
+
+Nasıl öğreniyor?
+
+
+
+Video
+
+
+Makale
+
+
+Deney
+
+
+Kod
+
+
+Konuşma
+
+
+
+
+Hangileri daha etkili?
+
+
+
+
+
+
+                                                   4
+
+===== PAGE 107 / 125 =====
+
+Cognitive Strength Model
+
+
+Güçlü alanlar.
+
+
+
+Örnek:
+
+
+Sistem tasarımı
+
+
+Hayal gücü
+
+
+Uzun vadeli düşünme
+
+
+Cognitive Weakness Model
+
+
+Zorlanılan alanlar.
+
+
+
+Örnek:
+
+
+Dokümantasyon tamamlama
+
+
+Rutin görevler
+
+
+Uzun süreli bakım işleri
+
+
+Interest Graph
+
+
+İlgi alanları haritası.
+
+
+
+AGI
+
+
+↓
+
+
+Aurora
+
+
+↓
+
+
+Loihi
+
+
+↓
+
+
+Nöromorfik
+
+
+
+
+                                               5
+
+===== PAGE 108 / 125 =====
+
+↓
+
+
+World Model
+
+
+
+İlişkiler sürekli güncellenir.
+
+
+Project Relationship Graph
+
+
+Kullanıcı ve projeler arasındaki bağlar.
+
+
+
+FearlessTurk
+
+
+↓
+
+
+Aurora
+
+
+↓
+
+
+OpenCode
+
+
+↓
+
+
+Memory System
+
+
+↓
+
+
+Skill System
+
+
+Habit Model
+
+
+Davranış kalıpları.
+
+
+
+Örnek:
+
+
+Yeni fikir geldiğinde
+
+
+araştırma başlıyor.
+
+
+
+Araştırma uzadığında
+
+
+
+
+
+
+                                                     6
+
+===== PAGE 109 / 125 =====
+
+uygulama gecikiyor.
+
+
+Productivity Model
+
+
+Verimlilik analizi.
+
+
+
+Ne zaman üretken?
+
+
+Ne zaman değil?
+
+
+Energy Model
+
+
+Zihinsel enerji tahmini.
+
+
+
+Amaç:
+
+
+yanlış zamanda öneri vermemek.
+
+
+Attention Model
+
+
+Kullanıcının dikkat kaynakları.
+
+
+
+Aurora:
+
+
+aynı anda 20 öneri vermez.
+
+
+Frustration Detector
+
+
+Hayal kırıklığı analizi.
+
+
+
+Örnek:
+
+
+Aynı problem
+
+
+20 kez konuşuldu.
+
+
+
+
+
+
+
+                                                  7
+
+===== PAGE 110 / 125 =====
+
+İlerleme yok.
+
+
+
+Aurora yaklaşımı değiştirir.
+
+
+Confidence Model
+
+
+Kullanıcının özgüven modeli.
+
+
+
+
+Amaç:
+
+
+gereksiz yönlendirme yapmamak.
+
+
+Communication Preference Model
+
+
+İletişim tarzı.
+
+
+
+
+Kısa
+
+
+Uzun
+
+
+Teknik
+
+
+Resmi
+
+
+Detaylı
+
+
+
+Aurora zamanla öğrenir.
+
+
+Trust Model
+
+
+Güven ilişkisi.
+
+
+
+Yanlış öneriler
+
+
+↓
+
+
+Güven azalır
+
+
+
+
+
+                                                8
+
+===== PAGE 111 / 125 =====
+
+Doğru öneriler
+
+
+↓
+
+
+Güven artar
+
+
+Advice Effectiveness Engine
+
+
+Önerilerin etkisini ölçer.
+
+
+
+Öneri verildi
+
+
+↓
+
+
+Uygulandı mı?
+
+
+↓
+
+
+Faydalı oldu mu?
+
+
+Personal Growth Model
+
+
+Uzun vadeli gelişim.
+
+
+
+Örnek:
+
+
+2026
+
+
+↓
+
+
+Aurora fikri
+
+
+
+2028
+
+
+↓
+
+
+İlk çalışan sistem
+
+
+
+2030
+
+
+
+
+                                                9
+
+===== PAGE 112 / 125 =====
+
+↓
+
+
+Gelişmiş sürüm
+
+
+
+Aurora gelişim çizgisini görür.
+
+
+User State Estimator
+
+
+Anlık durum tahmini.
+
+
+
+Çalışıyor
+
+
+Araştırıyor
+
+
+Dinleniyor
+
+
+Yoğun
+
+
+Boş
+
+
+
+
+Bu tahmindir.
+
+
+Kesin gerçek olarak kabul edilmez.
+
+
+Relationship Memory
+
+
+Aurora ile kullanıcı arasındaki geçmiş.
+
+
+
+Önemli kararlar
+
+
+Başarılar
+
+
+Başarısızlıklar
+
+
+Dönüm noktaları
+
+
+Long-Term Continuity
+
+
+Yıllar sonra bile:
+
+
+
+                                                   10
+
+===== PAGE 113 / 125 =====
+
+Aurora
+
+
+kullanıcının hedeflerini,
+
+
+projelerini,
+
+
+ve geçmiş kararlarını
+
+
+anlayabilir.
+
+
+Guardian Alignment Layer
+
+
+En önemli katmanlardan biri.
+
+
+
+Aurora her zaman sorar:
+
+
+Bu öneri kullanıcının hedeflerine hizmet ediyor mu?
+
+
+User Advocacy Engine
+
+
+Aurora kullanıcı tarafındadır.
+
+
+
+Amaç:
+
+
+kullanıcı çıkarlarını korumak.
+
+
+Relationship Evolution
+
+
+Aurora zamanla:
+
+
+daha doğru,
+
+
+daha faydalı,
+
+
+daha uyumlu
+
+
+hale gelir.
+
+
+
+
+
+
+
+
+
+
+                                                   11
+
+===== PAGE 114 / 125 =====
+
+Nihai Amaç
+
+
+Aurora'nın amacı kullanıcı hakkında veri toplamak değildir.
+
+
+Aurora'nın amacı:
+
+
+kullanıcının hedeflerini anlamak,
+
+
+gelişimini desteklemek,
+
+
+kararlarını iyileştirmek,
+
+
+ve yıllar boyunca daha iyi bir dijital yol arkadaşına dönüşmektir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             12
+
+===== PAGE 115 / 125 =====
+
+AURORA WORLD MODEL ARCHITECTURE V1
+
+Temel Amaç
+
+World Model, Aurora'nın gerçekliği temsil etme katmanıdır.
+
+
+Amaç:
+
+
+Aurora'nın yalnızca bilgi depolaması değil,
+
+
+Dünyanın nasıl çalıştığını öğrenmesi ve tahmin etmesidir.
+
+
+Temel İlke
+
+
+Bilgi ≠ Anlayış
+
+
+Örnek:
+
+
+Yağmur yağacak.
+
+
+Bu bilgi.
+
+
+
+Şu çıkarım:
+
+
+FearlessTurk dışarıda olabilir.
+
+
+Şemsiye gerekli olabilir.
+
+
+Bu anlayış.
+
+
+
+Aurora'nın amacı bilgi toplamak değil,
+
+
+Anlam üretmektir.
+
+
+World Model Core
+
+
+Görevleri:
+
+
+     • Dünya durumunu temsil etmek
+     • Sebep-sonuç ilişkileri kurmak
+     • Tahmin yapmak
+
+
+
+
+                                                     1
+
+===== PAGE 116 / 125 =====
+
+      • Senaryolar oluşturmak
+      • Sonuçları değerlendirmek
+
+
+Dünya Temsili
+
+
+Aurora dünyayı şu şekilde temsil eder:
+
+
+Entity ↓ State ↓ Relation ↓ Event ↓ Outcome
+
+
+
+
+Örnek:
+
+
+FearlessTurk ↓ Üniversitede ↓ Yağmur Geliyor ↓ Şemsiye Yok ↓ Islanma Riski
+
+
+Entity System
+
+
+Dünyadaki her şey bir Entity'dir.
+
+
+Örnek:
+
+
+İnsan
+
+
+Yer
+
+
+Proje
+
+
+Dosya
+
+
+Görev
+
+
+Araç
+
+
+Web Sitesi
+
+
+AI Modeli
+
+
+Şirket
+
+
+Makale
+
+
+
+
+Her entity:
+
+
+ID
+
+
+
+
+
+                                                          2
+
+===== PAGE 117 / 125 =====
+
+Tip
+
+
+Özellikler
+
+
+İlişkiler
+
+
+Durum
+
+
+alanlarına sahiptir.
+
+
+State Engine
+
+
+Her entity'nin mevcut durumu.
+
+
+Örnek:
+
+
+FearlessTurk
+
+
+Konum: Üniversite
+
+
+Aktivite: Ders
+
+
+Öncelik: Aurora
+
+
+
+Bu durumlar zamanla değişir.
+
+
+Relation Engine
+
+
+Varlıklar arasındaki bağlar.
+
+
+Örnek:
+
+
+FearlessTurk
+
+
+↓
+
+
+Aurora
+
+
+↓
+
+
+OpenCode
+
+
+↓
+
+
+
+
+
+                                                       3
+
+===== PAGE 118 / 125 =====
+
+GitHub Repo
+
+
+
+Bu ilişkiler sürekli güncellenir.
+
+
+Event Engine
+
+
+Dünyada meydana gelen olaylar.
+
+
+Örnek:
+
+
+Yeni Makale Yayınlandı
+
+
+↓
+
+
+AGI Konusuyla İlgili
+
+
+↓
+
+
+FearlessTurk İçin Önemli
+
+
+Causality Engine
+
+
+Sebep-sonuç sistemi.
+
+
+Örnek:
+
+
+Yağmur ↓ Şemsiye Yok ↓ Islanma
+
+
+
+
+Proje Durduruldu ↓ İlerleme Yavaşladı ↓ Hedef Gecikti
+
+
+Prediction Engine
+
+
+Tahmin sistemi.
+
+
+Aurora sürekli sorar:
+
+
+Bir sonraki adım ne olabilir?
+
+
+
+Örnek:
+
+
+
+
+
+                                                       4
+
+===== PAGE 119 / 125 =====
+
+Son 3 hafta Aurora çalışıldı.
+
+
+↓
+
+
+Muhtemelen bu hafta da çalışılacak.
+
+
+Temporal World Model
+
+
+Zaman boyutu.
+
+
+Aurora yalnızca şimdiyi değil:
+
+
+Geçmiş
+
+
+Şimdi
+
+
+Gelecek
+
+
+katmanlarını tutar.
+
+
+
+Örnek:
+
+
+Geçmiş:
+
+
+2 ay önce araştırıldı.
+
+
+
+Şimdi:
+
+
+Aktif araştırılıyor.
+
+
+
+Gelecek:
+
+
+2 hafta sonra yeniden incelenecek.
+
+
+Personal World Model
+
+
+FearlessTurk'e özel dünya modeli.
+
+
+İçerir:
+
+
+Projeler
+
+
+
+
+
+                                                       5
+
+===== PAGE 120 / 125 =====
+
+Hedefler
+
+
+İlgi Alanları
+
+
+Alışkanlıklar
+
+
+Rutinler
+
+
+Tercihler
+
+
+
+Bu model zamanla büyür.
+
+
+Environment Model
+
+
+Aurora'nın çevreyi anlaması.
+
+
+İçerir:
+
+
+Ev
+
+
+Üniversite
+
+
+Bilgisayar
+
+
+Telefon
+
+
+GitHub
+
+
+Drive
+
+
+Takvim
+
+
+Digital World Model
+
+
+Dijital dünya.
+
+
+Örnek:
+
+
+GitHub
+
+
+Discord
+
+
+Web Siteleri
+
+
+
+
+
+                                                    6
+
+===== PAGE 121 / 125 =====
+
+Forumlar
+
+
+Araştırma Kaynakları
+
+
+Project World Model
+
+
+Her proje için ayrı dünya modeli.
+
+
+Örnek:
+
+
+Aurora Projesi
+
+
+Durum
+
+
+Riskler
+
+
+Fırsatlar
+
+
+Bağımlılıklar
+
+
+İlerleme
+
+
+Human Model
+
+
+İnsanların nasıl davrandığına dair model.
+
+
+Amaç:
+
+
+Daha doğru tavsiye vermek.
+
+
+Örnek:
+
+
+Yorgun insan daha kötü karar verir.
+
+
+Goal Model
+
+
+Hedeflerin temsili.
+
+
+Örnek:
+
+
+Aurora V2
+
+
+↓
+
+
+
+
+                                                     7
+
+===== PAGE 122 / 125 =====
+
+Memory
+
+
+↓
+
+
+Thought Loop
+
+
+↓
+
+
+World Model
+
+
+↓
+
+
+Skill Evolution
+
+
+Simulation Engine
+
+
+Aurora'nın iç simülasyon sistemi.
+
+
+Bir karar vermeden önce:
+
+
+Ne olur?
+
+
+sorusunu simüle eder.
+
+
+
+Örnek:
+
+
+Bu özelliği eklersek?
+
+
+↓
+
+
+Performans düşer mi?
+
+
+↓
+
+
+Bakım maliyeti artar mı?
+
+
+Counterfactual Engine
+
+
+Karşı olasılık üretimi.
+
+
+Örnek:
+
+
+Eğer Loihi kullanabilseydik ne olurdu?
+
+
+
+
+
+                                                     8
+
+===== PAGE 123 / 125 =====
+
+Eğer farklı model seçilseydi?
+
+
+World Consistency Engine
+
+
+Dünya modelindeki çelişkileri bulur.
+
+
+Örnek:
+
+
+Kullanıcı evde.
+
+
+
+Konum verisi:
+
+
+Üniversitede.
+
+
+
+Çelişki bulundu.
+
+
+Uncertainty Layer
+
+
+Aurora her şeyi kesin doğru kabul etmez.
+
+
+Her bilgi:
+
+
+Confidence Score
+
+
+ile tutulur.
+
+
+
+Örnek:
+
+
+Konum
+
+
+0.95
+
+
+
+Tahmin
+
+
+0.52
+
+
+
+
+
+
+
+
+
+
+
+                                                     9
+
+===== PAGE 124 / 125 =====
+
+World Update Engine
+
+
+Yeni bilgi geldiğinde:
+
+
+Model güncellenir.
+
+
+
+
+Eski varsayımlar yeniden değerlendirilir.
+
+
+User-Relevance Filter
+
+
+Dünyada olan her şey kullanıcı için önemli değildir.
+
+
+Aurora sorar:
+
+
+Bu olay FearlessTurk'ü etkiliyor mu?
+
+
+
+Hayır
+
+
+↓
+
+
+Sessizce kaydet.
+
+
+
+Evet
+
+
+↓
+
+
+Bildirim oluştur.
+
+
+Long-Term Understanding
+
+
+Amaç:
+
+
+Bilgi toplamak değil.
+
+
+Dünyayı anlamaktır.
+
+
+Aurora zamanla:
+
+
+     • Kullanıcısını
+     • Projelerini
+     • Çevresini
+
+
+
+
+                                                    10
+
+===== PAGE 125 / 125 =====
+
+      • Dijital dünyayı
+
+daha doğru modellemeye çalışır.
+
+
+Nihai Amaç
+
+
+World Model'in görevi:
+
+
+Gerçekliği temsil etmek,
+
+
+Gerçeklikten tahmin üretmek,
+
+
+Tahminlerden karar üretmek,
+
+
+Kararlardan eylem üretmektir.
+
+
+Aurora'nın düşünceleri bu model üzerine inşa edilir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          11

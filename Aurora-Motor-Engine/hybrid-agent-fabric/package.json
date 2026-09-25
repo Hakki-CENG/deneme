@@ -1,0 +1,41 @@
+{
+  "name": "hybrid-agent-fabric",
+  "version": "1.65.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @haf/control-api",
+    "build": "npm run build -w @haf/engine && npm run build -w @haf/canvas-web && npm run build -w @haf/control-api && npm run build -w @haf/acp-server && npm run build -w @haf/headless-client && npm run build -w @haf/release-tool && npm run build -w @haf/session-worker && npm run build -w @haf/wasi-runner && npm run build -w @haf/desktop && npm run build -w @haf/eval",
+    "build:runtime": "npm run build -w @haf/engine && npm run build -w @haf/canvas-web && npm run build -w @haf/control-api && npm run build -w @haf/acp-server && npm run build -w @haf/session-worker && npm run build -w @haf/wasi-runner",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck -w @haf/engine && npm run typecheck -w @haf/canvas-web && npm run typecheck -w @haf/control-api && npm run typecheck -w @haf/acp-server && npm run typecheck -w @haf/headless-client && npm run typecheck -w @haf/release-tool && npm run typecheck -w @haf/session-worker && npm run typecheck -w @haf/wasi-runner && npm run typecheck -w @haf/desktop && npm run typecheck -w @haf/eval",
+    "docs:openapi": "node scripts/generate-openapi.mjs",
+    "docs:openapi:check": "node scripts/generate-openapi.mjs --check",
+    "verify:integration": "node scripts/verify-integration.mjs",
+    "release:bundle": "node scripts/build-source-bundle.mjs",
+    "release:bundle:verify": "node scripts/build-source-bundle.mjs --verify",
+    "check": "npm run typecheck && npm test",
+    "eval:gates": "npm run eval:validate -w @haf/eval && npm run eval:baseline -w @haf/eval && npm run eval:learning -w @haf/eval && npm run eval:recall:lock -w @haf/eval",
+    "acp": "npm run dev -w @haf/acp-server",
+    "client": "npm run build -w @haf/headless-client && node apps/headless-client/dist/main.js",
+    "release:prepare": "npm run build -w @haf/release-tool && node apps/release-tool/dist/main.js prepare",
+    "release:verify": "npm run build -w @haf/release-tool && node apps/release-tool/dist/main.js verify",
+    "pretypecheck": "npm run build -w @haf/engine",
+    "pretest": "npm run build -w @haf/engine && npm run build -w @haf/wasi-runner && npm run build -w @haf/acp-server && npm run build -w @haf/session-worker",
+    "test:adversarial": "npm run test -w @haf/engine -- --run test/adversarial-security.test.ts test/web-security.test.ts test/skills-hub.test.ts test/opa-policy.test.ts test/credential-broker.test.ts test/external-credential-backends.test.ts test/wasi-plugin.test.ts test/cloud-sandbox.test.ts test/mcp-http.test.ts test/mcp-oauth-resume.test.ts test/kernel-protocol.test.ts test/image-generation.test.ts test/media-pipelines.test.ts test/web-search.test.ts test/attachments.test.ts test/interactive-artifacts.test.ts test/refinement-service.test.ts test/model-configuration-registry.test.ts test/model-oauth-manager.test.ts test/credential-pool-persistence.test.ts test/git-capabilities.test.ts test/agent-profiles.test.ts test/mcp-oauth.test.ts test/mcp-elicitation.test.ts test/azure-openai.test.ts test/vertex-gemini.test.ts test/bedrock-provider.test.ts test/codex-oauth-manager.test.ts test/codex-subscription-provider.test.ts test/codex-engine.test.ts test/multimodal.test.ts test/video-generation.test.ts test/video-upscale.test.ts test/media-jobs.test.ts test/refinement-planner.test.ts test/repository-importer.test.ts test/automation-git-sync.test.ts test/automation-responder-service.test.ts test/agent-society.test.ts test/cognitive-workspace.test.ts test/aurora-society-extensions.test.ts test/aurora-cognitive-extensions.test.ts test/aurora-memory-graph.test.ts test/aurora-world-model.test.ts test/aurora-initiative-user-model.test.ts test/aurora-evolution-environment.test.ts test/aurora-engine-integration.test.ts test/aurora-core-upstream.test.ts test/aurora-acos.test.ts test/aurora-context.test.ts test/aurora-reasoning.test.ts test/aurora-end-to-end.test.ts test/aurora-operations.test.ts test/aurora-policy-enforcement.test.ts test/aurora-fleet.test.ts test/aurora-delegation.test.ts test/aurora-role-authority.test.ts test/aurora-outcome-harvest.test.ts test/aurora-delegation-economics.test.ts test/aurora-plan-feedback.test.ts test/aurora-estimation.test.ts test/project-instructions.test.ts test/lifecycle-hooks.test.ts test/session-modes.test.ts test/session-lifecycle.test.ts test/worktree-review.test.ts test/session-effort.test.ts test/manifest-trust.test.ts test/settings-and-questions.test.ts test/stateless-mcp.test.ts test/background-tasks.test.ts test/background-shell.test.ts test/auto-approvals.test.ts test/fanout-budgets-preview.test.ts test/directory-fork-mcp.test.ts test/search-patch-verify.test.ts test/hosted-repository-provider.test.ts test/hosted-review-mutations.test.ts test/github-app-manager.test.ts test/context-engine-hook.test.ts test/rolling-micro-compaction.test.ts test/external-memory-provider.test.ts test/honcho-memory-provider.test.ts test/external-memory-engine.test.ts test/secret-sources.test.ts test/channel-media.test.ts test/channel-adapters.test.ts test/channel-routing.test.ts test/irc-channel-adapter.test.ts test/email-channel-adapter.test.ts test/twilio-sms-adapter.test.ts && npm run test -w @haf/control-api -- --run test/platform-verification.test.ts test/identity-service.test.ts && npm run test -w @haf/headless-client && npm run test -w @haf/release-tool && npm run test -w @haf/desktop -- --run test/security.test.ts",
+    "test:chaos": "npm run test -w @haf/engine -- --run test/worker-process-manager.test.ts test/worker-session-recovery.test.ts test/worker-protocol.test.ts test/postgres-persistence.test.ts test/nats-transport.test.ts test/agent-inbox.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "tsx": "^4.19.3",
+    "typescript": "^5.9.3",
+    "vitest": "^3.1.1"
+  }
+}

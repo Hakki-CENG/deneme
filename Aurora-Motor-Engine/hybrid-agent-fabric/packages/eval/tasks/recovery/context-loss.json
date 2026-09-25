@@ -1,0 +1,19 @@
+{
+  "id": "recovery-004",
+  "category": "recovery",
+  "name": "Recover from context loss",
+  "instruction": "Simulate context loss (e.g., session restart). Recover by: 1) Checking what was saved, 2) Reconstructing context, 3) Continuing from where left off.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["context.save", "context.restore", "context.verify"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 4,
+  "tags": ["recovery", "context", "persistence"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

@@ -1,0 +1,19 @@
+{
+  "id": "planning-002",
+  "category": "planning",
+  "name": "Replan when initial approach fails",
+  "instruction": "Try to build a project with a dependency that doesn't exist. When it fails, find an alternative dependency and successfully complete the build.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["plan.create", "plan.execute", "plan.fail", "plan.replan", "plan.execute"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 4,
+  "tags": ["planning", "replanning", "adaptation"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

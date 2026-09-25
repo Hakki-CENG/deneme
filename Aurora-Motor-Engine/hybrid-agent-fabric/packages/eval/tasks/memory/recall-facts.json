@@ -1,0 +1,19 @@
+{
+  "id": "memory-001",
+  "category": "memory",
+  "name": "Recall and use previously stored facts",
+  "instruction": "Remember these facts: 1) The user's favorite color is blue, 2) Their project deadline is March 15, 3) They prefer TypeScript over JavaScript. Now, when asked about the deadline, respond with the correct date and suggest using TypeScript for the project.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["memory.store", "memory.recall"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["memory", "recall", "facts"],
+  "requiresModel": true,
+  "expectedSteps": 5,
+  "expectedCostUsd": 0.02
+}

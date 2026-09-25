@@ -1,0 +1,24 @@
+{
+  "id": "coding-022",
+  "category": "coding",
+  "name": "Build mini testing framework",
+  "instruction": "Create a mini testing framework that: 1) Supports describe/it/beforeEach/afterEach, 2) Provides expect() with matchers, 3) Generates test reports, 4) Supports async tests, 5) Has a test runner CLI.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/test-framework.ts",
+      "fileContentContains": ["describe", "it", "expect", "beforeEach", "afterEach", "async"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/test-framework.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["typescript", "testing", "framework"],
+  "requiresModel": true,
+  "expectedSteps": 12,
+  "expectedCostUsd": 0.05
+}

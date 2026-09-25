@@ -1,0 +1,23 @@
+{
+  "id": "coding-001",
+  "category": "coding",
+  "name": "Create a simple TypeScript file",
+  "instruction": "Create a TypeScript file at src/utils/math.ts that exports functions: add(a: number, b: number), subtract(a, b), multiply(a, b), divide(a, b). The divide function should throw an error if dividing by zero.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/utils/math.ts",
+      "fileContentContains": ["export function add", "export function subtract", "export function multiply", "export function divide", "throw"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/utils/math.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 50000, "maxSteps": 5, "maxCostUsd": 0.05, "timeoutMs": 30000 },
+  "difficulty": 1,
+  "tags": ["typescript", "basic", "file-creation"],
+  "expectedSteps": 2,
+  "expectedCostUsd": 0.005
+}

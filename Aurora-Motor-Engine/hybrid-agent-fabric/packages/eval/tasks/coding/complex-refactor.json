@@ -1,0 +1,32 @@
+{
+  "id": "coding-005",
+  "category": "coding",
+  "name": "Complex refactoring: extract service",
+  "instruction": "Refactor the monolithic server.ts file by extracting the user-related logic into a separate UserService class with proper dependency injection.",
+  "workspace": {
+    "files": [{ "path": "src/server.ts", "content": "import express from 'express';\nconst app = express();\napp.use(express.json());\n\nconst users: any[] = [];\n\napp.get('/users', (req, res) => { res.json(users); });\napp.post('/users', (req, res) => { users.push(req.body); res.status(201).json(req.body); });\napp.get('/users/:id', (req, res) => { const user = users.find(u => u.id === req.params.id); if (user) res.json(user); else res.status(404).json({ error: 'Not found' }); });\napp.delete('/users/:id', (req, res) => { const index = users.findIndex(u => u.id === req.params.id); if (index !== -1) { users.splice(index, 1); res.status(204).send(); } else { res.status(404).json({ error: 'Not found' }); } });\n\napp.listen(3000);\n" }]
+  },
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/services/UserService.ts",
+      "fileContentContains": ["class UserService", "getAll", "create", "getById", "delete"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/server.ts",
+      "fileContentNotContains": ["const users"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 4,
+  "tags": ["typescript", "refactoring", "architecture", "dependency-injection"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

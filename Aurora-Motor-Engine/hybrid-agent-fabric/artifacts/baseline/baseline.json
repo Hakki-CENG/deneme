@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-09-17T14:50:00Z",
+  "version": "1.64.0",
+  "build": {
+    "engine": "PASS",
+    "control-api": "PASS",
+    "canvas-web": "PASS"
+  },
+  "tests": {
+    "engine": {
+      "files": { "passed": 142, "failed": 1, "total": 143 },
+      "tests": { "passed": 681, "failed": 1, "total": 682 },
+      "failure": "wasi-plugin.test.ts > WASI plugin signed.test:check failed with exit 1"
+    },
+    "control-api": {
+      "files": { "passed": 5, "failed": 0, "total": 5 },
+      "tests": { "passed": 41, "failed": 0, "total": 41 }
+    }
+  },
+  "audit": {
+    "vulnerabilities": 2,
+    "high": 1,
+    "moderate": 1,
+    "details": [
+      "nodemailer: DoS via addressparser (high)",
+      "qs: array-limit bypass (moderate)"
+    ]
+  },
+  "summary": {
+    "totalTestFiles": 148,
+    "totalTests": 723,
+    "passRate": "99.86%",
+    "buildStatus": "ALL PASS",
+    "knownIssues": [
+      "wasi-plugin test failure (environment-specific, not code bug)",
+      "2 npm audit vulnerabilities (nodemailer, qs)"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "memory-006",
+  "category": "memory",
+  "name": "Memory consolidation",
+  "instruction": "Consolidate short-term memories into long-term: 1) Store multiple pieces of information, 2) Identify important vs trivial, 3) Consolidate important memories, 4) Verify consolidated memories are accessible.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["memory.store", "memory.consolidate", "memory.verify"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 4,
+  "tags": ["memory", "consolidation", "importance"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

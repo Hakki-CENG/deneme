@@ -1,0 +1,74 @@
+{
+  "name": "@haf/engine",
+  "version": "1.65.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./memory/real-memory-pipeline.js": {
+      "types": "./dist/memory/real-memory-pipeline.d.ts",
+      "import": "./dist/memory/real-memory-pipeline.js"
+    },
+    "./execution/unified-execution-loop.js": {
+      "types": "./dist/execution/unified-execution-loop.d.ts",
+      "import": "./dist/execution/unified-execution-loop.js"
+    },
+    "./execution/session-agent-adapter.js": {
+      "types": "./dist/execution/session-agent-adapter.d.ts",
+      "import": "./dist/execution/session-agent-adapter.js"
+    },
+    "./execution/verification-factory.js": {
+      "types": "./dist/execution/verification-factory.d.ts",
+      "import": "./dist/execution/verification-factory.js"
+    },
+    "./execution/failure-taxonomy.js": {
+      "types": "./dist/execution/failure-taxonomy.d.ts",
+      "import": "./dist/execution/failure-taxonomy.js"
+    },
+    "./execution/gap-detection.js": {
+      "types": "./dist/execution/gap-detection.d.ts",
+      "import": "./dist/execution/gap-detection.js"
+    },
+    "./experimental/maturity.js": {
+      "types": "./dist/experimental/maturity.d.ts",
+      "import": "./dist/experimental/maturity.js"
+    },
+    "./experimental/runtime-observation.js": {
+      "types": "./dist/experimental/runtime-observation.d.ts",
+      "import": "./dist/experimental/runtime-observation.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.json --force",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "observe:runtime": "tsx src/experimental/observe-runtime-cli.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1112.0",
+    "@honcho-ai/sdk": "^2.3.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@nats-io/transport-node": "^3.4.0",
+    "cron-parser": "^5.2.0",
+    "imapflow": "^1.7.1",
+    "jose": "^6.2.9",
+    "nodemailer": "^10.0.10",
+    "pg": "^8.23.0",
+    "playwright-core": "^1.62.1",
+    "tar": "^7.5.22",
+    "undici": "^6.28.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "@types/smtp-server": "^3.5.12",
+    "@types/tar": "^6.1.13",
+    "pg-mem": "^3.0.14",
+    "smtp-server": "^3.19.3",
+    "wabt": "^1.0.39"
+  }
+}

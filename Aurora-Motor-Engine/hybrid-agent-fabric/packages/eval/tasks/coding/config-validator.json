@@ -1,0 +1,24 @@
+{
+  "id": "coding-016",
+  "category": "coding",
+  "name": "Build configuration validator",
+  "instruction": "Create a configuration validator that: 1) Defines a schema for app config, 2) Validates environment variables, 3) Provides defaults, 4) Reports missing/invalid values, 5) Supports nested configs.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/config-validator.ts",
+      "fileContentContains": ["schema", "validate", "defaults", "environment"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/config-validator.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "configuration", "validation"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

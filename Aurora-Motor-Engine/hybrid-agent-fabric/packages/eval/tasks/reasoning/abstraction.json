@@ -1,0 +1,24 @@
+{
+  "id": "reasoning-005",
+  "category": "reasoning",
+  "name": "Abstraction and generalization",
+  "instruction": "Given specific code examples, identify the common pattern and abstract it into a reusable utility. The abstraction should be general enough to handle new cases.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["abstraction.identify", "abstraction.extract", "abstraction.generalize"],
+      "forbiddenEvents": []
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 4,
+  "tags": ["reasoning", "abstraction", "patterns"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

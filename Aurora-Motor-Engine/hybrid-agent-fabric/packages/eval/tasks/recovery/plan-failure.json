@@ -1,0 +1,19 @@
+{
+  "id": "recovery-003",
+  "category": "recovery",
+  "name": "Recover from plan failure",
+  "instruction": "Execute a plan that fails midway. Detect the failure, analyze why, create an alternative plan, and successfully complete the task.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["plan.execute", "plan.fail", "plan.analyze", "plan.replan", "plan.execute"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 4,
+  "tags": ["recovery", "planning", "adaptation"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

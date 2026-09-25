@@ -1,0 +1,24 @@
+{
+  "id": "coding-020",
+  "category": "coding",
+  "name": "Implement serialization system",
+  "instruction": "Create a serialization system that: 1) Converts objects to JSON, 2) Handles circular references, 3) Supports custom serializers, 4) Validates against schema, 5) Provides type-safe deserialization.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/serializer.ts",
+      "fileContentContains": ["serialize", "deserialize", "circular", "schema", "custom"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/serializer.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 4,
+  "tags": ["typescript", "serialization", "json"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

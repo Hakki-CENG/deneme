@@ -1,0 +1,122 @@
+{
+  "totalTasks": 10,
+  "passed": 10,
+  "failed": 0,
+  "errors": 0,
+  "overallScore": 1,
+  "results": [
+    {
+      "taskId": "coding-007",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Events: 5, Quality: 1.00",
+      "durationMs": 6,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-007-1789668526501-dkxdlr",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-012",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-012-1789668526507-f96n6v",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-001",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-001-1789668526509-jn3pwq",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-014",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-014-1789668526511-miwl69",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-015",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-015-1789668526513-bsf7cl",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-005",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-005-1789668526515-sc77li",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-016",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-016-1789668526517-sfpev3",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-011",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-011-1789668526519-knlikl",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-009",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 2,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-009-1789668526521-d12vrg",
+      "qualityScore": 1
+    },
+    {
+      "taskId": "coding-010",
+      "category": "coding",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Events: 5, Quality: 1.00",
+      "durationMs": 22,
+      "trajectoryEvents": 5,
+      "trajectoryId": "traj-coding-010-1789668526523-8p4wja",
+      "qualityScore": 1
+    }
+  ],
+  "trajectoriesSaved": 10,
+  "durationMs": 1610,
+  "timestamp": "2026-09-17T18:08:46.546Z"
+}

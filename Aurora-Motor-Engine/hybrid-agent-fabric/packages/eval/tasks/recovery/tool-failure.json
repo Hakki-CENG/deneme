@@ -1,0 +1,19 @@
+{
+  "id": "recovery-002",
+  "category": "recovery",
+  "name": "Recover from tool execution failure",
+  "instruction": "Try to execute a tool that fails (e.g., network request timeout). Handle the error gracefully, retry with backoff, and if still failing, use an alternative approach.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["tool.execute", "tool.fail", "tool.retry", "tool.alternative"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["recovery", "retry", "fallback"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

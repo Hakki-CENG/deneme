@@ -1,0 +1,24 @@
+{
+  "id": "coding-012",
+  "category": "coding",
+  "name": "Implement async retry with backoff",
+  "instruction": "Create a TypeScript utility that retries an async function with exponential backoff. Support configurable max retries, base delay, and max delay.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/retry.ts",
+      "fileContentContains": ["async function retry", "maxRetries", "baseDelay", "maxDelay", "exponential"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/retry.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "async", "retry", "backoff"],
+  "requiresModel": true,
+  "expectedSteps": 5,
+  "expectedCostUsd": 0.02
+}

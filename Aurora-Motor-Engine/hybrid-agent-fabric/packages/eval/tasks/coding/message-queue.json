@@ -1,0 +1,24 @@
+{
+  "id": "coding-026",
+  "category": "coding",
+  "name": "Build in-memory message queue",
+  "instruction": "Create an in-memory message queue that: 1) Supports publish/subscribe, 2) Has topic-based routing, 3) Provides message acknowledgment, 4) Supports dead letter queues, 5) Has consumer groups.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/message-queue.ts",
+      "fileContentContains": ["class MessageQueue", "publish", "subscribe", "acknowledge", "deadLetter", "consumerGroup"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/message-queue.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["typescript", "messaging", "pub-sub"],
+  "requiresModel": true,
+  "expectedSteps": 12,
+  "expectedCostUsd": 0.05
+}

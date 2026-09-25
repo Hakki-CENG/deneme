@@ -1,0 +1,24 @@
+{
+  "id": "long-horizon-001",
+  "category": "long_horizon",
+  "name": "Multi-session research project",
+  "instruction": "Conduct a multi-step research project: 1) Define research questions, 2) Gather sources, 3) Analyze findings, 4) Write report. This spans multiple interactions.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["research.define", "research.gather", "research.analyze", "research.report"],
+      "forbiddenEvents": []
+    },
+    {
+      "type": "property",
+      "fileExists": "research-report.md",
+      "fileContentContains": ["Introduction", "Methodology", "Findings", "Conclusion"]
+    }
+  ],
+  "budget": { "maxTokens": 200000, "maxSteps": 20, "maxCostUsd": 0.20, "timeoutMs": 180000 },
+  "difficulty": 5,
+  "tags": ["long-horizon", "research", "multi-session"],
+  "requiresModel": true,
+  "expectedSteps": 15,
+  "expectedCostUsd": 0.06
+}

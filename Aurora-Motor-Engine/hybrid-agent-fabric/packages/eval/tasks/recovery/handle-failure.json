@@ -1,0 +1,19 @@
+{
+  "id": "recovery-001",
+  "category": "recovery",
+  "name": "Handle npm install failure",
+  "instruction": "Try to install a package called 'nonexistent-package-xyz' that doesn't exist. When it fails, gracefully handle the error and suggest alternatives.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["tool.execute"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["recovery", "error-handling", "npm"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

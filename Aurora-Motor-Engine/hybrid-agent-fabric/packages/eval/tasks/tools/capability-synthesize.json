@@ -1,0 +1,19 @@
+{
+  "id": "capability-002",
+  "category": "capability_acquisition",
+  "name": "Synthesize new capability",
+  "instruction": "Combine existing capabilities to create a new one. For example, combine web search + code generation + testing to create an auto-fix capability.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["capability.combine", "capability.synthesize", "capability.test"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 5,
+  "tags": ["capability", "synthesis", "composition"],
+  "requiresModel": true,
+  "expectedSteps": 10,
+  "expectedCostUsd": 0.04
+}

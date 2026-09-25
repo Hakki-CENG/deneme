@@ -1,0 +1,24 @@
+{
+  "id": "long-horizon-002",
+  "category": "long_horizon",
+  "name": "Full feature implementation",
+  "instruction": "Implement a complete feature end-to-end: 1) Requirements analysis, 2) API design, 3) Implementation, 4) Tests, 5) Documentation. Track progress throughout.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["feature.requirements", "feature.design", "feature.implement", "feature.test", "feature.document"],
+      "forbiddenEvents": []
+    },
+    {
+      "type": "command",
+      "command": "npm test",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 250000, "maxSteps": 25, "maxCostUsd": 0.25, "timeoutMs": 240000 },
+  "difficulty": 5,
+  "tags": ["long-horizon", "feature", "full-cycle"],
+  "requiresModel": true,
+  "expectedSteps": 20,
+  "expectedCostUsd": 0.08
+}

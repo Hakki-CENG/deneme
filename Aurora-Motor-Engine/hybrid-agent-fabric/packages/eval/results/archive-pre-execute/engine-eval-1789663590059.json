@@ -1,0 +1,611 @@
+{
+  "totalTasks": 75,
+  "passed": 75,
+  "failed": 0,
+  "errors": 0,
+  "overallScore": 1,
+  "results": [
+    {
+      "taskId": "coding-007",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 2ms",
+      "durationMs": 5,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-012",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-014",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-015",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-016",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-011",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-009",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-010",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-017",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-026",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-013",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-008",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 8, Phases: 4, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 4
+    },
+    {
+      "taskId": "coding-023",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-019",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-018",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 8, Phases: 4, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 4
+    },
+    {
+      "taskId": "coding-020",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "coding-025",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-022",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-021",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 0,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "coding-024",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "memory-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "memory-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 2,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "memory-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "memory-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "memory-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "memory-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 0,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "planning-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "planning-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 0,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "planning-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 0,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "planning-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "planning-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "planning-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "reasoning-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "reasoning-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "reasoning-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "reasoning-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "reasoning-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 0,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "reasoning-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "recovery-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "recovery-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "recovery-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "recovery-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "recovery-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "recovery-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "security-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "security-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 3,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "security-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "security-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "security-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "security-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "capability-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "capability-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 2,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "long-horizon-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "long-horizon-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 2,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "multimodal-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "multimodal-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "research-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 2,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "research-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "research-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "tool-008",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 2,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "tool-007",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "tool-005",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "tool-002",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 3, Phases: 3, Duration: 0ms",
+      "durationMs": 2,
+      "trajectoryEvents": 3
+    },
+    {
+      "taskId": "tool-001",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 1
+    },
+    {
+      "taskId": "tool-006",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "tool-009",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 2,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "tool-003",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "tool-010",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 0, Phases: 0, Duration: 0ms",
+      "durationMs": 1,
+      "trajectoryEvents": 0
+    },
+    {
+      "taskId": "tool-004",
+      "status": "pass",
+      "score": 1,
+      "details": "Outcome: success, Subsystems: 1, Phases: 1, Duration: 1ms",
+      "durationMs": 2,
+      "trajectoryEvents": 1
+    }
+  ],
+  "durationMs": 1848,
+  "timestamp": "2026-09-17T16:46:30.059Z"
+}

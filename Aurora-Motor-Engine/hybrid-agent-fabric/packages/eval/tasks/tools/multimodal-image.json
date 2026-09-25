@@ -1,0 +1,19 @@
+{
+  "id": "multimodal-001",
+  "category": "multimodal",
+  "name": "Understand and describe an image",
+  "instruction": "Analyze an image of a code diagram. Describe what it shows, identify components, and explain the relationships between them.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["image.analyze", "image.describe"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["multimodal", "image", "analysis"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.02
+}

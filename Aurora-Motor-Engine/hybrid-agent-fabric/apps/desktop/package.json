@@ -1,0 +1,21 @@
+{
+  "name": "@haf/desktop",
+  "version": "1.65.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -b tsconfig.json --force && tsc -p tsconfig.preload.json && node -e \"require('fs').renameSync('dist/preload.js','dist/preload.cjs')\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "start": "electron dist/main.js",
+    "package": "npm run build && electron-builder --config electron-builder.config.cjs"
+  },
+  "devDependencies": {
+    "electron": "^44.4.5",
+    "electron-builder": "^26.0.12"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

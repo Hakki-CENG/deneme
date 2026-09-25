@@ -1,0 +1,24 @@
+{
+  "id": "coding-014",
+  "category": "coding",
+  "name": "Implement LRU cache",
+  "instruction": "Implement an LRU (Least Recently Used) cache with: 1) Configurable capacity, 2) get() and put() operations, 3) O(1) time complexity for both, 4) Optional TTL (time-to-live) support.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/lru-cache.ts",
+      "fileContentContains": ["class LRUCache", "get", "put", "capacity", "Map"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit src/lru-cache.ts",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["typescript", "data-structures", "caching"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

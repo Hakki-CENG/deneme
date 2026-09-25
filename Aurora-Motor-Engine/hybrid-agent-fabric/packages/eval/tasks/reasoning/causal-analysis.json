@@ -1,0 +1,19 @@
+{
+  "id": "reasoning-003",
+  "category": "reasoning",
+  "name": "Causal analysis",
+  "instruction": "A web application is slow. Analyze possible causes: 1) Database queries, 2) Network latency, 3) Code inefficiency, 4) Resource constraints. Propose and test solutions for each.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["analysis.cause", "analysis.test", "analysis.solution"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 120000, "maxSteps": 12, "maxCostUsd": 0.12, "timeoutMs": 90000 },
+  "difficulty": 4,
+  "tags": ["reasoning", "causal", "performance"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

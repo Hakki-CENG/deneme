@@ -1,0 +1,19 @@
+{
+  "id": "memory-004",
+  "category": "memory",
+  "name": "Long-term memory persistence",
+  "instruction": "Store information in long-term memory, then retrieve it after a simulated delay. Test that the memory persists across sessions.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["memory.store", "memory.persist", "memory.retrieve"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["memory", "persistence", "long-term"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

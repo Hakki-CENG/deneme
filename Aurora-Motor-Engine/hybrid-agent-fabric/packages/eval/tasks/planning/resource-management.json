@@ -1,0 +1,19 @@
+{
+  "id": "planning-006",
+  "category": "planning",
+  "name": "Resource-aware planning",
+  "instruction": "Plan a task while being aware of resource constraints: 1) Token budget, 2) Time limit, 3) API rate limits. Adjust plan to stay within constraints.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["plan.resources", "plan.optimize", "plan.execute"],
+      "forbiddenEvents": ["budget.exceeded"]
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 4,
+  "tags": ["planning", "resources", "optimization"],
+  "requiresModel": true,
+  "expectedSteps": 8,
+  "expectedCostUsd": 0.03
+}

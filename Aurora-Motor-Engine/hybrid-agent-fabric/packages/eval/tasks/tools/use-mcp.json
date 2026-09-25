@@ -1,0 +1,19 @@
+{
+  "id": "tool-009",
+  "category": "tool_use",
+  "name": "Use MCP tools",
+  "instruction": "Use MCP (Model Context Protocol) tools to: 1) List available tools, 2) Call a tool to get weather information, 3) Call a tool to search the web, 4) Handle tool errors gracefully.",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["tool.list", "tool.execute"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 100000, "maxSteps": 10, "maxCostUsd": 0.10, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["mcp", "tools", "protocol"],
+  "requiresModel": true,
+  "expectedSteps": 6,
+  "expectedCostUsd": 0.025
+}

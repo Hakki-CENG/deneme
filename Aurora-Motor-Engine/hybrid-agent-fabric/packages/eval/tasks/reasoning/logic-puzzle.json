@@ -1,0 +1,19 @@
+{
+  "id": "reasoning-001",
+  "category": "reasoning",
+  "name": "Multi-step logical reasoning",
+  "instruction": "Solve this logic puzzle: Three friends (Alice, Bob, Carol) each have a different pet (cat, dog, fish) and a different favorite color (red, blue, green). Alice doesn't like red. The person with the cat likes blue. Bob has the fish. Who has which pet and color?",
+  "acceptance": [
+    {
+      "type": "trajectory",
+      "requiredEvents": ["reasoning.step", "reasoning.conclude"],
+      "forbiddenEvents": []
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 3,
+  "tags": ["reasoning", "logic", "deduction"],
+  "requiresModel": true,
+  "expectedSteps": 4,
+  "expectedCostUsd": 0.015
+}

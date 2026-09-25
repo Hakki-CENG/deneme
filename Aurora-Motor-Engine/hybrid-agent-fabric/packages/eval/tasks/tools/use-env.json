@@ -1,0 +1,28 @@
+{
+  "id": "tool-005",
+  "category": "tool_use",
+  "name": "Manage environment variables",
+  "instruction": "Manage environment variables: 1) Create a .env file with database config, 2) Create a .env.example with placeholder values, 3) Add .env to .gitignore, 4) Create a function that reads and validates env vars.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": ".env",
+      "fileContentContains": ["DATABASE_URL", "PORT"]
+    },
+    {
+      "type": "property",
+      "fileExists": ".env.example",
+      "fileContentContains": ["DATABASE_URL", "PORT"]
+    },
+    {
+      "type": "command",
+      "command": "cat .gitignore | grep .env",
+      "outputContains": [".env"]
+    }
+  ],
+  "budget": { "maxTokens": 80000, "maxSteps": 8, "maxCostUsd": 0.08, "timeoutMs": 60000 },
+  "difficulty": 2,
+  "tags": ["environment", "configuration", "git"],
+  "expectedSteps": 5,
+  "expectedCostUsd": 0.015
+}

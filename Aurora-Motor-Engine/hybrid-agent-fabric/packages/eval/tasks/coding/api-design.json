@@ -1,0 +1,34 @@
+{
+  "id": "coding-007",
+  "category": "coding",
+  "name": "Design and implement a REST API",
+  "instruction": "Design and implement a REST API for a todo application with: 1) Todo model with id, title, completed, createdAt, 2) CRUD endpoints, 3) Input validation, 4) Error handling, 5) TypeScript types.",
+  "acceptance": [
+    {
+      "type": "property",
+      "fileExists": "src/models/Todo.ts",
+      "fileContentContains": ["interface", "id", "title", "completed", "createdAt"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/routes/todos.ts",
+      "fileContentContains": ["GET", "POST", "PUT", "DELETE"]
+    },
+    {
+      "type": "property",
+      "fileExists": "src/middleware/validate.ts",
+      "fileContentContains": ["validation"]
+    },
+    {
+      "type": "command",
+      "command": "npx tsc --noEmit",
+      "exitCode": 0
+    }
+  ],
+  "budget": { "maxTokens": 150000, "maxSteps": 15, "maxCostUsd": 0.15, "timeoutMs": 120000 },
+  "difficulty": 4,
+  "tags": ["typescript", "rest-api", "express", "validation"],
+  "requiresModel": true,
+  "expectedSteps": 12,
+  "expectedCostUsd": 0.05
+}

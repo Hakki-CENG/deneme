@@ -1,0 +1,1125 @@
+{
+  "timestamp": "2026-09-17T18:31:10.469Z",
+  "previousRun": "2026-09-17T18:30:55.508Z",
+  "hasRegressions": true,
+  "overallDelta": -0.48888888888888893,
+  "regressions": [
+    {
+      "type": "overall",
+      "severity": "critical",
+      "area": "overall",
+      "previousScore": 1,
+      "currentScore": 0.5111111111111111,
+      "delta": -0.48888888888888893,
+      "description": "Overall score dropped from 100.0% to 51.1%",
+      "affectedTasks": []
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "coding",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "coding dropped from 100% to 0% (26 tasks regressed)",
+      "affectedTasks": [
+        "coding-007",
+        "coding-012",
+        "coding-001",
+        "coding-014",
+        "coding-015",
+        "coding-005",
+        "coding-016",
+        "coding-011",
+        "coding-009",
+        "coding-010",
+        "coding-017",
+        "coding-006",
+        "coding-002",
+        "coding-004",
+        "coding-026",
+        "coding-013",
+        "coding-008",
+        "coding-023",
+        "coding-019",
+        "coding-018",
+        "coding-003",
+        "coding-020",
+        "coding-025",
+        "coding-022",
+        "coding-021",
+        "coding-024"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "memory",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "memory dropped from 100% to 0% (6 tasks regressed)",
+      "affectedTasks": [
+        "memory-003",
+        "memory-004",
+        "memory-006",
+        "memory-001",
+        "memory-002",
+        "memory-005"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "planning",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "planning dropped from 100% to 0% (6 tasks regressed)",
+      "affectedTasks": [
+        "planning-003",
+        "planning-005",
+        "planning-001",
+        "planning-004",
+        "planning-002",
+        "planning-006"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "reasoning",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "reasoning dropped from 100% to 0% (6 tasks regressed)",
+      "affectedTasks": [
+        "reasoning-005",
+        "reasoning-003",
+        "reasoning-004",
+        "reasoning-002",
+        "reasoning-001",
+        "reasoning-006"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "recovery",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "recovery dropped from 100% to 0% (6 tasks regressed)",
+      "affectedTasks": [
+        "recovery-004",
+        "recovery-001",
+        "recovery-005",
+        "recovery-003",
+        "recovery-006",
+        "recovery-002"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "security",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "security dropped from 100% to 0% (6 tasks regressed)",
+      "affectedTasks": [
+        "security-001",
+        "security-003",
+        "security-004",
+        "security-005",
+        "security-006",
+        "security-002"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "capability",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "capability dropped from 100% to 0% (2 tasks regressed)",
+      "affectedTasks": [
+        "capability-001",
+        "capability-002"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "long",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "long dropped from 100% to 0% (2 tasks regressed)",
+      "affectedTasks": [
+        "long-horizon-002",
+        "long-horizon-001"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "multimodal",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "multimodal dropped from 100% to 0% (2 tasks regressed)",
+      "affectedTasks": [
+        "multimodal-002",
+        "multimodal-001"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "research",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "research dropped from 100% to 0% (3 tasks regressed)",
+      "affectedTasks": [
+        "research-002",
+        "research-003",
+        "research-001"
+      ]
+    },
+    {
+      "type": "category",
+      "severity": "critical",
+      "area": "tool",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "tool dropped from 100% to 0% (10 tasks regressed)",
+      "affectedTasks": [
+        "tool-008",
+        "tool-007",
+        "tool-005",
+        "tool-002",
+        "tool-001",
+        "tool-006",
+        "tool-009",
+        "tool-003",
+        "tool-010",
+        "tool-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-007",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-007 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-007"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-012",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-012 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-012"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-014",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-014 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-014"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-015",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-015 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-015"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-005",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-016",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-016 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-016"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-011",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-011 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-011"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-009",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-009 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-009"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-010",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-010 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-010"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-017",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-017 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-017"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-026",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-026 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-026"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-013",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-013 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-013"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-008",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-008 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-008"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-023",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-023 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-023"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-019",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-019 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-019"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-018",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-018 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-018"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-020",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-020 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-020"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-025",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-025 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-025"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-022",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-022 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-022"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-021",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-021 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-021"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "coding-024",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task coding-024 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "coding-024"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "memory-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task memory-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "memory-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "memory-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task memory-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "memory-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "memory-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task memory-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "memory-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "memory-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task memory-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "memory-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "memory-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task memory-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "memory-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "memory-005",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task memory-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "memory-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "planning-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task planning-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "planning-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "planning-005",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task planning-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "planning-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "planning-001",
+      "previousScore": 1,
+      "currentScore": 0.2,
+      "delta": -0.8,
+      "description": "Task planning-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "planning-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "planning-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task planning-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "planning-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "planning-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task planning-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "planning-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "planning-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task planning-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "planning-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "reasoning-005",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task reasoning-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "reasoning-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "reasoning-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task reasoning-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "reasoning-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "reasoning-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task reasoning-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "reasoning-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "reasoning-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task reasoning-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "reasoning-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "reasoning-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task reasoning-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "reasoning-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "reasoning-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task reasoning-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "reasoning-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "recovery-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task recovery-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "recovery-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "recovery-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task recovery-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "recovery-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "recovery-005",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task recovery-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "recovery-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "recovery-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task recovery-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "recovery-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "recovery-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task recovery-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "recovery-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "recovery-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task recovery-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "recovery-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "security-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task security-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "security-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "security-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task security-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "security-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "security-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task security-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "security-004"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "security-005",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task security-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "security-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "security-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task security-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "security-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "security-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task security-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "security-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "capability-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task capability-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "capability-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "capability-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task capability-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "capability-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "long-horizon-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task long-horizon-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "long-horizon-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "long-horizon-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task long-horizon-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "long-horizon-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "multimodal-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task multimodal-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "multimodal-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "multimodal-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task multimodal-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "multimodal-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "research-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task research-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "research-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "research-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task research-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "research-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "research-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task research-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "research-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-008",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-008 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-008"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-007",
+      "previousScore": 1,
+      "currentScore": 0.6666666666666666,
+      "delta": -0.33333333333333337,
+      "description": "Task tool-007 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-007"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-005",
+      "previousScore": 1,
+      "currentScore": 0.6666666666666666,
+      "delta": -0.33333333333333337,
+      "description": "Task tool-005 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-005"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-002",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-002 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-002"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-001",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-001 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-001"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-006",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-006 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-006"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-009",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-009 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-009"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-003",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-003 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-003"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-010",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-010 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-010"
+      ]
+    },
+    {
+      "type": "task",
+      "severity": "medium",
+      "area": "tool-004",
+      "previousScore": 1,
+      "currentScore": 0,
+      "delta": -1,
+      "description": "Task tool-004 regressed: PASS → FAIL",
+      "affectedTasks": [
+        "tool-004"
+      ]
+    }
+  ],
+  "improvements": [],
+  "stats": {
+    "totalRegressions": 87,
+    "criticalRegressions": 12,
+    "highRegressions": 0,
+    "mediumRegressions": 75,
+    "lowRegressions": 0,
+    "totalImprovements": 0
+  },
+  "trend": "declining",
+  "trendDetails": "87 regressions detected (12 critical)"
+}

@@ -1,0 +1,3121 @@
+{
+  "suiteId": "standalone-eval",
+  "totalTasks": 75,
+  "passed": 0,
+  "failed": 42,
+  "errors": 33,
+  "timeouts": 0,
+  "overallScore": 0.5111111111111111,
+  "results": [
+    {
+      "taskId": "coding-007",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/models/Todo.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/routes/todos.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/middleware/validate.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:29.078Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:29.079Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:29.079Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 3,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:29.585Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 4,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:29.077Z",
+      "completedAt": "2026-09-17T16:33:29.585Z",
+      "durationMs": 508
+    },
+    {
+      "taskId": "coding-012",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/retry.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/retry.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:29.587Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:31.752Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/retry.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:29.586Z",
+      "completedAt": "2026-09-17T16:33:31.752Z",
+      "durationMs": 2166
+    },
+    {
+      "taskId": "coding-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/utils/math.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/utils/math.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:31.753Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:33.831Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/utils/math.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:31.752Z",
+      "completedAt": "2026-09-17T16:33:33.831Z",
+      "durationMs": 2079
+    },
+    {
+      "taskId": "coding-014",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/lru-cache.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/lru-cache.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:33.832Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:35.993Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/lru-cache.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:33.831Z",
+      "completedAt": "2026-09-17T16:33:35.993Z",
+      "durationMs": 2162
+    },
+    {
+      "taskId": "coding-015",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/cli.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsx src/cli.ts --help\n\nnode:internal/modules/run_main:123\n    triggerUncaughtException(\n    ^\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/user/Aurora-Motor-Engine/hybri"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:35.994Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:36.676Z",
+          "payload": {
+            "error": "Command failed: npx tsx src/cli.ts --help\n\nnode:internal/modules/run_main:123\n    triggerUncaughtException(\n    ^\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/user/Aurora-Motor-Engine/hybri"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:35.993Z",
+      "completedAt": "2026-09-17T16:33:36.676Z",
+      "durationMs": 683
+    },
+    {
+      "taskId": "coding-005",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/services/UserService.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/server.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:36.678Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:36.678Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:37.288Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 3,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:36.677Z",
+      "completedAt": "2026-09-17T16:33:37.288Z",
+      "durationMs": 611
+    },
+    {
+      "taskId": "coding-016",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/config-validator.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/config-validator.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:37.289Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:39.459Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/config-validator.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:37.288Z",
+      "completedAt": "2026-09-17T16:33:39.459Z",
+      "durationMs": 2171
+    },
+    {
+      "taskId": "coding-011",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/models/User.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/models/Product.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/models/Order.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/migrations/001_initial.ts does not exist"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:39.464Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:39.464Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:39.465Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 3,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:39.465Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 4,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:39.459Z",
+      "completedAt": "2026-09-17T16:33:39.465Z",
+      "durationMs": 6
+    },
+    {
+      "taskId": "coding-009",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/dependency-graph.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/dependency-graph.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:39.466Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:41.539Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/dependency-graph.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:39.465Z",
+      "completedAt": "2026-09-17T16:33:41.539Z",
+      "durationMs": 2074
+    },
+    {
+      "taskId": "coding-010",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/result.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/result.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:41.545Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:43.541Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/result.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:41.539Z",
+      "completedAt": "2026-09-17T16:33:43.541Z",
+      "durationMs": 2002
+    },
+    {
+      "taskId": "coding-017",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/event-emitter.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/event-emitter.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:43.548Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:45.559Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/event-emitter.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:43.541Z",
+      "completedAt": "2026-09-17T16:33:45.559Z",
+      "durationMs": 2018
+    },
+    {
+      "taskId": "coding-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/binary-search.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: node -e \"const bs = require('./src/binary-search'); console.log(bs.binarySearch([1,2,3,4,5], 3))\"\nnode:internal/modules/cjs/loader:1210\n  throw err;\n  ^\n\nError: Cannot find module './s"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:45.560Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:45.595Z",
+          "payload": {
+            "error": "Command failed: node -e \"const bs = require('./src/binary-search'); console.log(bs.binarySearch([1,2,3,4,5], 3))\"\nnode:internal/modules/cjs/loader:1210\n  throw err;\n  ^\n\nError: Cannot find module './s"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:45.559Z",
+      "completedAt": "2026-09-17T16:33:45.595Z",
+      "durationMs": 36
+    },
+    {
+      "taskId": "coding-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/buggy.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/buggy.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:45.596Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:47.595Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/buggy.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:45.595Z",
+      "completedAt": "2026-09-17T16:33:47.595Z",
+      "durationMs": 2000
+    },
+    {
+      "taskId": "coding-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/utils/math.test.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx vitest run src/utils/math.test.ts\nNo test files found, exiting with code 1\n\nfilter: src/utils/math.test.ts\ninclude: **/*.{test,spec}.?(c|m)[jt]s?(x)\nexclude:  **/node_modules/**, *"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:47.596Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:48.279Z",
+          "payload": {
+            "error": "Command failed: npx vitest run src/utils/math.test.ts\nNo test files found, exiting with code 1\n\nfilter: src/utils/math.test.ts\ninclude: **/*.{test,spec}.?(c|m)[jt]s?(x)\nexclude:  **/node_modules/**, *"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:47.596Z",
+      "completedAt": "2026-09-17T16:33:48.279Z",
+      "durationMs": 683
+    },
+    {
+      "taskId": "coding-026",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/message-queue.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/message-queue.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:48.280Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:50.459Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/message-queue.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:48.280Z",
+      "completedAt": "2026-09-17T16:33:50.459Z",
+      "durationMs": 2179
+    },
+    {
+      "taskId": "coding-013",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/middleware.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/middleware.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:50.460Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:52.548Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/middleware.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:50.459Z",
+      "completedAt": "2026-09-17T16:33:52.548Z",
+      "durationMs": 2089
+    },
+    {
+      "taskId": "coding-008",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/slow.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: node -e \"const {findDuplicates} = require('./src/slow'); console.log(findDuplicates([1,2,3,2,4,3,5]))\"\nnode:internal/modules/cjs/loader:1210\n  throw err;\n  ^\n\nError: Cannot find module"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:52.549Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:52.587Z",
+          "payload": {
+            "error": "Command failed: node -e \"const {findDuplicates} = require('./src/slow'); console.log(findDuplicates([1,2,3,2,4,3,5]))\"\nnode:internal/modules/cjs/loader:1210\n  throw err;\n  ^\n\nError: Cannot find module"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:52.548Z",
+      "completedAt": "2026-09-17T16:33:52.587Z",
+      "durationMs": 39
+    },
+    {
+      "taskId": "coding-023",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/plugin-system.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/plugin-system.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:52.588Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:54.731Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/plugin-system.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:52.587Z",
+      "completedAt": "2026-09-17T16:33:54.731Z",
+      "durationMs": 2144
+    },
+    {
+      "taskId": "coding-019",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/priority-queue.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/priority-queue.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:54.732Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:56.792Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/priority-queue.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:54.731Z",
+      "completedAt": "2026-09-17T16:33:56.792Z",
+      "durationMs": 2061
+    },
+    {
+      "taskId": "coding-018",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/rate-limiter.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/rate-limiter.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:56.793Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:33:58.780Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/rate-limiter.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:56.792Z",
+      "completedAt": "2026-09-17T16:33:58.780Z",
+      "durationMs": 1988
+    },
+    {
+      "taskId": "coding-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/dispatch.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/dispatch.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:33:58.781Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:00.989Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/dispatch.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:33:58.780Z",
+      "completedAt": "2026-09-17T16:34:00.989Z",
+      "durationMs": 2209
+    },
+    {
+      "taskId": "coding-020",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/serializer.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/serializer.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:00.991Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:03.102Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/serializer.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:00.990Z",
+      "completedAt": "2026-09-17T16:34:03.102Z",
+      "durationMs": 2112
+    },
+    {
+      "taskId": "coding-025",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/state-machine.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/state-machine.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:03.103Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:05.341Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/state-machine.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:03.102Z",
+      "completedAt": "2026-09-17T16:34:05.341Z",
+      "durationMs": 2239
+    },
+    {
+      "taskId": "coding-022",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/test-framework.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/test-framework.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:05.342Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:07.506Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/test-framework.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:05.341Z",
+      "completedAt": "2026-09-17T16:34:07.506Z",
+      "durationMs": 2165
+    },
+    {
+      "taskId": "coding-021",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/validator.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/validator.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:07.507Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:09.586Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/validator.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:07.506Z",
+      "completedAt": "2026-09-17T16:34:09.586Z",
+      "durationMs": 2080
+    },
+    {
+      "taskId": "coding-024",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/workflow-engine.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit src/workflow-engine.ts"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:09.587Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:11.610Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit src/workflow-engine.ts"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:09.586Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 2024
+    },
+    {
+      "taskId": "memory-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "memory-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "memory-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "memory-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "memory-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "memory-005",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:11.610Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "planning-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: spawnSync /bin/sh ETIMEDOUT"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:21.620Z",
+          "payload": {
+            "error": "spawnSync /bin/sh ETIMEDOUT"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:11.610Z",
+      "completedAt": "2026-09-17T16:34:21.620Z",
+      "durationMs": 10010
+    },
+    {
+      "taskId": "planning-005",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:21.621Z",
+      "completedAt": "2026-09-17T16:34:21.621Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "planning-001",
+      "status": "fail",
+      "score": 0.2,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": true,
+          "score": 1,
+          "details": "File package.json exists"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File tsconfig.json does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File .eslintrc.json does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/index.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Missing: \"tsc\""
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:21.622Z",
+          "payload": {
+            "success": true
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:21.623Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:21.623Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 3,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:21.623Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 4,
+          "kind": "command.execute",
+          "timestamp": "2026-09-17T16:34:21.638Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 5,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:21.622Z",
+      "completedAt": "2026-09-17T16:34:21.638Z",
+      "durationMs": 16
+    },
+    {
+      "taskId": "planning-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:21.639Z",
+      "completedAt": "2026-09-17T16:34:21.639Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "planning-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:21.639Z",
+      "completedAt": "2026-09-17T16:34:21.639Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "planning-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:21.639Z",
+      "completedAt": "2026-09-17T16:34:21.639Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "reasoning-005",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: npx tsc --noEmit"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:22.230Z",
+          "payload": {
+            "error": "Command failed: npx tsc --noEmit"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:21.639Z",
+      "completedAt": "2026-09-17T16:34:22.230Z",
+      "durationMs": 591
+    },
+    {
+      "taskId": "reasoning-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.231Z",
+      "completedAt": "2026-09-17T16:34:22.231Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "reasoning-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.231Z",
+      "completedAt": "2026-09-17T16:34:22.231Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "reasoning-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: node -e \"const {bubbleSort} = require('./src/sort'); console.log(bubbleSort([5,3,1,4,2]))\"\nnode:internal/modules/cjs/loader:1210\n  throw err;\n  ^\n\nError: Cannot find module './src/sort"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:22.279Z",
+          "payload": {
+            "error": "Command failed: node -e \"const {bubbleSort} = require('./src/sort'); console.log(bubbleSort([5,3,1,4,2]))\"\nnode:internal/modules/cjs/loader:1210\n  throw err;\n  ^\n\nError: Cannot find module './src/sort"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.231Z",
+      "completedAt": "2026-09-17T16:34:22.279Z",
+      "durationMs": 48
+    },
+    {
+      "taskId": "reasoning-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.279Z",
+      "completedAt": "2026-09-17T16:34:22.280Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "reasoning-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.280Z",
+      "completedAt": "2026-09-17T16:34:22.280Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "recovery-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.280Z",
+      "completedAt": "2026-09-17T16:34:22.280Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "recovery-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.280Z",
+      "completedAt": "2026-09-17T16:34:22.280Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "recovery-005",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.280Z",
+      "completedAt": "2026-09-17T16:34:22.280Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "recovery-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.281Z",
+      "completedAt": "2026-09-17T16:34:22.281Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "recovery-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.281Z",
+      "completedAt": "2026-09-17T16:34:22.281Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "recovery-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.281Z",
+      "completedAt": "2026-09-17T16:34:22.281Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "security-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.282Z",
+      "completedAt": "2026-09-17T16:34:22.282Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "security-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.282Z",
+      "completedAt": "2026-09-17T16:34:22.282Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "security-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.282Z",
+      "completedAt": "2026-09-17T16:34:22.282Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "security-005",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.282Z",
+      "completedAt": "2026-09-17T16:34:22.282Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "security-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.282Z",
+      "completedAt": "2026-09-17T16:34:22.282Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "security-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.282Z",
+      "completedAt": "2026-09-17T16:34:22.282Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "capability-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.283Z",
+      "completedAt": "2026-09-17T16:34:22.283Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "capability-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.283Z",
+      "completedAt": "2026-09-17T16:34:22.283Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "long-horizon-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: spawnSync /bin/sh ETIMEDOUT"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:32.295Z",
+          "payload": {
+            "error": "spawnSync /bin/sh ETIMEDOUT"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:22.283Z",
+      "completedAt": "2026-09-17T16:34:32.295Z",
+      "durationMs": 10012
+    },
+    {
+      "taskId": "long-horizon-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File research-report.md does not exist"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.296Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.295Z",
+      "completedAt": "2026-09-17T16:34:32.297Z",
+      "durationMs": 2
+    },
+    {
+      "taskId": "multimodal-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.297Z",
+      "completedAt": "2026-09-17T16:34:32.297Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "multimodal-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.297Z",
+      "completedAt": "2026-09-17T16:34:32.297Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "research-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.297Z",
+      "completedAt": "2026-09-17T16:34:32.297Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "research-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File api-security-checklist.md does not exist"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.297Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.297Z",
+      "completedAt": "2026-09-17T16:34:32.297Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "research-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.298Z",
+      "completedAt": "2026-09-17T16:34:32.298Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "tool-008",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File scripts/test-api.sh does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: bash scripts/test-api.sh\nbash: scripts/test-api.sh: No such file or directory\n"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.298Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:32.368Z",
+          "payload": {
+            "error": "Command failed: bash scripts/test-api.sh\nbash: scripts/test-api.sh: No such file or directory\n"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.298Z",
+      "completedAt": "2026-09-17T16:34:32.368Z",
+      "durationMs": 70
+    },
+    {
+      "taskId": "tool-007",
+      "status": "fail",
+      "score": 0.6666666666666666,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": true,
+          "score": 1,
+          "details": "File Dockerfile exists"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File docker-compose.yml does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": true,
+          "score": 1,
+          "details": "File .dockerignore exists"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.370Z",
+          "payload": {
+            "success": true
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.370Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.370Z",
+          "payload": {
+            "success": true
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 3,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.369Z",
+      "completedAt": "2026-09-17T16:34:32.370Z",
+      "durationMs": 1
+    },
+    {
+      "taskId": "tool-005",
+      "status": "fail",
+      "score": 0.6666666666666666,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File .env does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": true,
+          "score": 1,
+          "details": "File .env.example exists"
+        },
+        {
+          "criteria": "command",
+          "passed": true,
+          "score": 1,
+          "details": "Command passed"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.371Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.372Z",
+          "payload": {
+            "success": true
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "command.execute",
+          "timestamp": "2026-09-17T16:34:32.409Z",
+          "payload": {
+            "success": true
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 3,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.371Z",
+      "completedAt": "2026-09-17T16:34:32.409Z",
+      "durationMs": 38
+    },
+    {
+      "taskId": "tool-002",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/components/Button/index.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/components/Card/index.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/utils/index.ts does not exist"
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/components/index.ts does not exist"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.410Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.410Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 2,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.410Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 3,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.411Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 4,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.409Z",
+      "completedAt": "2026-09-17T16:34:32.411Z",
+      "durationMs": 2
+    },
+    {
+      "taskId": "tool-001",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Missing: \"feature/add-config\""
+        },
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File src/config.ts does not exist"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "command.execute",
+          "timestamp": "2026-09-17T16:34:32.490Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.491Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.411Z",
+      "completedAt": "2026-09-17T16:34:32.491Z",
+      "durationMs": 80
+    },
+    {
+      "taskId": "tool-006",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File scripts/replace-console.ts does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Missing: \"0\""
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:32.492Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.execute",
+          "timestamp": "2026-09-17T16:34:34.382Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:32.492Z",
+      "completedAt": "2026-09-17T16:34:34.382Z",
+      "durationMs": 1890
+    },
+    {
+      "taskId": "tool-009",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "trajectory",
+          "passed": false,
+          "score": 0,
+          "details": "Skipped — requires engine execution"
+        }
+      ],
+      "trajectory": [],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 0,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:34.384Z",
+      "completedAt": "2026-09-17T16:34:34.384Z",
+      "durationMs": 0
+    },
+    {
+      "taskId": "tool-003",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Missing: \"express\"; Missing: \"zod\""
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "command.execute",
+          "timestamp": "2026-09-17T16:34:34.388Z",
+          "payload": {
+            "success": false
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 1,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:34.384Z",
+      "completedAt": "2026-09-17T16:34:34.388Z",
+      "durationMs": 4
+    },
+    {
+      "taskId": "tool-010",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File scripts/manage-process.sh does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: bash scripts/manage-process.sh\nbash: scripts/manage-process.sh: No such file or directory\n"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:34.390Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:34.395Z",
+          "payload": {
+            "error": "Command failed: bash scripts/manage-process.sh\nbash: scripts/manage-process.sh: No such file or directory\n"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:34.389Z",
+      "completedAt": "2026-09-17T16:34:34.395Z",
+      "durationMs": 6
+    },
+    {
+      "taskId": "tool-004",
+      "status": "fail",
+      "score": 0,
+      "grades": [
+        {
+          "criteria": "property.fileExists",
+          "passed": false,
+          "score": 0,
+          "details": "File scripts/count-lines.sh does not exist"
+        },
+        {
+          "criteria": "command",
+          "passed": false,
+          "score": 0,
+          "details": "Command failed: Command failed: bash scripts/count-lines.sh\nbash: scripts/count-lines.sh: No such file or directory\n"
+        }
+      ],
+      "trajectory": [
+        {
+          "sequence": 0,
+          "kind": "property.check",
+          "timestamp": "2026-09-17T16:34:34.396Z",
+          "payload": {
+            "success": false
+          }
+        },
+        {
+          "sequence": 1,
+          "kind": "command.fail",
+          "timestamp": "2026-09-17T16:34:34.410Z",
+          "payload": {
+            "error": "Command failed: bash scripts/count-lines.sh\nbash: scripts/count-lines.sh: No such file or directory\n"
+          }
+        }
+      ],
+      "metrics": {
+        "totalTokens": 0,
+        "totalCostUsd": 0,
+        "totalSteps": 2,
+        "toolCalls": 0,
+        "toolFailures": 0,
+        "replans": 0,
+        "memoryRecalls": 0,
+        "verificationAttempts": 0
+      },
+      "startedAt": "2026-09-17T16:34:34.395Z",
+      "completedAt": "2026-09-17T16:34:34.410Z",
+      "durationMs": 15
+    }
+  ],
+  "aggregateMetrics": {
+    "totalTokens": 0,
+    "totalCostUsd": 0,
+    "totalSteps": 89,
+    "toolCalls": 0,
+    "toolFailures": 0,
+    "replans": 0,
+    "memoryRecalls": 0,
+    "verificationAttempts": 0
+  },
+  "startedAt": "2026-09-17T16:33:29.058Z",
+  "completedAt": "2026-09-17T16:34:34.411Z",
+  "durationMs": 65352
+}
